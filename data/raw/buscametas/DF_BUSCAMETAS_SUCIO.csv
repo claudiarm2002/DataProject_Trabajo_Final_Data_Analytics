@@ -1,0 +1,315 @@
+﻿DES_d,DES_desconegut,DES_h,DES_total,NP_d,NP_desconegut,NP_h,NP_total,RET_d,RET_desconegut,RET_h,RET_total,codigo,comarca_provincia,data,event_id,finished_d,finished_desconegut,finished_h,finished_total,modalitat_nom,municipi,nom_cursa,sense_temps_d,sense_temps_h,sense_temps_total,total_classificats,total_inscrits
+,,,,8,,37,45,,,6,6,197,Álava,2026-07-25,197,17,,147,164,ARETA TRAIL,Areta,Areta Trail Lasterketa,,,,164,215
+,,,,,,6,6,2,,7,9,198,La Rioja,2026-07-25,198,,,30,30,Epic Gravel,Ezcaray,Epic Gravel Ezcaray,,,,34,45
+,,,,,,6,6,,,7,7,202,La Rioja,2026-07-25,198,2,,38,40,Cicloturista 93K,Ezcaray,Epic Gravel Ezcaray,,,,41,53
+,,,,,,3,3,,,,,200,La Rioja,2026-07-25,198,2,,31,33,Cicloturista 57K,Ezcaray,Epic Gravel Ezcaray,,,,33,36
+,,,,,,4,4,,,,,201,La Rioja,2026-07-25,198,2,,10,12,Cicloturista 42K,Ezcaray,Epic Gravel Ezcaray,,,,12,16
+,,,,,,5,5,,,5,5,203,La Rioja,2026-07-25,198,3,,10,13,BTT,Ezcaray,Epic Gravel Ezcaray,,,,13,23
+,,,,,,,,,,,,204,La Rioja,2026-07-25,198,,,4,4,E-Bike,Ezcaray,Epic Gravel Ezcaray,,,,4,4
+,,,,1,,2,3,,,5,5,196,La Rioja,2026-07-11,196,19,,75,94,KV Valdezcaray,Valdezcaray - Ezcaray,KV Valdezcaray,,,,94,102
+,,,,1,,,1,,,,,195,La Rioja,2026-07-11,196,4,,2,6,Prebenjamin - Infantil,Valdezcaray - Ezcaray,KV Valdezcaray,,,,6,7
+,,,,10,,14,24,1,,2,3,178,Bizkaia,2026-06-20,178,4,,42,46,Trail Largo,La Quadra - Güeñes,La Quadrako Mendi Lasterketa,,,,46,73
+,,,,6,,16,22,,,1,1,179,Bizkaia,2026-06-20,178,19,,56,75,Trail Corto,La Quadra - Güeñes,La Quadrako Mendi Lasterketa,,,,75,98
+,,,,9,,57,66,4,,29,33,181,Bizkaia,2026-06-20,181,34,,196,230,Trail Largo,Gamiz-Fika,Burdin Hesiko Mendi Lasterketa,,,,230,329
+1,,,1,49,,98,147,1,,6,7,182,Bizkaia,2026-06-20,181,133,,314,447,Trail Corto,Gamiz-Fika,Burdin Hesiko Mendi Lasterketa,,,,447,602
+,,,,,,,,,,,,183,Bizkaia,2026-06-20,181,124,,117,241,Martxa,Gamiz-Fika,Burdin Hesiko Mendi Lasterketa,47,36,83,241,324
+,,,,3,,27,30,7,,28,35,173,Bizkaia,2026-06-14,173,13,,115,128,Trail Largo,Zierbena,Galipa Mendi Bira,,,,131,193
+,,1,1,14,,31,45,16,,26,42,172,Bizkaia,2026-06-14,173,36,,152,188,Trail Corto,Zierbena,Galipa Mendi Bira,,,,189,276
+,,,,34,,43,77,26,,31,57,176,Bizkaia,2026-06-14,173,104,,156,260,Martxa Larga,Zierbena,Galipa Mendi Bira,,,,262,394
+1,,,1,38,,55,93,5,,5,10,167,Bizkaia,2026-06-06,167,95,,238,333,Adultos 10K,Balmaseda,BALMASEDA RUNNING FEST 10K,,,,334,437
+,,,,,,,,,,,,135,Álava,2026-05-31,135,24,,24,48,Entre Viñas,Labastida,Cross Entre Viñas,8,12,20,48,68
+,,,,11,,20,31,,,1,1,149,Bizkaia,2026-05-31,149,29,,76,105,Vuelta San Cosme,Gordexola,Vuelta a San Cosme,,,,105,137
+,,,,,,,,,,,,138,Bizkaia,2026-05-30,138,11,,62,73,Trail,Santurtzi,KZ Krono,4,11,15,73,88
+,,,,,,,,,,,,139,Bizkaia,2026-05-30,138,1,,7,8,BTT,Santurtzi,KZ Krono,,6,6,8,14
+,,,,,,,,,,,,140,Bizkaia,2026-05-30,138,21,,40,61,Txikis Running,Santurtzi,KZ Krono,4,2,6,61,67
+,,,,,,,,,,,,141,Bizkaia,2026-05-30,138,2,,5,7,Txikis Ciclismo,Santurtzi,KZ Krono,,3,3,7,10
+,,1,1,3,,1,4,,,,,159,Álava,2026-05-30,159,33,,45,78,Marcha Larga,Araia,Mitxarro Bira,,,,79,83
+,,,,5,,2,7,,,,,160,Álava,2026-05-30,159,66,,37,103,Marcha Corta,Araia,Mitxarro Bira,,,,103,110
+1,,,1,1,,8,9,1,,6,7,161,Álava,2026-05-30,159,8,,59,67,Trail Largo,Araia,Mitxarro Bira,,,,69,84
+,,,,3,,9,12,,,3,3,162,Álava,2026-05-30,159,49,,109,158,Trail Corto,Araia,Mitxarro Bira,,,,159,173
+,,,,9,,11,20,2,,20,22,136,Bizkaia,2026-05-23,136,21,,93,114,50K,Galdakao,Mugarriz Mugarri,,,,123,156
+,,,,5,,6,11,,,,,137,Bizkaia,2026-05-23,136,43,,47,90,24K,Galdakao,Mugarriz Mugarri,,,,90,101
+,,1,1,,,,,,,,,131,Bizkaia,2026-05-17,131,19,,186,205,Trail Largo,Getxo,Etorki Mendi Trail,9,44,53,206,259
+,,,,32,,78,110,1,,2,3,132,Bizkaia,2026-05-17,131,121,,253,374,Trail Corto,Getxo,Etorki Mendi Trail,,,,375,487
+,,,,,,,,,,,,126,Bizkaia,2026-05-10,126,25,,23,48,Benjamín,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,1,7,8,48,56
+,,,,,,,,,,,,129,Bizkaia,2026-05-10,126,19,,28,47,Aleví­n,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,3,,3,47,50
+,,,,,,,,,,,,130,Bizkaia,2026-05-10,126,6,,21,27,Infantil,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,1,3,4,27,31
+,,,,,,,,1,,,1,127,Bizkaia,2026-05-10,126,70,,204,274,Mayores,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,30,33,63,275,338
+,,,,,,,,1,,,1,122,Bizkaia,2026-04-19,122,25,,132,157,Trail Largo,Güeñes,Lurretza Güeñes Skyrace,4,17,21,157,179
+,,,,,,,,1,,,1,123,Bizkaia,2026-04-19,122,20,,76,96,Trail Corto,Güeñes,Lurretza Güeñes Skyrace,5,18,23,96,120
+1,,,1,33,,104,137,3,,3,6,125,Álava,2026-04-19,125,294,,601,895,15K,Armentia,Subida a Estibaliz,,,,896,1039
+,,,,,,,,,,,,119,La Rioja,2026-04-12,119,,,,,Preuniversitaria,Logroño,Carrera Campus Universidad de La Rioja,1303,812,2115,0,2115
+,,,,,,,,,,,,120,La Rioja,2026-04-12,119,,,,,5K,Logroño,Carrera Campus Universidad de La Rioja,161,128,289,0,289
+,,,,,,,,,,,,121,La Rioja,2026-04-12,119,,,,,10K,Logroño,Carrera Campus Universidad de La Rioja,83,187,270,0,270
+,,,,9,,36,45,4,,9,13,116,Cantabria,2026-04-11,116,58,,258,316,Corredores,Ajo,Trail Cabo de Ajo,,,,319,374
+,,,,53,,29,82,15,,12,27,117,Cantabria,2026-04-11,116,157,,166,323,Andarines,Ajo,Trail Cabo de Ajo,,,,325,432
+,,,,6,,8,14,,,,,112,Bizkaia,2026-03-29,112,66,,105,171,8K,Bilbao,UnderRun,,,,171,185
+,,,,1,,5,6,,,,,113,Bizkaia,2026-03-29,112,16,,62,78,10K,Bilbao,UnderRun,,,,78,84
+,,,,,,,,,,3,3,110,Bizkaia,2026-03-28,110,9,,89,98,60K,Zaramillo,Enkarterri Extrem Trails,2,11,13,99,114
+,,,,,,,,2,,4,6,109,Bizkaia,2026-03-28,110,13,,126,139,42K,Zaramillo,Enkarterri Extrem Trails,,24,24,139,169
+,,,,,,1,1,1,,2,3,108,Bizkaia,2026-03-28,110,17,,104,121,30K,Zaramillo,Enkarterri Extrem Trails,13,15,28,122,153
+,,,,,,1,1,,,,,111,Bizkaia,2026-03-28,110,44,,60,104,10K,Zaramillo,Enkarterri Extrem Trails,11,9,20,104,125
+,,,,1,,8,9,,,2,2,100,Álava,2026-03-15,100,4,,51,55,Trail Largo,Amurrio,Amurrio Trail Lasterketa,,,,55,66
+,,,,6,,19,25,1,,2,3,99,Álava,2026-03-15,100,51,,119,170,Trail Corto,Amurrio,Amurrio Trail Lasterketa,,,,171,198
+,,,,,,1,1,,,,,103,Bizkaia,2026-03-15,103,8,,52,60,26K,Mungia,Lau Haizeta Trail,1,17,18,61,79
+,,,,,,,,,,,,102,Bizkaia,2026-03-15,103,46,,117,163,12K,Mungia,Lau Haizeta Trail,9,23,32,163,195
+,,,,,,1,1,,,,,104,Bizkaia,2026-03-15,103,22,,37,59,7K,Mungia,Lau Haizeta Trail,4,4,8,59,68
+,,,,1,,15,16,2,,3,5,91,Bizkaia,2026-03-01,91,9,,104,113,Trail Largo,Bilbao,Artxanda Urban Trail,,,,113,134
+,,,,,,,,,,,,96,Bizkaia,2026-03-01,91,,13,,13,Parejas,Bilbao,Artxanda Urban Trail,,,,13,13
+,,,,9,,22,31,1,,2,3,90,Bizkaia,2026-03-01,91,58,,131,189,Trail Corto,Bilbao,Artxanda Urban Trail,,,,189,223
+,,,,4,,46,50,,,4,4,87,Bizkaia,2026-02-22,87,25,,216,241,30K,Zaramillo,Apuko Igoera  Zaramillo Enkarterri,,,,241,295
+,,,,13,,69,82,6,,6,12,86,Bizkaia,2026-02-22,87,50,,285,335,24K,Zaramillo,Apuko Igoera  Zaramillo Enkarterri,,7,7,335,436
+,,,,,,,,,,,,89,Bizkaia,2026-02-12,89,,,,,30K,Zaramillo,Pruebas Crono,31,267,298,0,298
+,,,,,,,,,,,,88,Bizkaia,2026-02-12,89,,,,,24K,Zaramillo,Pruebas Crono,65,362,427,0,427
+,,,,25,,47,72,4,,13,17,1215313487,Bizkaia,2026-01-11,1215313487,96,,264,360,10K,Mungia,San Antontxuko Herri Krosa,,,,360,449
+,,,,33,,21,54,2,,,2,1215314366,Bizkaia,2026-01-11,1215313487,163,,131,294,5K,Mungia,San Antontxuko Herri Krosa,,,,294,350
+,,,,,,,,,,,,1215003715,Bizkaia,2025-12-31,1215003715,1057,,1703,2760,Mayores,Bilbao,Bilbao Rekalde San Silvestre,205,282,487,2760,3247
+1,,,1,27,,53,80,5,,1,6,1215108905,Bizkaia,2025-12-31,1215108905,124,,298,422,Mayores,Sodupe,San Silvestre Sodupe,,,,423,509
+,,,,128,,134,262,21,,9,30,1215184222,Álava,2025-12-31,1215184222,1167,,1355,2522,Mayores,Vitoria,San Silvestre de Vitoria-Gasteiz,,,,2522,2814
+,,,,9,,16,25,,,,,1215196204,Bizkaia,2025-12-31,1215196204,6,,12,18,14-15 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,18,43
+,,,,13,,17,30,,,,,1215197675,Bizkaia,2025-12-31,1215196204,23,,46,69,12-13 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,69,99
+,,,,13,,17,30,,,,,1215200555,Bizkaia,2025-12-31,1215196204,35,,32,67,11 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,67,97
+,,,,12,,16,28,1,,,1,1215201940,Bizkaia,2025-12-31,1215196204,32,,43,75,10 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,75,104
+,,1,1,39,,34,73,1,,,1,1223378376,Bizkaia,2025-12-31,1223378376,152,,309,461,7K,Santurtzi,San Silvestre Santurtzi,,,,461,536
+1,,,1,45,,77,122,4,,3,7,1223295696,Bizkaia,2025-12-20,1223295696,190,,240,430,5K,Muskiz,Muskiz 3 Milia,,,,430,560
+,,1,1,7,,35,42,,,2,2,1213639352,Bizkaia,2025-12-14,1213639352,62,,221,283,14K,Zalla,Zalla-Balma-Zalla,,,,283,328
+,,,,161,,589,750,28,,82,110,1213923778,Álava,2025-12-14,1213923778,730,,2562,3292,Media Maratón,Vitoria-Gasteiz,La Media de Vitoria-Gasteiz,,2,2,3292,4154
+,,,,19,,40,59,,,5,5,1213820284,Álava,2025-12-13,1213820284,47,,203,250,Carrera,Artziniega,Soxoguti Erronka,,,,250,314
+,,,,,,2,2,,,,,1223428473,Álava,2025-11-29,1223428473,,,,,Prebenjamín,Vitoria-Gasteiz,Duatlón Mendizabala Juegos Escolares Araba 25/26,,,,0,2
+,,,,1,,,1,,,,,1223429523,Álava,2025-11-29,1223428473,1,,7,8,Benjamín,Vitoria-Gasteiz,Duatlón Mendizabala Juegos Escolares Araba 25/26,,,,8,9
+,,,,,,,,,,,,1223430655,Álava,2025-11-29,1223428473,4,,6,10,Alevín,Vitoria-Gasteiz,Duatlón Mendizabala Juegos Escolares Araba 25/26,,,,10,10
+,,,,,,,,,,,,1223431842,Álava,2025-11-29,1223428473,4,,1,5,Infantil,Vitoria-Gasteiz,Duatlón Mendizabala Juegos Escolares Araba 25/26,,,,5,5
+,,,,1,,,1,,,,,1223432425,Álava,2025-11-29,1223428473,3,,8,11,Cadete,Vitoria-Gasteiz,Duatlón Mendizabala Juegos Escolares Araba 25/26,,,,11,12
+,,,,,,,,,,,,79,Jaén,2025-11-22,79,3,,2,5,Prebenjamín,Alcalá la Real,Final Encuentro Interprovincial Escolar de CXM,3,,3,5,8
+,,,,,,,,,,,,80,Jaén,2025-11-22,79,7,,12,19,Benjamín,Alcalá la Real,Final Encuentro Interprovincial Escolar de CXM,1,1,2,19,21
+,,,,,,,,,,,,81,Jaén,2025-11-22,79,7,,14,21,Alevín,Alcalá la Real,Final Encuentro Interprovincial Escolar de CXM,2,3,5,21,26
+,,,,,,,,,,,,82,Jaén,2025-11-22,79,11,,12,23,Infantil,Alcalá la Real,Final Encuentro Interprovincial Escolar de CXM,4,2,6,23,29
+,,,,,,,,,,,,83,Jaén,2025-11-22,79,5,,9,14,Cadete,Alcalá la Real,Final Encuentro Interprovincial Escolar de CXM,1,5,6,14,20
+,,,,8,,38,46,2,,2,4,1213093978,Bizkaia,2025-11-16,1213093978,15,,134,149,25K,Lemoa,Lemoatx Trail,,,,149,199
+,,,,6,,19,25,2,,3,5,1213092528,Bizkaia,2025-11-16,1213093978,35,,168,203,17K,Lemoa,Lemoatx Trail,2,6,8,203,241
+,,,,10,,63,73,2,,10,12,1212779242,Bizkaia,2025-11-09,1212779242,23,,175,198,33K,Orduña,Urduñako Mendi Lasterketa,,,,198,283
+,,,,,3,,3,,1,,1,78,Bizkaia,2025-11-09,1212779242,,43,,43,Relevos,Orduña,Urduñako Mendi Lasterketa,,,,47,47
+,,,,19,,25,44,,,,,1212780150,Bizkaia,2025-11-09,1212779242,50,,111,161,14K,Orduña,Urduñako Mendi Lasterketa,,,,161,205
+,,,,,,,,,,,,1212848430,Bizkaia,2025-11-09,1212848430,117,,138,255,MAR 16K,Arrigorriaga-Basauri,BBK Mendi Martxak - Arrigorriaga-Basauri,17,29,46,255,301
+6,,7,13,20,,54,74,2,,5,7,1212544909,Álava,2025-11-02,1212544909,193,,410,603,10K,Vitoria,La Conquista de la Almendra,,,,603,697
+,,,,30,,30,60,1,,1,2,1212545187,Álava,2025-11-02,1212544909,137,,155,292,5K,Vitoria,La Conquista de la Almendra,,,,292,354
+,,,,11,,40,51,2,,4,6,1212559564,Bizkaia,2025-11-02,1212559564,39,,252,291,25K,Balmaseda,Kolitza Balmatrail,,,,291,348
+,,,,8,,20,28,,,1,1,1212562669,Bizkaia,2025-11-02,1212559564,47,,122,169,12K,Balmaseda,Kolitza Balmatrail,,,,169,198
+,,,,26,,29,55,9,,9,18,1212560577,Bizkaia,2025-11-02,1212559564,112,,174,286,Martxa,Balmaseda,Kolitza Balmatrail,,,,286,359
+,,,,,,,,,,,,73,Bizkaia,2025-11-01,73,1,,1,2,Record Internacional,Balmaseda,Record Kolitza Internacional,,,,2,2
+,,,,,,3,3,,,,,74,Bizkaia,2025-11-01,74,4,,40,44,Record del Kolitza,Balmaseda,Record del Kolitza,1,3,4,44,51
+,,,,,,,,,,,,71,Jaén,2025-10-26,71,3,,7,10,Prebenjamín,Alcalá la Real,Encuentro Interprovincial Escolar de CXM,,1,1,10,11
+,,,,,,,,,,,,67,Jaén,2025-10-26,71,4,,9,13,Benjamín,Alcalá la Real,Encuentro Interprovincial Escolar de CXM,1,1,2,13,15
+,,,,,,,,,,,,68,Jaén,2025-10-26,71,9,,15,24,Alevín,Alcalá la Real,Encuentro Interprovincial Escolar de CXM,2,2,4,24,28
+,,,,,,,,,,,,70,Jaén,2025-10-26,71,12,,11,23,Infantil,Alcalá la Real,Encuentro Interprovincial Escolar de CXM,,2,2,23,25
+,,,,,,,,,,,,69,Jaén,2025-10-26,71,1,,8,9,Cadete,Alcalá la Real,Encuentro Interprovincial Escolar de CXM,2,1,3,9,12
+,,,,3,,4,7,,,,,72,Bizkaia,2025-10-26,72,5,,14,19,Kopa Euskadi KB,Galdames,Kopa Euskadi KB,,,,19,26
+,,,,8,,11,19,,,1,1,1212269570,Bizkaia,2025-10-26,1212269570,12,,62,74,Vertical,Galdames,Vertical Pico la Cruz,,,,74,94
+,,,,5,,14,19,2,,2,4,1212399515,Navarra,2025-10-25,1212399515,11,,100,111,24K,Ancín-Antzin,Betagarri Trail,,,,111,134
+,,,,18,,28,46,,,,,1214215308,Navarra,2025-10-25,1212399515,41,,115,156,15K,Ancín-Antzin,Betagarri Trail,,,,156,202
+,,,,9,,10,19,,,,,1212400681,Navarra,2025-10-25,1212399515,77,,74,151,9K,Ancín-Antzin,Betagarri Trail,,,,151,170
+,,,,,,,,,,,,1211986485,Bizkaia,2025-10-19,1211986485,158,,192,350,MARTXA,Mungia,BBK Mendi Martxak - Mungia,23,18,41,350,391
+,,,,1,,4,5,,,1,1,1211674159,Navarra,2025-10-18,1211674159,4,,47,51,43K,Galdeano,Basajaun Trail Race,,,,51,57
+,,,,2,,20,22,,,2,2,1211675509,Navarra,2025-10-18,1211674159,26,,141,167,23K,Galdeano,Basajaun Trail Race,,,,167,191
+,,,,12,,25,37,,,2,2,1211676111,Navarra,2025-10-18,1211674159,71,,147,218,13K,Galdeano,Basajaun Trail Race,,1,1,218,258
+,,,,9,,10,19,,,,,1211515584,Bizkaia,2025-10-12,1211515584,54,,21,75,Promesas,Zierbena,Galipa Swim,,,,75,94
+,,,,,,,,,,1,1,1211516878,Bizkaia,2025-10-12,1211515584,,,217,217,Absoluta Masculina,Zierbena,Galipa Swim,,38,38,217,256
+,,,,33,,,33,2,,,2,1211517384,Bizkaia,2025-10-12,1211515584,101,,,101,Absoluta Femenina,Zierbena,Galipa Swim,,,,101,136
+,,1,1,3,,1,4,,,,,1211518154,Bizkaia,2025-10-12,1211515584,1,,2,3,Con Discapacidad,Zierbena,Galipa Swim,,,,3,8
+,,,,7,,12,19,,,,,1211411426,Bizkaia,2025-10-11,1211411426,24,,20,44,Benjamín,Zalla,Zalla Herri Bira,,,,44,63
+,,,,2,,6,8,1,,,1,1211412710,Bizkaia,2025-10-11,1211411426,8,,13,21,Alevín,Zalla,Zalla Herri Bira,,,,21,30
+,,,,5,,5,10,,,,,1211413795,Bizkaia,2025-10-11,1211411426,5,,2,7,Infantil,Zalla,Zalla Herri Bira,,,,7,17
+,,,,14,,29,43,1,,,1,1211409488,Bizkaia,2025-10-11,1211411426,53,,155,208,Mayores,Zalla,Zalla Herri Bira,,,,208,252
+,,,,,,,,,,4,4,1214432344,Burgos,2025-10-11,1214432344,7,,121,128,28K,Pradoluengo,Granuja Xtreme,5,21,26,128,158
+,,,,6,,12,18,,,,,1214433727,Burgos,2025-10-11,1214432344,39,,135,174,16K,Pradoluengo,Granuja Xtreme,,,,174,192
+,,,,13,,11,24,,,5,5,1214434851,Burgos,2025-10-11,1214432344,120,,84,204,Marcha,Pradoluengo,Granuja Xtreme,,,,204,233
+,,,,1,,5,6,,,,,64,Bizkaia,2025-10-05,64,14,,28,42,Benjamín,Gorliz,Gorlizko Herri Krosa,,,,42,48
+,,,,5,,7,12,,,,,65,Bizkaia,2025-10-05,64,11,,6,17,Alevín,Gorliz,Gorlizko Herri Krosa,,,,17,29
+,,,,4,,4,8,,,,,66,Bizkaia,2025-10-05,64,4,,1,5,Infantil,Gorliz,Gorlizko Herri Krosa,,,,5,13
+,,,,6,,6,12,1,,,1,1156037786,Bizkaia,2025-10-05,64,34,,52,86,5K,Gorliz,Gorlizko Herri Krosa,,,,86,99
+,,,,5,,14,19,1,,4,5,1156038722,Bizkaia,2025-10-05,64,38,,100,138,10K,Gorliz,Gorlizko Herri Krosa,,,,138,162
+,,,,14,,37,51,1,,,1,1211182875,Bizkaia,2025-10-05,1211182875,61,,249,310,Lasterketa,Mamariga - Santurtzi,Serantes Igoera,,,,310,362
+,,,,,,,,,,,,1210478765,Bizkaia,2025-09-28,1210478765,118,,184,302,MAR 14K,Barakaldo,BBK Mendi Martxak - Gurutzeta Cruces,15,15,30,302,332
+,,,,4,,14,18,6,,36,42,1195344131,Bizkaia,2025-09-27,1195344131,10,,106,116,80K,Galdakao,Hiru Gurutzeak,,,,116,176
+,,,,,,,,,,,,1207524868,Burgos,2025-09-20,1207524868,4,,22,26,Trail 18K,El Ribero de Montija,Ribero Trail,3,4,7,26,33
+,,,,17,,36,53,1,,1,2,1209656496,Álava,2025-09-14,1209656496,70,,178,248,10K,Vitoria - Gasteiz,CórrELA,,,,248,303
+,,,,28,,23,51,5,,3,8,1209658167,Álava,2025-09-14,1209656496,160,,143,303,5K,Vitoria - Gasteiz,CórrELA,,,,303,362
+,,,,2,,11,13,,,5,5,1209476610,La Rioja,2025-09-13,1209476610,16,,129,145,35K,Ezcaray,Picos de La Demanda,,,,145,163
+,,,,5,,24,29,1,,3,4,1209475470,La Rioja,2025-09-13,1209476610,38,,211,249,24K,Ezcaray,Picos de La Demanda,,,,249,282
+,,,,10,,24,34,,,,,1209477777,La Rioja,2025-09-13,1209476610,65,,121,186,10K,Ezcaray,Picos de La Demanda,,,,186,220
+,,,,3,,,3,,,,,59,La Rioja,2025-09-13,1209476610,10,,19,29,Infantil 7K,Ezcaray,Picos de La Demanda,,,,29,32
+,,,,4,,7,11,,,,,60,La Rioja,2025-09-12,60,19,,55,74,Nocturna 7K,Ezcaray,Viernes Nocturna By Irier,,,,74,85
+,,,,1,,5,6,,,,,1218427607,Burgos,2025-09-07,1218427607,11,,31,42,10K,Roa de Duero,Cross Solidario entre Viñedos,,,,42,48
+,,,,1,,23,24,1,,7,8,55,La Rioja,2025-07-27,55,7,,119,126,Individual,Ezcaray,BTT Extreme Ezcaray - Domingo,,,,126,158
+,,,,,3,,3,,3,,3,56,La Rioja,2025-07-27,55,,24,,24,Parejas,Ezcaray,BTT Extreme Ezcaray - Domingo,,,,30,30
+,,20,20,2,,15,17,,,17,17,1208144252,La Rioja,2025-07-26,1208144252,8,,166,174,Individual,Ezcaray,BTT Extreme Ezcaray - Sábado,,,,195,228
+,1,,1,,1,,1,,2,,2,1208146251,La Rioja,2025-07-26,1208144252,,26,,26,Parejas,Ezcaray,BTT Extreme Ezcaray - Sábado,,,,30,30
+,,,,,,4,4,,,1,1,1208143820,La Rioja,2025-07-26,1208144252,,,23,23,Corta,Ezcaray,BTT Extreme Ezcaray - Sábado,,,,23,28
+,,,,,,1,1,,,1,1,1208145615,La Rioja,2025-07-26,1208144252,,,17,17,e-Bikes,Ezcaray,BTT Extreme Ezcaray - Sábado,,,,17,19
+,,,,,,,,,,,,1208153104,Álava,2025-07-26,1208153104,27,,142,169,ARETA TRAIL,Areta,Areta Trail Lasterketa,8,23,31,169,200
+,,,,2,,13,15,,,,,1208209362,Bizkaia,2025-07-26,1208209362,12,,42,54,Trail Largo,Güeñes,Lurretza Güeñes Skyrace,,,,54,69
+,,,,3,,7,10,,,,,1208210754,Bizkaia,2025-07-26,1208209362,7,,34,41,Trail Corto,Güeñes,Lurretza Güeñes Skyrace,,,,41,51
+,,,,,,13,13,,,,,53,La Rioja,2025-07-25,53,9,,136,145,Individual,Ezcaray,BTT Extreme Ezcaray - Viernes,,,,145,158
+,,,,,1,,1,,,,,54,La Rioja,2025-07-25,53,,29,,29,Parejas,Ezcaray,BTT Extreme Ezcaray - Viernes,,,,30,30
+,,3,3,,,,,1,,,1,57,La Rioja,2025-07-25,57,6,,109,115,Individual,Ezcaray,BTT Extreme Ezcaray - General,2,37,39,115,158
+,1,,1,,,,,,1,,1,58,La Rioja,2025-07-25,57,,28,,28,Parejas,Ezcaray,BTT Extreme Ezcaray - General,,,,30,30
+,,,,2,,,2,,,,,47,La Rioja,2025-07-19,47,11,,,11,Femenina,Valdezcaray - Ezcaray,KV Valdezcaray,,,,11,13
+,,,,,,14,14,,,,,1206141756,La Rioja,2025-07-19,47,,,53,53,Masculina,Valdezcaray - Ezcaray,KV Valdezcaray,,,,53,67
+,,,,1,,,1,,,,,1206142857,La Rioja,2025-07-19,47,1,,4,5,Cadete - Juvenil,Valdezcaray - Ezcaray,KV Valdezcaray,,,,5,6
+,,,,,,,,,,,,52,La Rioja,2025-07-19,47,3,,5,8,Prebenjamín,Valdezcaray - Ezcaray,KV Valdezcaray,,,,8,8
+,,,,,,,,,,,,51,La Rioja,2025-07-19,47,3,,5,8,Benjamín,Valdezcaray - Ezcaray,KV Valdezcaray,,,,8,8
+,,,,,,,,,,,,50,La Rioja,2025-07-19,47,1,,1,2,Alevín,Valdezcaray - Ezcaray,KV Valdezcaray,,,,2,2
+,,,,,,,,,,,,49,La Rioja,2025-07-19,47,6,,1,7,Infantil,Valdezcaray - Ezcaray,KV Valdezcaray,,,,7,7
+1,,,1,6,,25,31,1,,2,3,1207737155,Bizkaia,2025-07-06,1207737155,39,,194,233,Individual,Urduliz,Belatzgorri Trail,,,,233,268
+,,,,,9,,9,,1,,1,1207738189,Bizkaia,2025-07-06,1207737155,,36,,36,Parejas Mixtas,Urduliz,Belatzgorri Trail,,,,46,46
+,,,,2,,12,14,1,,3,4,1206917430,Bizkaia,2025-06-21,1206917430,5,,49,54,Trail Largo,La Quadra - Güeñes,La Quadrako Mendi Lasterketa,,,,54,72
+,,,,3,,7,10,1,,,1,1206918319,Bizkaia,2025-06-21,1206917430,20,,40,60,Trail Corto,La Quadra - Güeñes,La Quadrako Mendi Lasterketa,,,,60,71
+,,,,6,,52,58,3,,18,21,1207181251,Bizkaia,2025-06-21,1207181251,28,,192,220,Trail Largo,Gamiz-Fika,Burdin Hesiko Mendi Lasterketa,,,,220,299
+1,,,1,,,,,,,,,1207182190,Bizkaia,2025-06-21,1207181251,122,,283,405,Trail Corto,Gamiz-Fika,Burdin Hesiko Mendi Lasterketa,46,63,109,405,515
+,,,,,,,,,,,,1207183235,Bizkaia,2025-06-21,1207181251,103,,90,193,Martxa,Gamiz-Fika,Burdin Hesiko Mendi Lasterketa,40,22,62,193,255
+,,3,3,9,,34,43,,,5,5,1206326336,Bizkaia,2025-06-15,1206326336,64,,146,210,Trail Corto,Zierbena,Galipa Mendi Bira,,,,210,261
+,,,,6,,21,27,,,4,4,1206327692,Bizkaia,2025-06-15,1206326336,15,,146,161,Trail Largo,Zierbena,Galipa Mendi Bira,,,,162,192
+,,,,3,,10,13,,,2,2,1214025134,La Rioja,2025-06-14,1214025134,10,,43,53,Trail,Ribafrecha,Ribafrecha Trail (Dama del Leza),,,,54,68
+,,,,6,,44,50,2,,6,8,1205903360,Bizkaia,2025-06-07,1205903360,25,,105,130,Carrera,Galdames,Galdames Mendi Bira,,,,130,188
+,,,,,,,,,,,,1205946934,Álava,2025-06-07,1205946934,,,,,Vi Half,Vitoria - Gasteiz,Vi Half Gasteiz,145,684,829,0,829
+3,,1,4,167,,105,272,2,,2,4,1205273536,Madrid,2025-06-01,1205273536,542,,444,986,5K,Madrid,InRace Madrid,,,,986,1266
+,,,,78,,127,205,48,,35,83,1205274633,Madrid,2025-06-01,1205273536,172,,423,595,10K,Madrid,InRace Madrid,,,,595,883
+,,,,11,,13,24,,,1,1,1170086281,Álava,2025-05-31,1170086281,14,,78,92,Araia-Aratz KB,Araia,Araia-Aratz KB,,,,92,117
+,,,,8,,14,22,,,,,1214212591,Bizkaia,2025-05-25,1214212591,19,,60,79,Vuelta San Cosme,Gordexola,Vuelta a San Cosme,,,,79,101
+,,,,2,,9,11,,,,,1205566227,Bizkaia,2025-05-24,1205566227,21,,72,93,Trail,Santurtzi,KZ Krono,,,,93,104
+,,,,,,3,3,,,,,1205568370,Bizkaia,2025-05-24,1205566227,1,,17,18,BTT,Santurtzi,KZ Krono,,,,18,21
+,,,,1,,3,4,,,,,1205569988,Bizkaia,2025-05-24,1205566227,19,,39,58,Txikis Running,Santurtzi,KZ Krono,,,,58,62
+,,,,,,,,,,,,1205570688,Bizkaia,2025-05-24,1205566227,1,,6,7,Txikis Ciclismo,Santurtzi,KZ Krono,,,,7,7
+,,,,,,,,,,,,46,Bizkaia,2025-05-22,46,1,,2,3,Bomberos Bilbao,Bilbao,Oposiciones Bomberos Bilbao,,1,1,3,4
+,,,,2,,35,37,2,,9,11,1205392856,Bizkaia,2025-05-18,1205392856,18,,182,200,Trail Largo,Getxo,Etorki Mendi Trail,,,,201,248
+,,,,31,,41,72,3,,3,6,1205393727,Bizkaia,2025-05-18,1205392856,114,,267,381,Trail Corto,Getxo,Etorki Mendi Trail,,,,381,459
+,,,,,,,,,,,,1214113980,Bizkaia,2025-05-18,1214113980,119,,156,275,MAR 12K,Zeberio,BBK Mendi Martxak - Zeberio,11,13,24,275,299
+,,,,6,,6,12,1,,3,4,1206216697,Álava,2025-05-10,1206216697,45,,47,92,Marcha Larga,Araia,Mitxarro Bira,,,,93,108
+,,,,5,,7,12,5,,,5,1206217357,Álava,2025-05-10,1206216697,56,,36,92,Marcha Corta,Araia,Mitxarro Bira,,,,92,109
+3,,1,4,6,,21,27,,,3,3,1206218711,Álava,2025-05-10,1206216697,8,,115,123,Trail Largo,Araia,Mitxarro Bira,,,,123,157
+,,,,7,,11,18,1,,,1,1206219295,Álava,2025-05-10,1206216697,34,,84,118,Trail Corto,Araia,Mitxarro Bira,,1,1,118,138
+,,,,6,,7,13,,,,,1204761868,Bizkaia,2025-05-04,1204761868,20,,41,61,Benjamín,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,,,,63,74
+,,,,6,,8,14,,,,,1204764140,Bizkaia,2025-05-04,1204761868,14,,19,33,Aleví­n,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,,,,35,47
+,,,,4,,14,18,,,,,1204765844,Bizkaia,2025-05-04,1204761868,5,,19,24,Infantil,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,,1,1,24,43
+,,,,55,,112,167,6,,6,12,1204762676,Bizkaia,2025-05-04,1204761868,86,,228,314,Mayores,Ugao-Miraballes,Ugao-Miraballes Herri Krosa,,,,314,493
+,,,,,,,,,,,,1212343195,Bizkaia,2025-05-04,1212343195,87,,111,198,MAR 17K,Ortuella,BBK Mendi Martxak - Ortuella,30,19,49,198,247
+,,,,32,,62,94,2,,7,9,1203667295,Álava,2025-04-13,1203667295,256,,538,794,15K,Armentia,Subida a Estibaliz,,,,794,897
+,,,,,,,,,,,,1204089316,La Rioja,2025-04-06,1204089316,,,,,Preuniversitaria,Logroño,Carrera Campus Universidad de La Rioja,532,373,905,0,905
+,,,,,,,,,,,,1204090906,La Rioja,2025-04-06,1204089316,,,,,5K,Logroño,Carrera Campus Universidad de La Rioja,166,141,307,0,307
+,,,,,,,,,,,,1204091979,La Rioja,2025-04-06,1204089316,,,,,10K,Logroño,Carrera Campus Universidad de La Rioja,92,195,287,0,287
+,,,,19,,43,62,,,,,41,Bizkaia,2025-04-05,41,,,,,Martxa,Zaramillo,Enkarterri Extrem Trails,,,,0,62
+,,,,1,,15,16,1,,3,4,1203099133,Bizkaia,2025-04-05,41,8,,83,91,30K,Zaramillo,Enkarterri Extrem Trails,,,,91,111
+,,,,2,,17,19,1,,11,12,1203100197,Bizkaia,2025-04-05,41,14,,136,150,42K,Zaramillo,Enkarterri Extrem Trails,,,,150,181
+,,,,1,,16,17,3,,16,19,1203101593,Bizkaia,2025-04-05,41,8,,107,115,60K,Zaramillo,Enkarterri Extrem Trails,,,,115,151
+,,,,4,,7,11,,,,,1214031227,Bizkaia,2025-04-05,41,22,,31,53,10K,Zaramillo,Enkarterri Extrem Trails,,,,53,64
+1,,,1,14,,35,49,1,,3,4,1202948563,Cantabria,2025-03-30,1202948563,60,,212,272,Corredores,Ajo,Trail Cabo de Ajo,,,,272,326
+,,,,50,,33,83,,,1,1,1202949975,Cantabria,2025-03-30,1202948563,179,,162,341,Andarines,Ajo,Trail Cabo de Ajo,,,,341,425
+,,,,7,,18,25,,,2,2,1207259360,Álava,2025-03-30,1207259360,48,,114,162,Trail Corto,Amurrio,Amurrio Trail Lasterketa,,,,162,189
+,,,,,,16,16,1,,1,2,1207260616,Álava,2025-03-30,1207259360,11,,72,83,Trail Largo,Amurrio,Amurrio Trail Lasterketa,,,,83,101
+,,,,,,,,,,,,39,Bizkaia,2025-03-25,39,,,,,10K,Güeñes,Evento de prueba,24,228,252,0,252
+,,,,3,,22,25,,,1,1,1201896233,Bizkaia,2025-03-23,1201896233,6,,76,82,Trail Largo,Bilbao,Artxanda Urban Trail,,,,82,108
+,,,,8,,33,41,1,,,1,1201894754,Bizkaia,2025-03-23,1201896233,20,,106,126,Trail Corto,Bilbao,Artxanda Urban Trail,,,,126,168
+,,,,,,18,18,1,,2,3,1202572473,Bizkaia,2025-03-23,1202572473,9,,57,66,Trail Largo,Mungia,Lau Haizeta Trail,,,,66,87
+,,,,13,,31,44,1,,3,4,1202571742,Bizkaia,2025-03-23,1202572473,60,,148,208,Trail Corto,Mungia,Lau Haizeta Trail,,,,208,256
+,,,,,,,,,,,,1214112516,Bizkaia,2025-03-16,1214112516,128,,212,340,MAR 17K,Portugalete,BBK Mendi Martxak - Portugalete,38,44,82,340,422
+,,5,5,6,,26,32,,,7,7,1185552510,Álava,2025-03-01,1185552510,18,,191,209,28K,Laudio,Mugagabe Trail Laudio,,,,209,253
+,,,,16,,34,50,,,,,1185553110,Álava,2025-03-01,1185552510,54,,149,203,11K,Laudio,Mugagabe Trail Laudio,,,,203,253
+,,,,,3,,3,,1,,1,1185554281,Álava,2025-03-01,1185552510,,19,,19,Parejas,Laudio,Mugagabe Trail Laudio,,,,23,23
+,,,,1,,46,47,1,,1,2,1201220296,Bizkaia,2025-02-09,1201220296,6,,87,93,BTT,Zaramillo,Apuko Igoera  Zaramillo Enkarterri,,,,93,142
+,,,,15,,105,120,3,,14,17,1201221500,Bizkaia,2025-02-09,1201220296,43,,413,456,Trail,Zaramillo,Apuko Igoera  Zaramillo Enkarterri,,,,457,593
+,,,,19,,18,37,1,,1,2,1214107720,Bizkaia,2025-02-02,1214107720,141,,161,302,MAR 14K,Berriz,BBK Mendi Martxak - Berriz,,,,302,341
+,,,,17,,27,44,9,,5,14,1200594721,Bizkaia,2025-01-12,1200594721,81,,281,362,10K,Mungia,San Antontxuko Herri Krosa,,,,362,420
+,,,,12,,14,26,3,,1,4,1200595375,Bizkaia,2025-01-12,1200594721,117,,129,246,5K,Mungia,San Antontxuko Herri Krosa,,,,246,276
+,,1,1,5,,8,13,,,1,1,1199503986,Bizkaia,2025-01-05,1199503986,32,,110,142,5K,Sopuerta,5K Sopuerta,,,,142,157
+1,,,1,187,,254,441,10,,18,28,1199206225,Bizkaia,2024-12-31,1199206225,1038,,1727,2765,Mayores,Bilbao,Bilbao Rekalde San Silvestre,,,,2765,3235
+,,,,11,,21,32,1,,,1,1199350557,Bizkaia,2024-12-31,1199350557,80,,236,316,Mayores,Sodupe,San Silvestre Sodupe,,,,316,349
+3,,,3,125,,132,257,24,,18,42,1199457586,Álava,2024-12-31,1199457586,1099,,1402,2501,Mayores,Vitoria,San Silvestre de Vitoria-Gasteiz,,,,2501,2803
+,,,,5,,10,15,,,,,1199478285,Bizkaia,2024-12-31,1199478285,5,,15,20,14-15 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,20,35
+,,,,20,,13,33,,,,,1199479536,Bizkaia,2024-12-31,1199478285,22,,65,87,12-13 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,87,120
+,,,,8,,14,22,,,,,1199482543,Bizkaia,2024-12-31,1199478285,33,,42,75,11 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,75,97
+,,,,10,,17,27,,,,,1199483492,Bizkaia,2024-12-31,1199478285,35,,43,78,10 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,78,105
+,,,,9,,13,22,,,,,1199484398,Bizkaia,2024-12-31,1199478285,40,,55,95,9 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,95,117
+,,,,11,,6,17,2,,,2,1199480919,Bizkaia,2024-12-31,1199478285,48,,59,107,8 años,Bilbao,Bilbao Rekalde San Silvestre Txiki,,,,107,126
+,,,,10,,26,36,2,,,2,1198961209,Bizkaia,2024-12-22,1198961209,23,,147,170,Trail Largo,Zaramillo,Olentzero Martxa Trail,,,,170,208
+,,,,13,,15,28,,,,,1198962977,Bizkaia,2024-12-22,1198961209,51,,97,148,Trail Corto,Zaramillo,Olentzero Martxa Trail,,,,148,176
+1,,,1,125,,462,587,26,,90,116,1198803947,Álava,2024-12-15,1198803947,650,,2168,2818,Media Maratón,Vitoria-Gasteiz,La Media de Vitoria-Gasteiz,,,,2819,3522
+5,,9,14,7,,41,48,1,,,1,1209870180,Álava,2024-12-14,1209870180,42,,150,192,Carrera,Artziniega,Soxoguti Erronka,,,,202,255
+,,,,,,,,,,,,34,Bizkaia,2024-12-09,34,,,6,6,Bomberos Bilbao,Bilbao,Oposiciones Bomberos Bilbao,,,,6,6
+,,,,,,,,,,,,1200335387,Bizkaia,2024-12-08,1200335387,,,,,MAR 10K,Bilbao,BBK Mendi Martxak - Bilbao,73,137,210,0,210
+,,,,8,,18,26,3,,1,4,1204385912,Bizkaia,2024-12-01,1204385912,39,,200,239,14K,Zalla,Zalla-Balma-Zalla,,,,239,269
+,,,,7,,35,42,3,,8,11,1197964378,Bizkaia,2024-11-17,1197964378,20,,129,149,25K,Lemoa,Lemoatx Trail,,,,149,202
+,,,,11,,33,44,1,,5,6,1197963176,Bizkaia,2024-11-17,1197964378,35,,172,207,17K,Lemoa,Lemoatx Trail,1,,1,208,258
+,,,,,,,,,,,,1197491900,Bizkaia,2024-11-10,1197491900,,,58,58,Cadetes - Infantiles MAS,Erandio,Erandioko Herri Krosa,,35,35,58,93
+,,,,,,,,,,,,1197493402,Bizkaia,2024-11-10,1197491900,65,,,65,Cadetes - Infantiles FEM,Erandio,Erandioko Herri Krosa,41,,41,65,106
+,,,,,,,,,,,,1197490178,Bizkaia,2024-11-10,1197491900,,,48,48,Alevín MAS,Erandio,Erandioko Herri Krosa,,10,10,48,58
+,,,,,,,,,,,,1197492679,Bizkaia,2024-11-10,1197491900,62,,,62,Alevín FEM,Erandio,Erandioko Herri Krosa,32,,32,62,94
+,,,,,,,,,,,,1197486922,Bizkaia,2024-11-10,1197491900,,,71,71,Benjamín MAS,Erandio,Erandioko Herri Krosa,,27,27,71,98
+,,,,,,,,,,,,1197489452,Bizkaia,2024-11-10,1197491900,77,,,77,Benjamín FEM,Erandio,Erandioko Herri Krosa,35,,35,77,112
+,,,,,,,,,,,,1197487444,Bizkaia,2024-11-10,1197491900,,,55,55,Prebenjamín MAS,Erandio,Erandioko Herri Krosa,,28,28,55,83
+,,,,,,,,,,,,1197488843,Bizkaia,2024-11-10,1197491900,58,,,58,Prebenjamín FEM,Erandio,Erandioko Herri Krosa,19,,19,58,77
+,,,,,,,,,,,,1200311252,Bizkaia,2024-11-10,1200311252,99,,145,244,MAR 14K,Basauri,BBK Mendi Martxak - Basauri,30,27,57,244,301
+4,,1,5,7,,19,26,,,1,1,1204284793,Álava,2024-11-03,1204284793,104,,243,347,10K,Vitoria,La conquista de la Almendra,,,,351,379
+,,,,14,,15,29,1,,,1,1204285674,Álava,2024-11-03,1204284793,93,,83,176,5K,Vitoria,La conquista de la Almendra,,,,176,206
+,,,,3,,10,13,,,,,1197022910,Bizkaia,2024-10-27,1197022910,7,,63,70,Carrera,Galdames,Vertical Pico la Cruz,,,,70,83
+,,,,,,,,,,,,1200310664,Bizkaia,2024-10-27,1200310664,46,,80,126,MAR 17K,Ortuella,BBK Mendi Martxak - Ortuella,45,59,104,126,230
+1,,1,2,1,,3,4,,,,,1206731756,Navarra,2024-10-27,1206731756,9,,16,25,Federados,Azagra,Marcha Nórdica Villa de Azagra,,,,27,31
+,,,,,,1,1,,,,,1206732905,Navarra,2024-10-27,1206731756,5,,6,11,No Federados,Azagra,Marcha Nórdica Villa de Azagra,,,,11,12
+,,,,,,,,,,,,1206733659,Navarra,2024-10-27,1206731756,,,2,2,Juveniles y Cadetes,Azagra,Marcha Nórdica Villa de Azagra,,,,2,2
+,,,,,,,,,,,,32,Bizkaia,2024-10-21,32,1,,3,4,Bomberos Bilbao,Bilbao,Oposiciones Bomberos Bilbao,,,,4,4
+,,,,,,1,1,,,,,1196558874,Cantabria,2024-10-20,1196558874,3,,4,7,BTT Corta 22K,Quintana - Soba,La Sobanuca,,,,7,8
+1,,,1,1,,2,3,,,,,1196559495,Cantabria,2024-10-20,1196558874,11,,46,57,Carrera,Quintana - Soba,La Sobanuca,,,,58,61
+6,,4,10,7,,9,16,,,,,1196560162,Cantabria,2024-10-20,1196558874,75,,64,139,Marcha Larga,Quintana - Soba,La Sobanuca,,29,29,148,194
+,,,,,,,,,,,,1196561911,Cantabria,2024-10-20,1196558874,122,,83,205,Marcha Corta,Quintana - Soba,La Sobanuca,19,12,31,205,236
+,,,,,,,,,,1,1,1206738674,Cantabria,2024-10-20,1196558874,1,,8,9,BTT Plus 26K,Quintana - Soba,La Sobanuca,,,,9,10
+,,,,22,,27,49,,,2,2,1200334114,Bizkaia,2024-10-20,1200334114,170,,249,419,MAR 18K,Mungia,BBK Mendi Martxak - Mungia,,,,419,470
+,,,,,,13,13,1,,7,8,1196221958,Navarra,2024-10-19,1196221958,5,,83,88,43K,Galdeano,Basajaun Trail Race,,,,88,109
+,,,,10,,46,56,,,4,4,1196222702,Navarra,2024-10-19,1196221958,45,,202,247,23K,Galdeano,Basajaun Trail Race,,,,247,307
+,,,,14,,32,46,3,,2,5,1196223631,Navarra,2024-10-19,1196221958,73,,137,210,13K,Galdeano,Basajaun Trail Race,,,,210,261
+,,,,14,,11,25,,,,,1196000408,Bizkaia,2024-10-13,1196000408,59,,31,90,Promesas,Zierbena,Galipa Swim,,,,90,115
+,,,,,,38,38,,,,,1196001228,Bizkaia,2024-10-13,1196000408,,,217,217,Absoluta Masculina,Zierbena,Galipa Swim,,,,217,255
+,,,,20,,,20,,,,,1196002219,Bizkaia,2024-10-13,1196000408,115,,,115,Absoluta Femenina,Zierbena,Galipa Swim,,,,115,135
+,,,,,,,,,,,,1196003632,Bizkaia,2024-10-13,1196000408,1,,6,7,Con Discapacidad,Zierbena,Galipa Swim,,,,7,7
+1,,2,3,6,,33,39,,,5,5,1196192479,Bizkaia,2024-10-13,1196192479,32,,197,229,Carrera,Balmaseda,Kolitza Balmatrail,,,,229,276
+,,,,17,,35,52,4,,7,11,1196193379,Bizkaia,2024-10-13,1196192479,108,,177,285,Marcha Larga,Balmaseda,Kolitza Balmatrail,,,,285,348
+1,,3,4,1,,1,2,,,1,1,1209781292,Bizkaia,2024-10-13,1209781292,17,,22,39,Federados,Gorliz,Marcha Nórdica de Gorliz,,,,46,46
+,,,,1,,,1,3,,,3,1209782755,Bizkaia,2024-10-13,1209781292,13,,5,18,Open,Gorliz,Marcha Nórdica de Gorliz,,,,22,22
+,,,,,,,,,,,,1209783918,Bizkaia,2024-10-13,1209781292,,,,,Infantiles,Gorliz,Marcha Nórdica de Gorliz,4,2,6,0,6
+,,,,,,,,,,,,29,Bizkaia,2024-10-12,29,26,,102,128,Mayores,Zalla,Zalla Herri Bira Mayores,26,50,76,128,204
+,,,,,,4,4,1,,,1,30,Bizkaia,2024-10-12,30,5,,41,46,Record del Kolitza,Balmaseda,Record del Kolitza,,,,46,51
+,,,,11,,9,20,,,,,1195921424,Bizkaia,2024-10-12,1195921424,24,,19,43,Benjamín,Zalla,Zalla Herri Bira Txikis,,,,43,63
+,,,,5,,9,14,,,,,1195922851,Bizkaia,2024-10-12,1195921424,5,,20,25,Alevín,Zalla,Zalla Herri Bira Txikis,,,,25,39
+,,,,4,,11,15,,,,,1195923322,Bizkaia,2024-10-12,1195921424,,,5,5,Infantil,Zalla,Zalla Herri Bira Txikis,,,,5,20
+,,,,4,,24,28,1,,6,7,1196087940,Bizkaia,2024-10-06,1196087940,14,,101,115,22K,Amorebieta Etxano,AraMotz Mendi Lasterketa,,,,115,150
+,,,,,,,,,,,,1195680478,Bizkaia,2024-09-29,1195680478,21,,60,81,Txaramotx 10K,Markina Xemein,Txara Trail,3,10,13,81,94
+,,,,,,,,,,,,1195681411,Bizkaia,2024-09-29,1195680478,6,,38,44,Txara Trail 21K,Markina Xemein,Txara Trail,2,8,10,44,54
+1,,7,8,3,,,3,1,,1,2,1206580844,Bizkaia,2024-09-22,1206580844,23,,20,43,Federados,Portugalete,Marcha nórdica Portugalete,,,,43,56
+,,,,1,,1,2,,,,,27,Bizkaia,2024-09-22,1206580844,30,,6,36,No Federados,Portugalete,Marcha nórdica Portugalete,,,,36,38
+,,,,,,,,,,,,1206657530,Bizkaia,2024-09-22,1206657530,125,,192,317,MAR 13K,Barakaldo,BBK Mendi Martxak - Barakaldo,71,65,136,317,453
+,,,,,,,,,,,,20,La Rioja,2024-09-15,20,12,,73,85,MAYORES 11K,Ezcaray,Picos de La Demanda - Domingo,4,12,16,85,101
+,,,,,,,,,,,,21,La Rioja,2024-09-15,20,,,,,INFANTÍL,Ezcaray,Picos de La Demanda - Domingo,14,26,40,0,40
+,,,,,,,,,,,,26,La Rioja,2024-09-15,26,6,,52,58,Combinada,Ezcaray,Picos de la demanda - Combinada,3,10,13,58,71
+,,,,1,,8,9,,,4,4,1194697822,La Rioja,2024-09-14,1194697822,11,,77,88,UTPD 42K,Ezcaray,Picos de La Demanda - Sábado,,,,88,101
+,,,,9,,17,26,,,4,4,1194696735,La Rioja,2024-09-14,1194697822,41,,276,317,UTPD 21K,Ezcaray,Picos de La Demanda - Sábado,,,,317,347
+,,,,8,,13,21,,,,,1194698527,La Rioja,2024-09-14,1194697822,73,,142,215,UTPD 11K,Ezcaray,Picos de La Demanda - Sábado,,,,215,236
+,,,,2,,7,9,,,,,18,La Rioja,2024-09-13,18,34,,131,165,"Nocturna 6,5K",Ezcaray,Picos de La Demanda - Viernes,6,13,19,165,193
+,,,,,,,,1,,1,2,24,Jaén,2024-08-25,24,12,,54,66,La Iruela Urban Trail,La Iruela,La Iruela Urban Trail,19,53,72,66,140
+,,,,7,,15,22,21,,68,89,25,Jaén,2024-08-25,25,4,,25,29,Circuito,Cazorla,Circuito de la Iruela,,,,29,140
+,,,,,,,,,,,,23,Jaén,2024-08-18,23,14,,53,67,Trailshumancia Burunchel,Burunchel,Trailshumancia Burunchel,18,55,73,67,140
+,,,,,,,,,,,,22,Jaén,2024-08-14,22,11,,49,60,Arroyo Frio Trail,Arroyo Frio,Arroyo Frio Trail,21,59,80,60,140
+,,,,,,,,,,,,16,La Rioja,2024-07-28,16,7,,90,97,GENERAL - INDIVIDUAL,Ezcaray,BTT Extreme Valle de Ezcaray - Domingo,2,33,35,97,132
+,,,,,,,,,,,,17,La Rioja,2024-07-28,16,,48,,48,GENERAL - PAREJAS,Ezcaray,BTT Extreme Valle de Ezcaray - Domingo,,,,48,48
+,,,,,,,,,,,,14,La Rioja,2023-07-21,14,4,,67,71,GENERAL - INDIVIDUAL,Ezcaray,BTT Extreme Valle de Ezcaray,3,27,30,71,101
+,,,,,,,,,,,,15,La Rioja,2023-07-21,14,,17,,17,GENERAL - PAREJAS,Ezcaray,BTT Extreme Valle de Ezcaray,,,,17,17
+,,,,,,,,,,,,2,A Coruña,2021-03-01,2,,,6,6,Trail Largo,,Birsortu,4,41,45,6,51
+,,,,,,,,,,,,3,A Coruña,2021-03-01,2,,,4,4,Trail Corto,,Birsortu,4,43,47,4,51
+,,,,,,,,,,,,4,A Coruña,2021-03-01,2,,,,,BTT Largo,,Birsortu,,7,7,0,7
+,,,,,,,,,,,,5,A Coruña,2021-03-01,2,,,3,3,BTT Corto,,Birsortu,,4,4,3,7
+,,,,,,,,,,,,6,A Coruña,2021-03-01,2,,,2,2,Trekking Largo,,Birsortu,7,9,16,2,18
+,,,,,,,,,,,,7,A Coruña,2021-03-01,2,1,,3,4,Trekking Corto,,Birsortu,6,8,14,4,18
+,,,,,,,,,,,,1137718597,Bizkaia,2021-01-08,1137718597,3,,43,46,TRA 19K,Güeñes,EKOC | Güeñes - Gordexola,2,11,13,46,59
+,,,,,,,,,,,,1137719865,Bizkaia,2021-01-08,1137718597,10,,14,24,MAR 13K,Güeñes,EKOC | Güeñes - Gordexola,3,1,4,24,28
+,,,,,,,,,,,,1137720347,Bizkaia,2021-01-08,1137718597,3,,119,122,BTT 39K,Güeñes,EKOC | Güeñes - Gordexola,2,49,51,122,173
+,,,,,,,,,,,,1137721974,Bizkaia,2021-01-08,1137718597,4,,10,14,BTT 28K,Güeñes,EKOC | Güeñes - Gordexola,,15,15,14,29
+,,,,,,,,,,,,1139806404,Bizkaia,2021-01-08,1137718597,35,,33,68,MAR 19K,Güeñes,EKOC | Güeñes - Gordexola,5,16,21,68,89
+,,,,,,,,,,,,1139807804,Bizkaia,2021-01-08,1137718597,7,,8,15,TRA 13K,Güeñes,EKOC | Güeñes - Gordexola,3,4,7,15,22
+,,,,,,,,,,,,1,Bizkaia,2020-12-01,1,5,,53,58,COMBINADA,Bilbao,Bilbao San Silvestre,13,94,107,58,165

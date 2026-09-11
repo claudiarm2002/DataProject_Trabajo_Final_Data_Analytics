@@ -1,0 +1,315 @@
+﻿fuente,nombre_carrera,fecha,dia_semana,distancia,tipo_modalidad,publico,finisher_d,finisher_h,municipio,comarca,provincia,finisher_desconegut,id
+buscametas,Areta Trail Lasterketa,2026-07-25,Sábado,0.0,trail running,Absoluta/General,17,147,Areta,,Álava,,197
+buscametas,Epic Gravel Ezcaray,2026-07-25,Sábado,0.0,Ciclismo y btt,Absoluta/General,0,30,Ezcaray,,La Rioja,,198
+buscametas,Epic Gravel Ezcaray,2026-07-25,Sábado,93.0,Ciclismo y btt,Absoluta/General,2,38,Ezcaray,,La Rioja,,202
+buscametas,Epic Gravel Ezcaray,2026-07-25,Sábado,57.0,Ciclismo y btt,Absoluta/General,2,31,Ezcaray,,La Rioja,,200
+buscametas,Epic Gravel Ezcaray,2026-07-25,Sábado,42.0,Ciclismo y btt,Absoluta/General,2,10,Ezcaray,,La Rioja,,201
+buscametas,Epic Gravel Ezcaray,2026-07-25,Sábado,0.0,Ciclismo y btt,Absoluta/General,3,10,Ezcaray,,La Rioja,,203
+buscametas,Epic Gravel Ezcaray,2026-07-25,Sábado,0.0,Ciclismo y btt,Absoluta/General,0,4,Ezcaray,,La Rioja,,204
+buscametas,KV Valdezcaray,2026-07-11,Sábado,0.0,trail running,Absoluta/General,19,75,Valdezcaray - Ezcaray,,La Rioja,,196
+buscametas,KV Valdezcaray,2026-07-11,Sábado,0.0,trail running,Absoluta/General,4,2,Valdezcaray - Ezcaray,,La Rioja,,195
+buscametas,La Quadrako Mendi Lasterketa,2026-06-20,Sábado,0.0,trail running,Absoluta/General,4,42,La Quadra - Güeñes,,Bizkaia,,178
+buscametas,La Quadrako Mendi Lasterketa,2026-06-20,Sábado,0.0,trail running,Absoluta/General,19,56,La Quadra - Güeñes,,Bizkaia,,179
+buscametas,Burdin Hesiko Mendi Lasterketa,2026-06-20,Sábado,0.0,trail running,Absoluta/General,34,196,Gamiz-Fika,,Bizkaia,,181
+buscametas,Burdin Hesiko Mendi Lasterketa,2026-06-20,Sábado,0.0,trail running,Absoluta/General,133,314,Gamiz-Fika,,Bizkaia,,182
+buscametas,Burdin Hesiko Mendi Lasterketa,2026-06-20,Sábado,0.0,marcha,Absoluta/General,124,117,Gamiz-Fika,,Bizkaia,,183
+buscametas,Galipa Mendi Bira,2026-06-14,Domingo,0.0,trail running,Absoluta/General,13,115,Zierbena,,Bizkaia,,173
+buscametas,Galipa Mendi Bira,2026-06-14,Domingo,0.0,trail running,Absoluta/General,36,152,Zierbena,,Bizkaia,,172
+buscametas,Galipa Mendi Bira,2026-06-14,Domingo,0.0,marcha,Absoluta/General,104,156,Zierbena,,Bizkaia,,176
+buscametas,BALMASEDA RUNNING FEST 10K,2026-06-06,Sábado,10.0,road running,Absoluta/General,95,238,Balmaseda,,Bizkaia,,167
+buscametas,Cross Entre Viñas,2026-05-31,Domingo,0.0,road running,Absoluta/General,24,24,Labastida,Arabako Errioxa,Álava,,135
+buscametas,Vuelta a San Cosme,2026-05-31,Domingo,0.0,Otros,Absoluta/General,29,76,Gordexola,,Bizkaia,,149
+buscametas,KZ Krono,2026-05-30,Sábado,0.0,trail running,Absoluta/General,11,62,Santurtzi,,Bizkaia,,138
+buscametas,KZ Krono,2026-05-30,Sábado,0.0,Ciclismo y btt,Absoluta/General,1,7,Santurtzi,,Bizkaia,,139
+buscametas,KZ Krono,2026-05-30,Sábado,0.0,road running,Absoluta/General,21,40,Santurtzi,,Bizkaia,,140
+buscametas,KZ Krono,2026-05-30,Sábado,0.0,Ciclismo y btt,Absoluta/General,2,5,Santurtzi,,Bizkaia,,141
+buscametas,Mitxarro Bira,2026-05-30,Sábado,0.0,marcha,Absoluta/General,33,45,Araia,Arabako lautada,Álava,,159
+buscametas,Mitxarro Bira,2026-05-30,Sábado,0.0,marcha,Absoluta/General,66,37,Araia,Arabako lautada,Álava,,160
+buscametas,Mitxarro Bira,2026-05-30,Sábado,0.0,trail running,Absoluta/General,8,59,Araia,Arabako lautada,Álava,,161
+buscametas,Mitxarro Bira,2026-05-30,Sábado,0.0,trail running,Absoluta/General,49,109,Araia,Arabako lautada,Álava,,162
+buscametas,Mugarriz Mugarri,2026-05-23,Sábado,50.0,road running,Absoluta/General,21,93,Galdakao,,Bizkaia,,136
+buscametas,Mugarriz Mugarri,2026-05-23,Sábado,24.0,road running,Absoluta/General,43,47,Galdakao,,Bizkaia,,137
+buscametas,Etorki Mendi Trail,2026-05-17,Domingo,0.0,trail running,Absoluta/General,19,186,Getxo,,Bizkaia,,131
+buscametas,Etorki Mendi Trail,2026-05-17,Domingo,0.0,trail running,Absoluta/General,121,253,Getxo,,Bizkaia,,132
+buscametas,Ugao-Miraballes Herri Krosa,2026-05-10,Domingo,0.0,Otros,Infantil,25,23,Ugao-Miraballes,,Bizkaia,,126
+buscametas,Ugao-Miraballes Herri Krosa,2026-05-10,Domingo,0.0,Otros,Infantil,19,28,Ugao-Miraballes,,Bizkaia,,129
+buscametas,Ugao-Miraballes Herri Krosa,2026-05-10,Domingo,0.0,Otros,Infantil,6,21,Ugao-Miraballes,,Bizkaia,,130
+buscametas,Ugao-Miraballes Herri Krosa,2026-05-10,Domingo,0.0,Otros,Mayores/Veteranos,70,204,Ugao-Miraballes,,Bizkaia,,127
+buscametas,Lurretza Güeñes Skyrace,2026-04-19,Domingo,0.0,trail running,Absoluta/General,25,132,Güeñes,,Bizkaia,,122
+buscametas,Lurretza Güeñes Skyrace,2026-04-19,Domingo,0.0,trail running,Absoluta/General,20,76,Güeñes,,Bizkaia,,123
+buscametas,Subida a Estibaliz,2026-04-19,Domingo,15.0,road running,Absoluta/General,294,601,Armentia,Gasteizko kuadrilla,Álava,,125
+buscametas,Carrera Campus Universidad de La Rioja,2026-04-12,Domingo,0.0,road running,Absoluta/General,0,0,Logroño,,La Rioja,,119
+buscametas,Carrera Campus Universidad de La Rioja,2026-04-12,Domingo,5.0,road running,Absoluta/General,0,0,Logroño,,La Rioja,,120
+buscametas,Carrera Campus Universidad de La Rioja,2026-04-12,Domingo,10.0,road running,Absoluta/General,0,0,Logroño,,La Rioja,,121
+buscametas,Trail Cabo de Ajo,2026-04-11,Sábado,0.0,road running,Absoluta/General,58,258,Ajo,,Cantabria,,116
+buscametas,Trail Cabo de Ajo,2026-04-11,Sábado,0.0,marcha,Absoluta/General,157,166,Ajo,,Cantabria,,117
+buscametas,UnderRun,2026-03-29,Domingo,8.0,road running,Absoluta/General,66,105,Bilbao,,Bizkaia,,112
+buscametas,UnderRun,2026-03-29,Domingo,10.0,road running,Absoluta/General,16,62,Bilbao,,Bizkaia,,113
+buscametas,Enkarterri Extrem Trails,2026-03-28,Sábado,60.0,trail running,Absoluta/General,9,89,Zaramillo,,Bizkaia,,110
+buscametas,Enkarterri Extrem Trails,2026-03-28,Sábado,42.0,trail running,Absoluta/General,13,126,Zaramillo,,Bizkaia,,109
+buscametas,Enkarterri Extrem Trails,2026-03-28,Sábado,30.0,trail running,Absoluta/General,17,104,Zaramillo,,Bizkaia,,108
+buscametas,Enkarterri Extrem Trails,2026-03-28,Sábado,10.0,trail running,Absoluta/General,44,60,Zaramillo,,Bizkaia,,111
+buscametas,Amurrio Trail Lasterketa,2026-03-15,Domingo,0.0,trail running,Absoluta/General,4,51,Amurrio,,Álava,,100
+buscametas,Amurrio Trail Lasterketa,2026-03-15,Domingo,0.0,trail running,Absoluta/General,51,119,Amurrio,,Álava,,99
+buscametas,Lau Haizeta Trail,2026-03-15,Domingo,26.0,trail running,Absoluta/General,8,52,Mungia,,Bizkaia,,103
+buscametas,Lau Haizeta Trail,2026-03-15,Domingo,12.0,trail running,Absoluta/General,46,117,Mungia,,Bizkaia,,102
+buscametas,Lau Haizeta Trail,2026-03-15,Domingo,7.0,trail running,Absoluta/General,22,37,Mungia,,Bizkaia,,104
+buscametas,Artxanda Urban Trail,2026-03-01,Domingo,0.0,trail running,Absoluta/General,9,104,Bilbao,,Bizkaia,,91
+buscametas,Artxanda Urban Trail,2026-03-01,Domingo,0.0,trail running,Absoluta/General,0,0,Bilbao,,Bizkaia,13.0,96
+buscametas,Artxanda Urban Trail,2026-03-01,Domingo,0.0,trail running,Absoluta/General,58,131,Bilbao,,Bizkaia,,90
+buscametas,Apuko Igoera  Zaramillo Enkarterri,2026-02-22,Domingo,30.0,road running,Absoluta/General,25,216,Zaramillo,,Bizkaia,,87
+buscametas,Apuko Igoera  Zaramillo Enkarterri,2026-02-22,Domingo,24.0,road running,Absoluta/General,50,285,Zaramillo,,Bizkaia,,86
+buscametas,Pruebas Crono,2026-02-12,Jueves,30.0,road running,Absoluta/General,0,0,Zaramillo,,Bizkaia,,89
+buscametas,Pruebas Crono,2026-02-12,Jueves,24.0,road running,Absoluta/General,0,0,Zaramillo,,Bizkaia,,88
+buscametas,San Antontxuko Herri Krosa,2026-01-11,Domingo,10.0,road running,Absoluta/General,96,264,Mungia,,Bizkaia,,1215313487
+buscametas,San Antontxuko Herri Krosa,2026-01-11,Domingo,5.0,road running,Absoluta/General,163,131,Mungia,,Bizkaia,,1215314366
+buscametas,Bilbao Rekalde San Silvestre,2025-12-31,Miércoles,0.0,Otros,Mayores/Veteranos,1057,1703,Bilbao,,Bizkaia,,1215003715
+buscametas,San Silvestre Sodupe,2025-12-31,Miércoles,0.0,Otros,Mayores/Veteranos,124,298,Sodupe,,Bizkaia,,1215108905
+buscametas,San Silvestre de Vitoria-Gasteiz,2025-12-31,Miércoles,0.0,Otros,Mayores/Veteranos,1167,1355,Vitoria,Gasteizko kuadrilla,Álava,,1215184222
+buscametas,Bilbao Rekalde San Silvestre Txiki,2025-12-31,Miércoles,0.0,Otros,Infantil,6,12,Bilbao,,Bizkaia,,1215196204
+buscametas,Bilbao Rekalde San Silvestre Txiki,2025-12-31,Miércoles,0.0,Otros,Infantil,23,46,Bilbao,,Bizkaia,,1215197675
+buscametas,Bilbao Rekalde San Silvestre Txiki,2025-12-31,Miércoles,0.0,Otros,Infantil,35,32,Bilbao,,Bizkaia,,1215200555
+buscametas,Bilbao Rekalde San Silvestre Txiki,2025-12-31,Miércoles,0.0,Otros,Infantil,32,43,Bilbao,,Bizkaia,,1215201940
+buscametas,San Silvestre Santurtzi,2025-12-31,Miércoles,7.0,road running,Absoluta/General,152,309,Santurtzi,,Bizkaia,,1223378376
+buscametas,Muskiz 3 Milia,2025-12-20,Sábado,5.0,road running,Absoluta/General,190,240,Muskiz,,Bizkaia,,1223295696
+buscametas,Zalla-Balma-Zalla,2025-12-14,Domingo,14.0,road running,Absoluta/General,62,221,Zalla,,Bizkaia,,1213639352
+buscametas,La Media de Vitoria-Gasteiz,2025-12-14,Domingo,0.0,road running,Absoluta/General,730,2562,Vitoria-Gasteiz,Gasteizko kuadrilla,Álava,,1213923778
+buscametas,Soxoguti Erronka,2025-12-13,Sábado,0.0,road running,Absoluta/General,47,203,Artziniega,,Álava,,1213820284
+buscametas,Duatlón Mendizabala Juegos Escolares Araba 25/26,2025-11-29,Sábado,0.0,Multidisciplina,Absoluta/General,0,0,Vitoria-Gasteiz,Gasteizko kuadrilla,Álava,,1223428473
+buscametas,Duatlón Mendizabala Juegos Escolares Araba 25/26,2025-11-29,Sábado,0.0,Multidisciplina,Absoluta/General,1,7,Vitoria-Gasteiz,Gasteizko kuadrilla,Álava,,1223429523
+buscametas,Duatlón Mendizabala Juegos Escolares Araba 25/26,2025-11-29,Sábado,0.0,Multidisciplina,Absoluta/General,4,6,Vitoria-Gasteiz,Gasteizko kuadrilla,Álava,,1223430655
+buscametas,Duatlón Mendizabala Juegos Escolares Araba 25/26,2025-11-29,Sábado,0.0,Multidisciplina,Absoluta/General,4,1,Vitoria-Gasteiz,Gasteizko kuadrilla,Álava,,1223431842
+buscametas,Duatlón Mendizabala Juegos Escolares Araba 25/26,2025-11-29,Sábado,0.0,Multidisciplina,Absoluta/General,3,8,Vitoria-Gasteiz,Gasteizko kuadrilla,Álava,,1223432425
+buscametas,Final Encuentro Interprovincial Escolar de CXM,2025-11-22,Sábado,0.0,Otros,Infantil,3,2,Alcalá la Real,,Jaén,,79
+buscametas,Final Encuentro Interprovincial Escolar de CXM,2025-11-22,Sábado,0.0,Otros,Infantil,7,12,Alcalá la Real,,Jaén,,80
+buscametas,Final Encuentro Interprovincial Escolar de CXM,2025-11-22,Sábado,0.0,Otros,Infantil,7,14,Alcalá la Real,,Jaén,,81
+buscametas,Final Encuentro Interprovincial Escolar de CXM,2025-11-22,Sábado,0.0,Otros,Infantil,11,12,Alcalá la Real,,Jaén,,82
+buscametas,Final Encuentro Interprovincial Escolar de CXM,2025-11-22,Sábado,0.0,Otros,Cadete/Juvenil,5,9,Alcalá la Real,,Jaén,,83
+buscametas,Lemoatx Trail,2025-11-16,Domingo,25.0,trail running,Absoluta/General,15,134,Lemoa,,Bizkaia,,1213093978
+buscametas,Lemoatx Trail,2025-11-16,Domingo,17.0,trail running,Absoluta/General,35,168,Lemoa,,Bizkaia,,1213092528
+buscametas,Urduñako Mendi Lasterketa,2025-11-09,Domingo,33.0,road running,Absoluta/General,23,175,Orduña,,Bizkaia,,1212779242
+buscametas,Urduñako Mendi Lasterketa,2025-11-09,Domingo,0.0,road running,Absoluta/General,0,0,Orduña,,Bizkaia,43.0,78
+buscametas,Urduñako Mendi Lasterketa,2025-11-09,Domingo,14.0,road running,Absoluta/General,50,111,Orduña,,Bizkaia,,1212780150
+buscametas,BBK Mendi Martxak - Arrigorriaga-Basauri,2025-11-09,Domingo,16.0,marcha,Absoluta/General,117,138,Arrigorriaga-Basauri,,Bizkaia,,1212848430
+buscametas,La Conquista de la Almendra,2025-11-02,Domingo,10.0,road running,Absoluta/General,193,410,Vitoria,Gasteizko kuadrilla,Álava,,1212544909
+buscametas,La Conquista de la Almendra,2025-11-02,Domingo,5.0,road running,Absoluta/General,137,155,Vitoria,Gasteizko kuadrilla,Álava,,1212545187
+buscametas,Kolitza Balmatrail,2025-11-02,Domingo,25.0,trail running,Absoluta/General,39,252,Balmaseda,,Bizkaia,,1212559564
+buscametas,Kolitza Balmatrail,2025-11-02,Domingo,12.0,trail running,Absoluta/General,47,122,Balmaseda,,Bizkaia,,1212562669
+buscametas,Kolitza Balmatrail,2025-11-02,Domingo,0.0,marcha,Absoluta/General,112,174,Balmaseda,,Bizkaia,,1212560577
+buscametas,Record Kolitza Internacional,2025-11-01,Sábado,0.0,Otros,Absoluta/General,1,1,Balmaseda,,Bizkaia,,73
+buscametas,Record del Kolitza,2025-11-01,Sábado,0.0,Otros,Absoluta/General,4,40,Balmaseda,,Bizkaia,,74
+buscametas,Encuentro Interprovincial Escolar de CXM,2025-10-26,Domingo,0.0,Otros,Infantil,3,7,Alcalá la Real,,Jaén,,71
+buscametas,Encuentro Interprovincial Escolar de CXM,2025-10-26,Domingo,0.0,Otros,Infantil,4,9,Alcalá la Real,,Jaén,,67
+buscametas,Encuentro Interprovincial Escolar de CXM,2025-10-26,Domingo,0.0,Otros,Infantil,9,15,Alcalá la Real,,Jaén,,68
+buscametas,Encuentro Interprovincial Escolar de CXM,2025-10-26,Domingo,0.0,Otros,Infantil,12,11,Alcalá la Real,,Jaén,,70
+buscametas,Encuentro Interprovincial Escolar de CXM,2025-10-26,Domingo,0.0,Otros,Cadete/Juvenil,1,8,Alcalá la Real,,Jaén,,69
+buscametas,Kopa Euskadi KB,2025-10-26,Domingo,0.0,Otros,Absoluta/General,5,14,Galdames,,Bizkaia,,72
+buscametas,Vertical Pico la Cruz,2025-10-26,Domingo,0.0,trail running,Absoluta/General,12,62,Galdames,,Bizkaia,,1212269570
+buscametas,Betagarri Trail,2025-10-25,Sábado,24.0,trail running,Absoluta/General,11,100,Ancín-Antzin,Estellerria,Navarra,,1212399515
+buscametas,Betagarri Trail,2025-10-25,Sábado,15.0,trail running,Absoluta/General,41,115,Ancín-Antzin,Estellerria,Navarra,,1214215308
+buscametas,Betagarri Trail,2025-10-25,Sábado,9.0,trail running,Absoluta/General,77,74,Ancín-Antzin,Estellerria,Navarra,,1212400681
+buscametas,BBK Mendi Martxak - Mungia,2025-10-19,Domingo,0.0,marcha,Absoluta/General,158,192,Mungia,,Bizkaia,,1211986485
+buscametas,Basajaun Trail Race,2025-10-18,Sábado,43.0,trail running,Absoluta/General,4,47,Galdeano,Estellerria,Navarra,,1211674159
+buscametas,Basajaun Trail Race,2025-10-18,Sábado,23.0,trail running,Absoluta/General,26,141,Galdeano,Estellerria,Navarra,,1211675509
+buscametas,Basajaun Trail Race,2025-10-18,Sábado,13.0,trail running,Absoluta/General,71,147,Galdeano,Estellerria,Navarra,,1211676111
+buscametas,Galipa Swim,2025-10-12,Domingo,0.0,Otros,Cadete/Juvenil,54,21,Zierbena,,Bizkaia,,1211515584
+buscametas,Galipa Swim,2025-10-12,Domingo,0.0,road running,Absoluta/General,0,217,Zierbena,,Bizkaia,,1211516878
+buscametas,Galipa Swim,2025-10-12,Domingo,0.0,road running,Absoluta/General,101,0,Zierbena,,Bizkaia,,1211517384
+buscametas,Galipa Swim,2025-10-12,Domingo,0.0,Otros,Otros,1,2,Zierbena,,Bizkaia,,1211518154
+buscametas,Zalla Herri Bira,2025-10-11,Sábado,0.0,Otros,Infantil,24,20,Zalla,,Bizkaia,,1211411426
+buscametas,Zalla Herri Bira,2025-10-11,Sábado,0.0,Otros,Infantil,8,13,Zalla,,Bizkaia,,1211412710
+buscametas,Zalla Herri Bira,2025-10-11,Sábado,0.0,Otros,Infantil,5,2,Zalla,,Bizkaia,,1211413795
+buscametas,Zalla Herri Bira,2025-10-11,Sábado,0.0,Otros,Mayores/Veteranos,53,155,Zalla,,Bizkaia,,1211409488
+buscametas,Granuja Xtreme,2025-10-11,Sábado,28.0,road running,Absoluta/General,7,121,Pradoluengo,,Burgos,,1214432344
+buscametas,Granuja Xtreme,2025-10-11,Sábado,16.0,road running,Absoluta/General,39,135,Pradoluengo,,Burgos,,1214433727
+buscametas,Granuja Xtreme,2025-10-11,Sábado,0.0,marcha,Absoluta/General,120,84,Pradoluengo,,Burgos,,1214434851
+buscametas,Gorlizko Herri Krosa,2025-10-05,Domingo,0.0,Otros,Infantil,14,28,Gorliz,,Bizkaia,,64
+buscametas,Gorlizko Herri Krosa,2025-10-05,Domingo,0.0,Otros,Infantil,11,6,Gorliz,,Bizkaia,,65
+buscametas,Gorlizko Herri Krosa,2025-10-05,Domingo,0.0,Otros,Infantil,4,1,Gorliz,,Bizkaia,,66
+buscametas,Gorlizko Herri Krosa,2025-10-05,Domingo,5.0,road running,Absoluta/General,34,52,Gorliz,,Bizkaia,,1156037786
+buscametas,Gorlizko Herri Krosa,2025-10-05,Domingo,10.0,road running,Absoluta/General,38,100,Gorliz,,Bizkaia,,1156038722
+buscametas,Serantes Igoera,2025-10-05,Domingo,0.0,road running,Absoluta/General,61,249,Mamariga - Santurtzi,,Bizkaia,,1211182875
+buscametas,BBK Mendi Martxak - Gurutzeta Cruces,2025-09-28,Domingo,14.0,marcha,Absoluta/General,118,184,Barakaldo,,Bizkaia,,1210478765
+buscametas,Hiru Gurutzeak,2025-09-27,Sábado,80.0,road running,Absoluta/General,10,106,Galdakao,,Bizkaia,,1195344131
+buscametas,Ribero Trail,2025-09-20,Sábado,18.0,trail running,Absoluta/General,4,22,El Ribero de Montija,,Burgos,,1207524868
+buscametas,CórrELA,2025-09-14,Domingo,10.0,road running,Absoluta/General,70,178,Vitoria - Gasteiz,Gasteizko kuadrilla,Álava,,1209656496
+buscametas,CórrELA,2025-09-14,Domingo,5.0,road running,Absoluta/General,160,143,Vitoria - Gasteiz,Gasteizko kuadrilla,Álava,,1209658167
+buscametas,Picos de La Demanda,2025-09-13,Sábado,35.0,road running,Absoluta/General,16,129,Ezcaray,,La Rioja,,1209476610
+buscametas,Picos de La Demanda,2025-09-13,Sábado,24.0,road running,Absoluta/General,38,211,Ezcaray,,La Rioja,,1209475470
+buscametas,Picos de La Demanda,2025-09-13,Sábado,10.0,road running,Absoluta/General,65,121,Ezcaray,,La Rioja,,1209477777
+buscametas,Picos de La Demanda,2025-09-13,Sábado,7.0,Otros,Infantil,10,19,Ezcaray,,La Rioja,,59
+buscametas,Viernes Nocturna By Irier,2025-09-12,Viernes,7.0,Otros,Absoluta/General,19,55,Ezcaray,,La Rioja,,60
+buscametas,Cross Solidario entre Viñedos,2025-09-07,Domingo,10.0,road running,Absoluta/General,11,31,Roa de Duero,,Burgos,,1218427607
+buscametas,BTT Extreme Ezcaray - Domingo,2025-07-27,Domingo,0.0,Ciclismo y btt,Absoluta/General,7,119,Ezcaray,,La Rioja,,55
+buscametas,BTT Extreme Ezcaray - Domingo,2025-07-27,Domingo,0.0,Ciclismo y btt,Absoluta/General,0,0,Ezcaray,,La Rioja,24.0,56
+buscametas,BTT Extreme Ezcaray - Sábado,2025-07-26,Sábado,0.0,Ciclismo y btt,Absoluta/General,8,166,Ezcaray,,La Rioja,,1208144252
+buscametas,BTT Extreme Ezcaray - Sábado,2025-07-26,Sábado,0.0,Ciclismo y btt,Absoluta/General,0,0,Ezcaray,,La Rioja,26.0,1208146251
+buscametas,BTT Extreme Ezcaray - Sábado,2025-07-26,Sábado,0.0,Ciclismo y btt,Absoluta/General,0,23,Ezcaray,,La Rioja,,1208143820
+buscametas,BTT Extreme Ezcaray - Sábado,2025-07-26,Sábado,0.0,Ciclismo y btt,Absoluta/General,0,17,Ezcaray,,La Rioja,,1208145615
+buscametas,Areta Trail Lasterketa,2025-07-26,Sábado,0.0,trail running,Absoluta/General,27,142,Areta,,Álava,,1208153104
+buscametas,Lurretza Güeñes Skyrace,2025-07-26,Sábado,0.0,trail running,Absoluta/General,12,42,Güeñes,,Bizkaia,,1208209362
+buscametas,Lurretza Güeñes Skyrace,2025-07-26,Sábado,0.0,trail running,Absoluta/General,7,34,Güeñes,,Bizkaia,,1208210754
+buscametas,BTT Extreme Ezcaray - Viernes,2025-07-25,Viernes,0.0,Ciclismo y btt,Absoluta/General,9,136,Ezcaray,,La Rioja,,53
+buscametas,BTT Extreme Ezcaray - Viernes,2025-07-25,Viernes,0.0,Ciclismo y btt,Absoluta/General,0,0,Ezcaray,,La Rioja,29.0,54
+buscametas,BTT Extreme Ezcaray - General,2025-07-25,Viernes,0.0,Ciclismo y btt,Absoluta/General,6,109,Ezcaray,,La Rioja,,57
+buscametas,BTT Extreme Ezcaray - General,2025-07-25,Viernes,0.0,Ciclismo y btt,Absoluta/General,0,0,Ezcaray,,La Rioja,28.0,58
+buscametas,KV Valdezcaray,2025-07-19,Sábado,0.0,trail running,Absoluta/General,11,0,Valdezcaray - Ezcaray,,La Rioja,,47
+buscametas,KV Valdezcaray,2025-07-19,Sábado,0.0,trail running,Absoluta/General,0,53,Valdezcaray - Ezcaray,,La Rioja,,1206141756
+buscametas,KV Valdezcaray,2025-07-19,Sábado,0.0,trail running,Absoluta/General,1,4,Valdezcaray - Ezcaray,,La Rioja,,1206142857
+buscametas,KV Valdezcaray,2025-07-19,Sábado,0.0,trail running,Absoluta/General,3,5,Valdezcaray - Ezcaray,,La Rioja,,52
+buscametas,KV Valdezcaray,2025-07-19,Sábado,0.0,trail running,Absoluta/General,3,5,Valdezcaray - Ezcaray,,La Rioja,,51
+buscametas,KV Valdezcaray,2025-07-19,Sábado,0.0,trail running,Absoluta/General,1,1,Valdezcaray - Ezcaray,,La Rioja,,50
+buscametas,KV Valdezcaray,2025-07-19,Sábado,0.0,trail running,Absoluta/General,6,1,Valdezcaray - Ezcaray,,La Rioja,,49
+buscametas,Belatzgorri Trail,2025-07-06,Domingo,0.0,trail running,Absoluta/General,39,194,Urduliz,,Bizkaia,,1207737155
+buscametas,Belatzgorri Trail,2025-07-06,Domingo,0.0,trail running,Absoluta/General,0,0,Urduliz,,Bizkaia,36.0,1207738189
+buscametas,La Quadrako Mendi Lasterketa,2025-06-21,Sábado,0.0,trail running,Absoluta/General,5,49,La Quadra - Güeñes,,Bizkaia,,1206917430
+buscametas,La Quadrako Mendi Lasterketa,2025-06-21,Sábado,0.0,trail running,Absoluta/General,20,40,La Quadra - Güeñes,,Bizkaia,,1206918319
+buscametas,Burdin Hesiko Mendi Lasterketa,2025-06-21,Sábado,0.0,trail running,Absoluta/General,28,192,Gamiz-Fika,,Bizkaia,,1207181251
+buscametas,Burdin Hesiko Mendi Lasterketa,2025-06-21,Sábado,0.0,trail running,Absoluta/General,122,283,Gamiz-Fika,,Bizkaia,,1207182190
+buscametas,Burdin Hesiko Mendi Lasterketa,2025-06-21,Sábado,0.0,marcha,Absoluta/General,103,90,Gamiz-Fika,,Bizkaia,,1207183235
+buscametas,Galipa Mendi Bira,2025-06-15,Domingo,0.0,trail running,Absoluta/General,64,146,Zierbena,,Bizkaia,,1206326336
+buscametas,Galipa Mendi Bira,2025-06-15,Domingo,0.0,trail running,Absoluta/General,15,146,Zierbena,,Bizkaia,,1206327692
+buscametas,Ribafrecha Trail (Dama del Leza),2025-06-14,Sábado,0.0,trail running,Absoluta/General,10,43,Ribafrecha,,La Rioja,,1214025134
+buscametas,Galdames Mendi Bira,2025-06-07,Sábado,0.0,road running,Absoluta/General,25,105,Galdames,,Bizkaia,,1205903360
+buscametas,Vi Half Gasteiz,2025-06-07,Sábado,0.0,road running,Absoluta/General,0,0,Vitoria - Gasteiz,Gasteizko kuadrilla,Álava,,1205946934
+buscametas,InRace Madrid,2025-06-01,Domingo,5.0,road running,Absoluta/General,542,444,Madrid,,Madrid,,1205273536
+buscametas,InRace Madrid,2025-06-01,Domingo,10.0,road running,Absoluta/General,172,423,Madrid,,Madrid,,1205274633
+buscametas,Araia-Aratz KB,2025-05-31,Sábado,0.0,Otros,Absoluta/General,14,78,Araia,Arabako lautada,Álava,,1170086281
+buscametas,Vuelta a San Cosme,2025-05-25,Domingo,0.0,Otros,Absoluta/General,19,60,Gordexola,,Bizkaia,,1214212591
+buscametas,KZ Krono,2025-05-24,Sábado,0.0,trail running,Absoluta/General,21,72,Santurtzi,,Bizkaia,,1205566227
+buscametas,KZ Krono,2025-05-24,Sábado,0.0,Ciclismo y btt,Absoluta/General,1,17,Santurtzi,,Bizkaia,,1205568370
+buscametas,KZ Krono,2025-05-24,Sábado,0.0,road running,Absoluta/General,19,39,Santurtzi,,Bizkaia,,1205569988
+buscametas,KZ Krono,2025-05-24,Sábado,0.0,Ciclismo y btt,Absoluta/General,1,6,Santurtzi,,Bizkaia,,1205570688
+buscametas,Oposiciones Bomberos Bilbao,2025-05-22,Jueves,0.0,Otros,Absoluta/General,1,2,Bilbao,,Bizkaia,,46
+buscametas,Etorki Mendi Trail,2025-05-18,Domingo,0.0,trail running,Absoluta/General,18,182,Getxo,,Bizkaia,,1205392856
+buscametas,Etorki Mendi Trail,2025-05-18,Domingo,0.0,trail running,Absoluta/General,114,267,Getxo,,Bizkaia,,1205393727
+buscametas,BBK Mendi Martxak - Zeberio,2025-05-18,Domingo,12.0,marcha,Absoluta/General,119,156,Zeberio,,Bizkaia,,1214113980
+buscametas,Mitxarro Bira,2025-05-10,Sábado,0.0,marcha,Absoluta/General,45,47,Araia,Arabako lautada,Álava,,1206216697
+buscametas,Mitxarro Bira,2025-05-10,Sábado,0.0,marcha,Absoluta/General,56,36,Araia,Arabako lautada,Álava,,1206217357
+buscametas,Mitxarro Bira,2025-05-10,Sábado,0.0,trail running,Absoluta/General,8,115,Araia,Arabako lautada,Álava,,1206218711
+buscametas,Mitxarro Bira,2025-05-10,Sábado,0.0,trail running,Absoluta/General,34,84,Araia,Arabako lautada,Álava,,1206219295
+buscametas,Ugao-Miraballes Herri Krosa,2025-05-04,Domingo,0.0,Otros,Infantil,20,41,Ugao-Miraballes,,Bizkaia,,1204761868
+buscametas,Ugao-Miraballes Herri Krosa,2025-05-04,Domingo,0.0,Otros,Infantil,14,19,Ugao-Miraballes,,Bizkaia,,1204764140
+buscametas,Ugao-Miraballes Herri Krosa,2025-05-04,Domingo,0.0,Otros,Infantil,5,19,Ugao-Miraballes,,Bizkaia,,1204765844
+buscametas,Ugao-Miraballes Herri Krosa,2025-05-04,Domingo,0.0,Otros,Mayores/Veteranos,86,228,Ugao-Miraballes,,Bizkaia,,1204762676
+buscametas,BBK Mendi Martxak - Ortuella,2025-05-04,Domingo,17.0,marcha,Absoluta/General,87,111,Ortuella,,Bizkaia,,1212343195
+buscametas,Subida a Estibaliz,2025-04-13,Domingo,15.0,road running,Absoluta/General,256,538,Armentia,Gasteizko kuadrilla,Álava,,1203667295
+buscametas,Carrera Campus Universidad de La Rioja,2025-04-06,Domingo,0.0,road running,Absoluta/General,0,0,Logroño,,La Rioja,,1204089316
+buscametas,Carrera Campus Universidad de La Rioja,2025-04-06,Domingo,5.0,road running,Absoluta/General,0,0,Logroño,,La Rioja,,1204090906
+buscametas,Carrera Campus Universidad de La Rioja,2025-04-06,Domingo,10.0,road running,Absoluta/General,0,0,Logroño,,La Rioja,,1204091979
+buscametas,Enkarterri Extrem Trails,2025-04-05,Sábado,0.0,marcha,Absoluta/General,0,0,Zaramillo,,Bizkaia,,41
+buscametas,Enkarterri Extrem Trails,2025-04-05,Sábado,30.0,trail running,Absoluta/General,8,83,Zaramillo,,Bizkaia,,1203099133
+buscametas,Enkarterri Extrem Trails,2025-04-05,Sábado,42.0,trail running,Absoluta/General,14,136,Zaramillo,,Bizkaia,,1203100197
+buscametas,Enkarterri Extrem Trails,2025-04-05,Sábado,60.0,trail running,Absoluta/General,8,107,Zaramillo,,Bizkaia,,1203101593
+buscametas,Enkarterri Extrem Trails,2025-04-05,Sábado,10.0,trail running,Absoluta/General,22,31,Zaramillo,,Bizkaia,,1214031227
+buscametas,Trail Cabo de Ajo,2025-03-30,Domingo,0.0,road running,Absoluta/General,60,212,Ajo,,Cantabria,,1202948563
+buscametas,Trail Cabo de Ajo,2025-03-30,Domingo,0.0,marcha,Absoluta/General,179,162,Ajo,,Cantabria,,1202949975
+buscametas,Amurrio Trail Lasterketa,2025-03-30,Domingo,0.0,trail running,Absoluta/General,48,114,Amurrio,,Álava,,1207259360
+buscametas,Amurrio Trail Lasterketa,2025-03-30,Domingo,0.0,trail running,Absoluta/General,11,72,Amurrio,,Álava,,1207260616
+buscametas,Evento de prueba,2025-03-25,Martes,10.0,road running,Absoluta/General,0,0,Güeñes,,Bizkaia,,39
+buscametas,Artxanda Urban Trail,2025-03-23,Domingo,0.0,trail running,Absoluta/General,6,76,Bilbao,,Bizkaia,,1201896233
+buscametas,Artxanda Urban Trail,2025-03-23,Domingo,0.0,trail running,Absoluta/General,20,106,Bilbao,,Bizkaia,,1201894754
+buscametas,Lau Haizeta Trail,2025-03-23,Domingo,0.0,trail running,Absoluta/General,9,57,Mungia,,Bizkaia,,1202572473
+buscametas,Lau Haizeta Trail,2025-03-23,Domingo,0.0,trail running,Absoluta/General,60,148,Mungia,,Bizkaia,,1202571742
+buscametas,BBK Mendi Martxak - Portugalete,2025-03-16,Domingo,17.0,marcha,Absoluta/General,128,212,Portugalete,,Bizkaia,,1214112516
+buscametas,Mugagabe Trail Laudio,2025-03-01,Sábado,28.0,trail running,Absoluta/General,18,191,Laudio,,Álava,,1185552510
+buscametas,Mugagabe Trail Laudio,2025-03-01,Sábado,11.0,trail running,Absoluta/General,54,149,Laudio,,Álava,,1185553110
+buscametas,Mugagabe Trail Laudio,2025-03-01,Sábado,0.0,trail running,Absoluta/General,0,0,Laudio,,Álava,19.0,1185554281
+buscametas,Apuko Igoera  Zaramillo Enkarterri,2025-02-09,Domingo,0.0,Ciclismo y btt,Absoluta/General,6,87,Zaramillo,,Bizkaia,,1201220296
+buscametas,Apuko Igoera  Zaramillo Enkarterri,2025-02-09,Domingo,0.0,trail running,Absoluta/General,43,413,Zaramillo,,Bizkaia,,1201221500
+buscametas,BBK Mendi Martxak - Berriz,2025-02-02,Domingo,14.0,marcha,Absoluta/General,141,161,Berriz,,Bizkaia,,1214107720
+buscametas,San Antontxuko Herri Krosa,2025-01-12,Domingo,10.0,road running,Absoluta/General,81,281,Mungia,,Bizkaia,,1200594721
+buscametas,San Antontxuko Herri Krosa,2025-01-12,Domingo,5.0,road running,Absoluta/General,117,129,Mungia,,Bizkaia,,1200595375
+buscametas,5K Sopuerta,2025-01-05,Domingo,5.0,road running,Absoluta/General,32,110,Sopuerta,,Bizkaia,,1199503986
+buscametas,Bilbao Rekalde San Silvestre,2024-12-31,Martes,0.0,Otros,Mayores/Veteranos,1038,1727,Bilbao,,Bizkaia,,1199206225
+buscametas,San Silvestre Sodupe,2024-12-31,Martes,0.0,Otros,Mayores/Veteranos,80,236,Sodupe,,Bizkaia,,1199350557
+buscametas,San Silvestre de Vitoria-Gasteiz,2024-12-31,Martes,0.0,Otros,Mayores/Veteranos,1099,1402,Vitoria,Gasteizko kuadrilla,Álava,,1199457586
+buscametas,Bilbao Rekalde San Silvestre Txiki,2024-12-31,Martes,0.0,Otros,Infantil,5,15,Bilbao,,Bizkaia,,1199478285
+buscametas,Bilbao Rekalde San Silvestre Txiki,2024-12-31,Martes,0.0,Otros,Infantil,22,65,Bilbao,,Bizkaia,,1199479536
+buscametas,Bilbao Rekalde San Silvestre Txiki,2024-12-31,Martes,0.0,Otros,Infantil,33,42,Bilbao,,Bizkaia,,1199482543
+buscametas,Bilbao Rekalde San Silvestre Txiki,2024-12-31,Martes,0.0,Otros,Infantil,35,43,Bilbao,,Bizkaia,,1199483492
+buscametas,Bilbao Rekalde San Silvestre Txiki,2024-12-31,Martes,0.0,Otros,Infantil,40,55,Bilbao,,Bizkaia,,1199484398
+buscametas,Bilbao Rekalde San Silvestre Txiki,2024-12-31,Martes,0.0,Otros,Infantil,48,59,Bilbao,,Bizkaia,,1199480919
+buscametas,Olentzero Martxa Trail,2024-12-22,Domingo,0.0,trail running,Absoluta/General,23,147,Zaramillo,,Bizkaia,,1198961209
+buscametas,Olentzero Martxa Trail,2024-12-22,Domingo,0.0,trail running,Absoluta/General,51,97,Zaramillo,,Bizkaia,,1198962977
+buscametas,La Media de Vitoria-Gasteiz,2024-12-15,Domingo,0.0,road running,Absoluta/General,650,2168,Vitoria-Gasteiz,Gasteizko kuadrilla,Álava,,1198803947
+buscametas,Soxoguti Erronka,2024-12-14,Sábado,0.0,road running,Absoluta/General,42,150,Artziniega,,Álava,,1209870180
+buscametas,Oposiciones Bomberos Bilbao,2024-12-09,Lunes,0.0,Otros,Absoluta/General,0,6,Bilbao,,Bizkaia,,34
+buscametas,BBK Mendi Martxak - Bilbao,2024-12-08,Domingo,10.0,marcha,Absoluta/General,0,0,Bilbao,,Bizkaia,,1200335387
+buscametas,Zalla-Balma-Zalla,2024-12-01,Domingo,14.0,road running,Absoluta/General,39,200,Zalla,,Bizkaia,,1204385912
+buscametas,Lemoatx Trail,2024-11-17,Domingo,25.0,trail running,Absoluta/General,20,129,Lemoa,,Bizkaia,,1197964378
+buscametas,Lemoatx Trail,2024-11-17,Domingo,17.0,trail running,Absoluta/General,35,172,Lemoa,,Bizkaia,,1197963176
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,0,58,Erandio,,Bizkaia,,1197491900
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,65,0,Erandio,,Bizkaia,,1197493402
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,0,48,Erandio,,Bizkaia,,1197490178
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,62,0,Erandio,,Bizkaia,,1197492679
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,0,71,Erandio,,Bizkaia,,1197486922
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,77,0,Erandio,,Bizkaia,,1197489452
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,0,55,Erandio,,Bizkaia,,1197487444
+buscametas,Erandioko Herri Krosa,2024-11-10,Domingo,0.0,Otros,Infantil,58,0,Erandio,,Bizkaia,,1197488843
+buscametas,BBK Mendi Martxak - Basauri,2024-11-10,Domingo,14.0,marcha,Absoluta/General,99,145,Basauri,,Bizkaia,,1200311252
+buscametas,La conquista de la Almendra,2024-11-03,Domingo,10.0,road running,Absoluta/General,104,243,Vitoria,Gasteizko kuadrilla,Álava,,1204284793
+buscametas,La conquista de la Almendra,2024-11-03,Domingo,5.0,road running,Absoluta/General,93,83,Vitoria,Gasteizko kuadrilla,Álava,,1204285674
+buscametas,Vertical Pico la Cruz,2024-10-27,Domingo,0.0,road running,Absoluta/General,7,63,Galdames,,Bizkaia,,1197022910
+buscametas,BBK Mendi Martxak - Ortuella,2024-10-27,Domingo,17.0,marcha,Absoluta/General,46,80,Ortuella,,Bizkaia,,1200310664
+buscametas,Marcha Nórdica Villa de Azagra,2024-10-27,Domingo,0.0,marcha,Absoluta/General,9,16,Azagra,Erriberagoiena / Ribera Alta,Navarra,,1206731756
+buscametas,Marcha Nórdica Villa de Azagra,2024-10-27,Domingo,0.0,marcha,Absoluta/General,5,6,Azagra,Erriberagoiena / Ribera Alta,Navarra,,1206732905
+buscametas,Marcha Nórdica Villa de Azagra,2024-10-27,Domingo,0.0,marcha,Absoluta/General,0,2,Azagra,Erriberagoiena / Ribera Alta,Navarra,,1206733659
+buscametas,Oposiciones Bomberos Bilbao,2024-10-21,Lunes,0.0,Otros,Absoluta/General,1,3,Bilbao,,Bizkaia,,32
+buscametas,La Sobanuca,2024-10-20,Domingo,22.0,Ciclismo y btt,Absoluta/General,3,4,Quintana - Soba,,Cantabria,,1196558874
+buscametas,La Sobanuca,2024-10-20,Domingo,0.0,road running,Absoluta/General,11,46,Quintana - Soba,,Cantabria,,1196559495
+buscametas,La Sobanuca,2024-10-20,Domingo,0.0,marcha,Absoluta/General,75,64,Quintana - Soba,,Cantabria,,1196560162
+buscametas,La Sobanuca,2024-10-20,Domingo,0.0,marcha,Absoluta/General,122,83,Quintana - Soba,,Cantabria,,1196561911
+buscametas,La Sobanuca,2024-10-20,Domingo,26.0,Ciclismo y btt,Absoluta/General,1,8,Quintana - Soba,,Cantabria,,1206738674
+buscametas,BBK Mendi Martxak - Mungia,2024-10-20,Domingo,18.0,marcha,Absoluta/General,170,249,Mungia,,Bizkaia,,1200334114
+buscametas,Basajaun Trail Race,2024-10-19,Sábado,43.0,trail running,Absoluta/General,5,83,Galdeano,Estellerria,Navarra,,1196221958
+buscametas,Basajaun Trail Race,2024-10-19,Sábado,23.0,trail running,Absoluta/General,45,202,Galdeano,Estellerria,Navarra,,1196222702
+buscametas,Basajaun Trail Race,2024-10-19,Sábado,13.0,trail running,Absoluta/General,73,137,Galdeano,Estellerria,Navarra,,1196223631
+buscametas,Galipa Swim,2024-10-13,Domingo,0.0,Otros,Cadete/Juvenil,59,31,Zierbena,,Bizkaia,,1196000408
+buscametas,Galipa Swim,2024-10-13,Domingo,0.0,road running,Absoluta/General,0,217,Zierbena,,Bizkaia,,1196001228
+buscametas,Galipa Swim,2024-10-13,Domingo,0.0,road running,Absoluta/General,115,0,Zierbena,,Bizkaia,,1196002219
+buscametas,Galipa Swim,2024-10-13,Domingo,0.0,Otros,Otros,1,6,Zierbena,,Bizkaia,,1196003632
+buscametas,Kolitza Balmatrail,2024-10-13,Domingo,0.0,road running,Absoluta/General,32,197,Balmaseda,,Bizkaia,,1196192479
+buscametas,Kolitza Balmatrail,2024-10-13,Domingo,0.0,marcha,Absoluta/General,108,177,Balmaseda,,Bizkaia,,1196193379
+buscametas,Marcha Nórdica de Gorliz,2024-10-13,Domingo,0.0,marcha,Absoluta/General,17,22,Gorliz,,Bizkaia,,1209781292
+buscametas,Marcha Nórdica de Gorliz,2024-10-13,Domingo,0.0,marcha,Absoluta/General,13,5,Gorliz,,Bizkaia,,1209782755
+buscametas,Marcha Nórdica de Gorliz,2024-10-13,Domingo,0.0,marcha,Absoluta/General,0,0,Gorliz,,Bizkaia,,1209783918
+buscametas,Zalla Herri Bira Mayores,2024-10-12,Sábado,0.0,Otros,Mayores/Veteranos,26,102,Zalla,,Bizkaia,,29
+buscametas,Record del Kolitza,2024-10-12,Sábado,0.0,Otros,Absoluta/General,5,41,Balmaseda,,Bizkaia,,30
+buscametas,Zalla Herri Bira Txikis,2024-10-12,Sábado,0.0,Otros,Infantil,24,19,Zalla,,Bizkaia,,1195921424
+buscametas,Zalla Herri Bira Txikis,2024-10-12,Sábado,0.0,Otros,Infantil,5,20,Zalla,,Bizkaia,,1195922851
+buscametas,Zalla Herri Bira Txikis,2024-10-12,Sábado,0.0,Otros,Infantil,0,5,Zalla,,Bizkaia,,1195923322
+buscametas,AraMotz Mendi Lasterketa,2024-10-06,Domingo,22.0,road running,Absoluta/General,14,101,Amorebieta Etxano,,Bizkaia,,1196087940
+buscametas,Txara Trail,2024-09-29,Domingo,10.0,trail running,Absoluta/General,21,60,Markina Xemein,,Bizkaia,,1195680478
+buscametas,Txara Trail,2024-09-29,Domingo,21.0,trail running,Absoluta/General,6,38,Markina Xemein,,Bizkaia,,1195681411
+buscametas,Marcha nórdica Portugalete,2024-09-22,Domingo,0.0,marcha,Absoluta/General,23,20,Portugalete,,Bizkaia,,1206580844
+buscametas,Marcha nórdica Portugalete,2024-09-22,Domingo,0.0,marcha,Absoluta/General,30,6,Portugalete,,Bizkaia,,27
+buscametas,BBK Mendi Martxak - Barakaldo,2024-09-22,Domingo,13.0,marcha,Absoluta/General,125,192,Barakaldo,,Bizkaia,,1206657530
+buscametas,Picos de La Demanda - Domingo,2024-09-15,Domingo,11.0,Otros,Mayores/Veteranos,12,73,Ezcaray,,La Rioja,,20
+buscametas,Picos de La Demanda - Domingo,2024-09-15,Domingo,0.0,Otros,Infantil,0,0,Ezcaray,,La Rioja,,21
+buscametas,Picos de la demanda - Combinada,2024-09-15,Domingo,0.0,Multidisciplina,Absoluta/General,6,52,Ezcaray,,La Rioja,,26
+buscametas,Picos de La Demanda - Sábado,2024-09-14,Sábado,42.0,trail running,Absoluta/General,11,77,Ezcaray,,La Rioja,,1194697822
+buscametas,Picos de La Demanda - Sábado,2024-09-14,Sábado,21.0,trail running,Absoluta/General,41,276,Ezcaray,,La Rioja,,1194696735
+buscametas,Picos de La Demanda - Sábado,2024-09-14,Sábado,11.0,trail running,Absoluta/General,73,142,Ezcaray,,La Rioja,,1194698527
+buscametas,Picos de La Demanda - Viernes,2024-09-13,Viernes,6.5,Otros,Absoluta/General,34,131,Ezcaray,,La Rioja,,18
+buscametas,La Iruela Urban Trail,2024-08-25,Domingo,0.0,trail running,Absoluta/General,12,54,La Iruela,,Jaén,,24
+buscametas,Circuito de la Iruela,2024-08-25,Domingo,0.0,Otros,Absoluta/General,4,25,Cazorla,,Jaén,,25
+buscametas,Trailshumancia Burunchel,2024-08-18,Domingo,0.0,trail running,Absoluta/General,14,53,Burunchel,,Jaén,,23
+buscametas,Arroyo Frio Trail,2024-08-14,Miércoles,0.0,trail running,Absoluta/General,11,49,Arroyo Frio,,Jaén,,22
+buscametas,BTT Extreme Valle de Ezcaray - Domingo,2024-07-28,Domingo,0.0,Ciclismo y btt,Absoluta/General,7,90,Ezcaray,,La Rioja,,16
+buscametas,BTT Extreme Valle de Ezcaray - Domingo,2024-07-28,Domingo,0.0,Ciclismo y btt,Absoluta/General,0,0,Ezcaray,,La Rioja,48.0,17
+buscametas,BTT Extreme Valle de Ezcaray,2023-07-21,Viernes,0.0,Ciclismo y btt,Absoluta/General,4,67,Ezcaray,,La Rioja,,14
+buscametas,BTT Extreme Valle de Ezcaray,2023-07-21,Viernes,0.0,Ciclismo y btt,Absoluta/General,0,0,Ezcaray,,La Rioja,17.0,15
+buscametas,Birsortu,2021-03-01,Lunes,0.0,trail running,Absoluta/General,0,6,,,A Coruña,,2
+buscametas,Birsortu,2021-03-01,Lunes,0.0,trail running,Absoluta/General,0,4,,,A Coruña,,3
+buscametas,Birsortu,2021-03-01,Lunes,0.0,Ciclismo y btt,Absoluta/General,0,0,,,A Coruña,,4
+buscametas,Birsortu,2021-03-01,Lunes,0.0,Ciclismo y btt,Absoluta/General,0,3,,,A Coruña,,5
+buscametas,Birsortu,2021-03-01,Lunes,0.0,trail running,Absoluta/General,0,2,,,A Coruña,,6
+buscametas,Birsortu,2021-03-01,Lunes,0.0,trail running,Absoluta/General,1,3,,,A Coruña,,7
+buscametas,EKOC | Güeñes - Gordexola,2021-01-08,Viernes,19.0,trail running,Absoluta/General,3,43,Güeñes,,Bizkaia,,1137718597
+buscametas,EKOC | Güeñes - Gordexola,2021-01-08,Viernes,13.0,marcha,Absoluta/General,10,14,Güeñes,,Bizkaia,,1137719865
+buscametas,EKOC | Güeñes - Gordexola,2021-01-08,Viernes,39.0,Ciclismo y btt,Absoluta/General,3,119,Güeñes,,Bizkaia,,1137720347
+buscametas,EKOC | Güeñes - Gordexola,2021-01-08,Viernes,28.0,Ciclismo y btt,Absoluta/General,4,10,Güeñes,,Bizkaia,,1137721974
+buscametas,EKOC | Güeñes - Gordexola,2021-01-08,Viernes,19.0,marcha,Absoluta/General,35,33,Güeñes,,Bizkaia,,1139806404
+buscametas,EKOC | Güeñes - Gordexola,2021-01-08,Viernes,13.0,trail running,Absoluta/General,7,8,Güeñes,,Bizkaia,,1139807804
+buscametas,Bilbao San Silvestre,2020-12-01,Martes,0.0,Multidisciplina,Absoluta/General,5,53,Bilbao,,Bizkaia,,1
