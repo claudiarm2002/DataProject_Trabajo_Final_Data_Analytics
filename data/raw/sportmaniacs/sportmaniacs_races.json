@@ -13,6 +13,10 @@
       "value": "Revolution Hybrid Run"
     },
     {
+      "key": "cursa-popular-san-agusti-2026",
+      "value": "Cursa popular Sant Agustí · MusicRunNight 2026"
+    },
+    {
       "key": "2025-2026-gxcl-match-2-llandaff-fields",
       "value": "2025-2026 GXCL Match 2 Llandaff Fields"
     },
@@ -237,6 +241,10 @@
       "value": "XV 10 Km. Villa de Ribadesella 2024"
     },
     {
+      "key": "spike-island-5km-race",
+      "value": "Spike Island 5km Race"
+    },
+    {
       "key": "iv-carrera-por-tdah-valencia",
       "value": "IV CARRERA POR TDAH VALENCIA"
     },
@@ -331,6 +339,10 @@
     {
       "key": "ruta-de-la-luz-trail-race",
       "value": "Ruta de la luz Trail Race"
+    },
+    {
+      "key": "carrera-mas-rboles-mas-bosques-2026",
+      "value": "Carrera Más Árboles, Más Bosques 2026"
     },
     {
       "key": "semi-marathon-de-bizerte-2025",
@@ -483,6 +495,10 @@
     {
       "key": "satildeo-silvestre-cidade-falcatildeo2025",
       "value": "São Silvestre Cidade Falcão/2025"
+    },
+    {
+      "key": "iv-triatlon-supersprint-de-la-roda-2026",
+      "value": "IV Triatlón Supersprint de La Roda 2026"
     },
     {
       "key": "xxxiv-duatln-ciudad-de-tomelloso",
@@ -733,6 +749,10 @@
       "value": "Bidwells Oxford 10K and 3K 2025"
     },
     {
+      "key": "odessa-autumn-blaze-5k",
+      "value": "Odessa Autumn Blaze 5k"
+    },
+    {
       "key": "tsmz-2026",
       "value": "TSMZ 2026"
     },
@@ -743,6 +763,10 @@
     {
       "key": "i-estafeta-noturna-joatildeo-coelho",
       "value": "I Estafeta Noturna \"João Coelho\""
+    },
+    {
+      "key": "totalenergies-gran-fondo-alberto-contador-2026",
+      "value": "TotalEnergies Gran Fondo Alberto Contador 2026"
     },
     {
       "key": "youghal-swim-festival-2024",
@@ -853,8 +877,16 @@
       "value": "MTB CHALLENGE 2025 "
     },
     {
+      "key": "ii-carrera-nocturna-de-segovia-ciudades-patrimonio-de-la-humanidad",
+      "value": "II Carrera Nocturna de Segovia \"Ciudades Patrimonio de la Humanidad\""
+    },
+    {
       "key": "dougie-mac-5k-2023",
       "value": "Dougie Mac 5K"
+    },
+    {
+      "key": "the-bay-aquathlon-2026-series-race-3",
+      "value": "The Bay Aquathlon 2026 Series Race 3"
     },
     {
       "key": "3ordf-carrera-de-empresas-elche-ndash-grupo-paredes-automocin",
@@ -879,6 +911,10 @@
     {
       "key": "i-trail-de-ribadeo",
       "value": "I Trail de Ribadeo"
+    },
+    {
+      "key": "carrera-nocturna-quismondo-2026",
+      "value": "Carrera Nocturna Quismondo 2026"
     },
     {
       "key": "trail-cortes-de-palls--circuito-senda-de-gigantes-",
@@ -915,6 +951,10 @@
     {
       "key": "xxxvii-trofeo-san-antonio-de-la-florida",
       "value": "XXXVII TROFEO SAN ANTONIO DE LA FLORIDA"
+    },
+    {
+      "key": "tri-hard-harriers-5k-on-the-bay-2026",
+      "value": "Tri Hard Harriers 5K on the Bay 2026"
     },
     {
       "key": "club-amigos-2023",
@@ -1033,6 +1073,10 @@
       "value": "37 Carrera Popular de Nochebuena"
     },
     {
+      "key": "swansea-bay-10k-2026",
+      "value": "Swansea Bay 10k 2026"
+    },
+    {
       "key": "x-cross-villa-de-dolores",
       "value": "X CROSS VILLA DE DOLORES"
     },
@@ -1099,6 +1143,10 @@
     {
       "key": "copa-colombia-de-triatlon",
       "value": "Copa Colombia de  Triatlon"
+    },
+    {
+      "key": "hyrox-mtu-tralee-sim",
+      "value": "KERRY SIMULATION MTU TRALEE"
     },
     {
       "key": "ii-triatlon-doble-sprint-ciudad-de-ceuta",
@@ -1169,6 +1217,10 @@
       "value": "10 KM DE SANCHINARRO - 2025"
     },
     {
+      "key": "prorun-x-nightrun",
+      "value": "ProRun X Nightrun"
+    },
+    {
       "key": "defeat-delemere-2025",
       "value": "Defeat Delemere 2025"
     },
@@ -1199,6 +1251,10 @@
     {
       "key": "carrera-san-silvestre-tibacuy-2025",
       "value": "Carrera San Silvestre Tibacuy 2025"
+    },
+    {
+      "key": "47-carrera-popular-fiestas-de-la-elipa",
+      "value": "47 Carrera Popular Fiestas de La Elipa"
     },
     {
       "key": "btt-montroi-2026",
@@ -1243,6 +1299,10 @@
     {
       "key": "8ordm-gran-premio-de-montatildea-2024-i-andaina-a-rua",
       "value": "8º GRAN PREMIO DE MONTAÑA 2024 I ANDAINA A RUA"
+    },
+    {
+      "key": "topman-y-seaman-concn-2026",
+      "value": "TOPMAN  Y SEAMAN CONCÓN 2026"
     },
     {
       "key": "conquer-fitness-level-7-september-2025",
@@ -1341,6 +1401,10 @@
       "value": "Lichfield 10k 2024"
     },
     {
+      "key": "carrera-atltica-de-la-contadura-pblica",
+      "value": "CARRERA ATLÉTICA DE LA CONTADURÍA PÚBLICA"
+    },
+    {
       "key": "acuatln-perla-del-maule-2026",
       "value": "ACUATLÓN PERLA DEL MAULE 2026"
     },
@@ -1395,6 +1459,10 @@
     {
       "key": "snl-colera-2024",
       "value": "SNL COLERA 2024"
+    },
+    {
+      "key": "carrera-dcimo-aniversario-unsa---unsea",
+      "value": "CARRERA DÉCIMO ANIVERSARIO UNSA - UNSEA"
     },
     {
       "key": "topman-de-mendoza",
@@ -1481,6 +1549,10 @@
       "value": "XXVIII Rodi Media Maratón Ibercaja Ciudad de Zaragoza 2026"
     },
     {
+      "key": "heart-challenge-night-edition",
+      "value": "HEART CHALLENGE NIGHT EDITION"
+    },
+    {
       "key": "carrera-y-marcha-dia-de-castilla-y-len-2026---zamora",
       "value": "CARRERA Y MARCHA DIA DE CASTILLA Y LEÓN 2026 - ZAMORA"
     },
@@ -1495,6 +1567,10 @@
     {
       "key": "travessa-verge-del-carme-2025",
       "value": "TRAVESSA VERGE DEL CARME 2025"
+    },
+    {
+      "key": "v-pujada-a-la-serreta---vedruna",
+      "value": "V PUJADA A LA SERRETA - VEDRUNA"
     },
     {
       "key": "golf-runner-2025",
@@ -2023,6 +2099,10 @@
     {
       "key": "xxxviii-volta-a-peu-als-barris-de-sant-marcelbullli-i-sant-isidre",
       "value": "XXXVIII Volta a Peu als barris de Sant Marcel•lí i Sant Isidre"
+    },
+    {
+      "key": "laser-run-school-games-2026",
+      "value": "Laser Run School Games 2026"
     },
     {
       "key": "ix-puja-i-baixa-a-la-montanya-de-calicanto",
@@ -16645,6 +16725,10 @@
       "value": "JAYAQUE - ULTRA DE LOS CUMPAS 2018"
     },
     {
+      "key": "the-gunflint-scramble",
+      "value": "The Gunflint Scramble"
+    },
+    {
       "key": "ii-campeonato-autonomico-en-pista",
       "value": "II CAMPEONATO AUTONOMICO EN PISTA"
     },
@@ -25221,6 +25305,10 @@
       "value": "XXI CARRERA URBANA POPULAR “TRES CULTURAS” LEGUA ATLÉTICA Y PATINAJE DE VELOCIDAD"
     },
     {
+      "key": "dai-grey-swansea-bay-openwater-swim-2026",
+      "value": "Dai Grey Swansea Bay Openwater Swim 2026"
+    },
+    {
       "key": "cross-de-lugones-2019",
       "value": "Cross de Lugones 2019"
     },
@@ -32469,6 +32557,10 @@
       "value": "SKIMO SIERRA NEVADA - PAREJAS"
     },
     {
+      "key": "ultra-montatildea-palentina-2026",
+      "value": "ULTRA MONTAÑA PALENTINA 2026"
+    },
+    {
       "key": "reto-activate-oviedo-2021",
       "value": "Reto #ACTIVATE Oviedo 2021"
     },
@@ -37611,6 +37703,10 @@
     {
       "key": "hiru-haundiak",
       "value": "Hiru Haundiak"
+    },
+    {
+      "key": "zurich-marat-barcelona",
+      "value": "ZURICH MARATÓ BARCELONA"
     },
     {
       "key": "carrera-solidaria-ldquocuerva-con-la-palmardquo",
@@ -43369,6 +43465,10 @@
       "value": "Carrera de la Mujer Valencia 2022"
     },
     {
+      "key": "zurich-marato-barcelona-2022",
+      "value": "Zurich Marató Barcelona 2022"
+    },
+    {
       "key": "ii-marchacarrera-virtual-muvete-por-el-parkinson-jan",
       "value": "II MARCHA/CARRERA VIRTUAL ''MUÉVETE POR EL PARKINSON'' JAÉN"
     },
@@ -44919,6 +45019,10 @@
     {
       "key": "cruce-de-la-laguna",
       "value": "Cruce de la Laguna"
+    },
+    {
+      "key": "stafford-10k-2026",
+      "value": "Stafford 10k 2026"
     },
     {
       "key": "xx-cursa-de-la-festa-major-de-barbera-del-valles",
@@ -52373,6 +52477,10 @@
       "value": "TERUEL BIKE FESTIVAL 2023"
     },
     {
+      "key": "sant-silvestre-reus",
+      "value": "SANT SILVESTRE REUS"
+    },
+    {
       "key": "san-silvestre-zaragoza---el-rincon-2022",
       "value": "San Silvestre Zaragoza - El Rincón 2022"
     },
@@ -54039,6 +54147,10 @@
     {
       "key": "diabolik-de-ragnar-6196",
       "value": "Diabolik de Ragnar 2025"
+    },
+    {
+      "key": "zurich-marato-barcelona-2023",
+      "value": "Zurich Marató Barcelona 2023"
     },
     {
       "key": "xxii-duatln-de-marbella",
@@ -57667,6 +57779,10 @@
     {
       "key": "carrera-atletica-cross-country-10k---usme",
       "value": "Carrera Atlética Cross Country 10K - Usme"
+    },
+    {
+      "key": "leixlip-amenities-tryka-sim",
+      "value": "Leixlip Amenities TRYKA SIM"
     },
     {
       "key": "21k-atotorunners-2023",
@@ -65361,6 +65477,10 @@
       "value": "X DUATLÓN DE MENORES \"CIUDAD DE CHICLANA\""
     },
     {
+      "key": "zurich-marato-barcelona-2024",
+      "value": "Zurich Marató Barcelona 2024"
+    },
+    {
       "key": "xx-duatln-villa-de-herrera",
       "value": "XX DUATLÓN VILLA DE HERRERA"
     },
@@ -72294,7 +72414,7 @@
     },
     {
       "key": "vi-travesa-alejandro-candela",
-      "value": "VI TRAVESÍA ALEJANDRO CANDELA"
+      "value": "VI TRAVESÍA ALEJANDRO CANDELA 2024"
     },
     {
       "key": "vi-berrea-trail-race-2023",
@@ -75175,6 +75295,10 @@
     {
       "key": "i-trail-alustante",
       "value": "I TRAIL ALUSTANTE"
+    },
+    {
+      "key": "v-som-trail-som-vall-de-seta-2026",
+      "value": "V SOM TRAIL SOM VALL DE SETA 2026"
     },
     {
       "key": "san-silvestre-benahadux-2024",
@@ -82193,6 +82317,10 @@
       "value": "PEDALEO COMO NIÑA 2025"
     },
     {
+      "key": "travesia-playas-de-papagayo-dreams-lanzarote-playa-dorada-2025",
+      "value": "TRAVESIA PLAYAS DE PAPAGAYO DREAMS LANZAROTE PLAYA DORADA 2025"
+    },
+    {
       "key": "copa-e-campionato-xunta-de-galicia-de-marcha-nordica-salvaterra-de-minho",
       "value": "III Proba e Final Copa e Campionato Xunta de Galicia de Marcha Nórdica Salvaterra de Miño"
     },
@@ -82239,10 +82367,6 @@
     {
       "key": "historic-trail-calafell-2025",
       "value": "HISTORIC TRAIL CALAFELL 2025"
-    },
-    {
-      "key": "viii-trail-anna",
-      "value": "VIII TRAIL ANNA"
     },
     {
       "key": "foulees-de-vertou-2025",
@@ -84885,10 +85009,6 @@
       "value": "PÓŁMARATON BYDGOSKI - FESTIWAL BIEGÓW, III EDYCJA"
     },
     {
-      "key": "la-desertica-2025",
-      "value": "LA DESERTICA 2025"
-    },
-    {
       "key": "staku-24hrs-2025",
       "value": "STAKU 24HRS 2025"
     },
@@ -85307,6 +85427,10 @@
     {
       "key": "xi-trail-nocturno-virgen-de-las-piedras",
       "value": "XI TRAIL NOCTURNO VIRGEN DE LAS PIEDRAS"
+    },
+    {
+      "key": "xi-desafio-sierra-de-villaluenga",
+      "value": "XI DESAFIO SIERRA DE VILLALUENGA"
     },
     {
       "key": "nationale-nederlanden-san-silvestre-vallecana-virtual-2025",
@@ -88154,7 +88278,7 @@
     },
     {
       "key": "iii-ceu-sevilla-15k-experience-2026",
-      "value": "III CEU Sevilla 15K EXPERIENCE 2026"
+      "value": "III CEU SEVILLA 15K Experiencie 2026"
     },
     {
       "key": "iii-carreira-alternativa-barbadas-2026",
@@ -91409,6 +91533,14 @@
       "value": "LIGA ACUATLÓN 2026 PLAYA D´EN BOSSA"
     },
     {
+      "key": "liga-acuatln-2026-cala-san-vicente",
+      "value": "LIGA ACUATLÓN 2026 CALA SAN VICENTE"
+    },
+    {
+      "key": "comida-final-liga-acuatln-2026",
+      "value": "COMIDA FINAL LIGA ACUATLÓN 2026"
+    },
+    {
       "key": "x-trikids-santa-gertrudis-2026",
       "value": "X TRIKIDS SANTA GERTRUDIS 2026"
     },
@@ -93605,10 +93737,6 @@
       "value": "RUTA DE LA OLLA FERROVIARIA 2026"
     },
     {
-      "key": "cruce-de-bahia-algodones-2026",
-      "value": "CRUCE DE BAHIA ALGODONES 2026"
-    },
-    {
       "key": "yo-corro-por-las-vocaciones-2026",
       "value": "YO CORRO POR LAS VOCACIONES 2026"
     },
@@ -93825,10 +93953,6 @@
       "value": "Futurobike Ramales - Desafio Dama Roja 2026"
     },
     {
-      "key": "12072026",
-      "value": "12072026"
-    },
-    {
       "key": "lanzarote-summer-challenge-2026",
       "value": "Lanzarote Summer Challenge 2026"
     },
@@ -93935,6 +94059,10 @@
     {
       "key": "hit-beat-reynosa-2026",
       "value": "HIT BEAT REYNOSA 2026"
+    },
+    {
+      "key": "iii-travesia-eurosol",
+      "value": "III Travesia Eurosol"
     },
     {
       "key": "5k-platges-de-xilxes-2026",
@@ -94101,6 +94229,10 @@
       "value": "XXVIII TRIATLÓN SPRINT DE VALLADOLID"
     },
     {
+      "key": "tashkent-international-half-marathon",
+      "value": "Tashkent International Half Marathon"
+    },
+    {
       "key": "escuela-verano-azul-2027",
       "value": "ESCUELA VERANO AZUL IBIZA 2027"
     },
@@ -94241,6 +94373,10 @@
       "value": "VI Descenso a Nado “Ría del Eo” 2026"
     },
     {
+      "key": "iv-trail-el-pinalete-2026",
+      "value": "IV TRAIL EL PINALETE 2026"
+    },
+    {
       "key": "desafio-cantabro-ocr-2026",
       "value": "  Desafío Cántabro OCR 2026"
     },
@@ -94311,6 +94447,10 @@
     {
       "key": "xi-btt-sendas-del-duero-2026",
       "value": "XI BTT SENDAS DEL DUERO 2026"
+    },
+    {
+      "key": "xxxvi-fondo-popular-ciudad-de-don-benito",
+      "value": "XXXVI Fondo Popular Ciudad de Don Benito"
     },
     {
       "key": "meta-remota",
@@ -94418,7 +94558,7 @@
     },
     {
       "key": "resitencia-y-acondicionamiento-funcional-rodio-swissboring",
-      "value": "RESITENCIA Y ACONDICIONAMIENTO FUNCIONAL RODIO SWISSBORING"
+      "value": "HYDRID RODIO SWISSBORING"
     },
     {
       "key": "13a-carrera-san-martn",
@@ -94441,6 +94581,10 @@
       "value": "Haría Music Run Night 2026"
     },
     {
+      "key": "medio-maraton-san-cristobal-2026",
+      "value": "Medio Maratón San Cristobal 2026"
+    },
+    {
       "key": "trail-2-heaven-2026",
       "value": "TRAIL 2 HEAVEN 2026"
     },
@@ -94457,8 +94601,968 @@
       "value": "CARRERA POPULAR NAVAHERMOSA 2026"
     },
     {
+      "key": "iv-cronoescalada-velosa-2026",
+      "value": "IV Cronoescalada Velosa 2026"
+    },
+    {
+      "key": "10k-canacintra-torreon-2026",
+      "value": "10K CANACINTRA TORREON 2026"
+    },
+    {
+      "key": "x-carrera-popular-alamedilla---la-solana",
+      "value": "X CARRERA POPULAR ALAMEDILLA - LA SOLANA"
+    },
+    {
+      "key": "triatlon-indomable-tune-up-tlaxcala-2026",
+      "value": "Triatlon Indomable Tune Up Tlaxcala 2026"
+    },
+    {
+      "key": "carrera-saba-corre-sin-tabues-cd-de-mexico-2026",
+      "value": "Carrera Saba Corre Sin Tabúes Cd. de México 2026"
+    },
+    {
+      "key": "tecpan-trail-2026",
+      "value": "Tecpán Trail 2026"
+    },
+    {
+      "key": "i-triatln-olmpico-la-estanca-de-alcatildeiz",
+      "value": "I TRIATLÓN OLÍMPICO LA ESTANCA DE ALCAÑIZ"
+    },
+    {
+      "key": "xxviii-carrera-vertical-subida-a-oroel",
+      "value": "XXVIII CARRERA VERTICAL SUBIDA A OROEL"
+    },
+    {
+      "key": "cursa-del-fau-2026",
+      "value": "Cursa del Fau 2026"
+    },
+    {
+      "key": "xxv-carrera-popular-el-pestitildeo",
+      "value": "XXV CARRERA POPULAR ''EL PESTIÑO''"
+    },
+    {
+      "key": "1er-carrera-icatmi-2026",
+      "value": "1er Carrera Icatmi 2026"
+    },
+    {
+      "key": "meta-asuncion-2026",
+      "value": "META ASUNCION 2026"
+    },
+    {
+      "key": "higuey-corre-2026",
+      "value": "Higuey Corre 2026"
+    },
+    {
+      "key": "v-race-for-life-pel-cancer-de-mama",
+      "value": "V Race for life pel càncer de mama"
+    },
+    {
+      "key": "cronoescalada-a-la-silla-de-felipe-ii-2026",
+      "value": "CRONOESCALADA A LA SILLA DE FELIPE II 2026"
+    },
+    {
+      "key": "urban-saltillo-5k-2026",
+      "value": "URBAN SALTILLO 5K 2026"
+    },
+    {
+      "key": "travesia-playas-de-papagayo-baha-de-playa-blanca-2026",
+      "value": "TRAVESIA PLAYAS DE PAPAGAYO GRAND HAYTT LANZAROTE PLAYA DORADA 2026"
+    },
+    {
+      "key": "10k-nutrinovex",
+      "value": "10K NUTRINOVEX"
+    },
+    {
+      "key": "itau-medio-maraton-de-santiago",
+      "value": "Itaú Medio Maratón de Santiago "
+    },
+    {
+      "key": "iii-btt-ayuntamiento-de-villaquilambre-2026",
+      "value": "III BTT Ayuntamiento de Villaquilambre 2026"
+    },
+    {
+      "key": "oboncross-x",
+      "value": "OBONCROSS  X"
+    },
+    {
+      "key": "medio-maraton-farrera-2026",
+      "value": "Medio Maratón Farrera 2026"
+    },
+    {
+      "key": "triatln-md-emede-2026",
+      "value": "TRIATLÓN M.D. EMEDE 2026"
+    },
+    {
+      "key": "iii-10k-la-vall-de-sego-2026-quart-de-les-valls",
+      "value": "III 10K LA VALL DE SEGO 2026 Quart de les Valls"
+    },
+    {
+      "key": "xxxviii-carrera-popular-de-san-roque-2026-colmenar-de-oreja",
+      "value": "XXXVIII Carrera popular de San Roque 2026 \"Colmenar de Oreja\""
+    },
+    {
+      "key": "way-runner-puebla-del-principe-2026",
+      "value": "WAY RUNNER PUEBLA DEL PRINCIPE 2026"
+    },
+    {
+      "key": "entrenamiento-para-campeonato-master-2026---i-fecha",
+      "value": "ENTRENAMIENTO PARA CAMPEONATO MASTER 2026 - I FECHA"
+    },
+    {
+      "key": "ii-andaina-a-rua-serra-do-cereixido",
+      "value": "II Andaina a Rúa \"Serra do Cereixido\""
+    },
+    {
+      "key": "tela-run",
+      "value": "Tela Run"
+    },
+    {
+      "key": "rally-a-pie-con-obstaculos-san-roque-2026",
+      "value": "Rally a Pie con obstáculos San Roque 2026"
+    },
+    {
+      "key": "travesa-100-horas-del-deporte-roquetas-de-mar-2026",
+      "value": "TRAVESÍA 100 HORAS DEL DEPORTE ROQUETAS DE MAR 2026"
+    },
+    {
+      "key": "i-cursa-de-barbera-del-valles",
+      "value": "I Cursa de Barberà del Vallès"
+    },
+    {
+      "key": "carrera-mtb-galvez-2026",
+      "value": "CARRERA MTB GALVEZ 2026"
+    },
+    {
+      "key": "medio-maraton-tratados-de-cordova-2026",
+      "value": "MEDIO MARATON TRATADOS DE CORDOVA 2026"
+    },
+    {
+      "key": "atletismo-100-horas-del-deporte-roquetas-de-mar-2026",
+      "value": "ATLETISMO 100 HORAS DEL DEPORTE ROQUETAS DE MAR 2026"
+    },
+    {
+      "key": "15k-a-maritildea",
+      "value": "15K A MARIÑA 2026"
+    },
+    {
+      "key": "quertaro-maratn-2026",
+      "value": "QUERÉTARO MARATÓN 2026"
+    },
+    {
+      "key": "la-ruta-de-la-garnacha-2026",
+      "value": "LA RUTA DE LA GARNACHA 2026"
+    },
+    {
+      "key": "lxxxv-travesa-a-nado-puerto-de-motril",
+      "value": "LXXXV TRAVESÍA A NADO PUERTO DE MOTRIL"
+    },
+    {
+      "key": "iv-cronoescalada-el-sotillo",
+      "value": "IV CRONOESCALADA EL SOTILLO"
+    },
+    {
+      "key": "tr-club-deportivo-molier-2026",
+      "value": "TRI CLUB DEPORTIVO MOLIER 2026"
+    },
+    {
+      "key": "carrera-del-sol-de-tlaxcala-2026",
+      "value": "CARRERA DEL SOL DE TLAXCALA 2026"
+    },
+    {
+      "key": "mi-carrera-en-quala-2026",
+      "value": "Mi Carrera en Quala 2026"
+    },
+    {
+      "key": "cursa-popular-camprodon-2026",
+      "value": "CURSA POPULAR CAMPRODON 2026"
+    },
+    {
+      "key": "i-trail-monte-castelo-2026",
+      "value": "I TRAIL MONTE CASTELO 2026"
+    },
+    {
+      "key": "v-carrera-echale-cajera-2026",
+      "value": "V Carrera Echale Cajera 2026"
+    },
+    {
+      "key": "5to-reto-ciclista-ujat-2026",
+      "value": "5TO RETO CICLISTA UJAT 2026"
+    },
+    {
+      "key": "2da-carrera-flor-de-tabasco-2026",
+      "value": "2DA CARRERA FLOR DE TABASCO 2026"
+    },
+    {
+      "key": "xviii-bieg-papieski-w-suewie",
+      "value": "XVIII BIEG PAPIESKI W SŁUŻEWIE"
+    },
+    {
+      "key": "huizucar-extremo-2026",
+      "value": "HUIZUCAR EXTREMO 2026"
+    },
+    {
+      "key": "caminata-ldquoruta-del-maz---tapiardquo-medal-2026",
+      "value": "CAMINATA: “RUTA DEL MAÍZ - TAPIA” MEDAL 2026"
+    },
+    {
+      "key": "valencia-trail-race-2026-2027",
+      "value": "VALENCIA TRAIL RACE 2026-2027"
+    },
+    {
+      "key": "infinity-run-2026",
+      "value": "Infinity Run 2026"
+    },
+    {
+      "key": "trail-indapas-2026",
+      "value": "Trail Indapas 2026"
+    },
+    {
+      "key": "sports-world-games-grit-vs-traint-2026",
+      "value": "Sports World Games GRIT VS TRAINT 2026"
+    },
+    {
+      "key": "pasion-que-corre-2026",
+      "value": "Pasión que Corre 2026"
+    },
+    {
+      "key": "belco-tower-challenge-2026",
+      "value": "Belco Tower Challenge 2026"
+    },
+    {
+      "key": "toro-run-san-sebastian-de-los-reyes-2026",
+      "value": "TORO RUN SAN SEBASTIAN DE LOS REYES 2026"
+    },
+    {
+      "key": "trail-el-guerrero-2026",
+      "value": "TRAIL EL GUERRERO 2026"
+    },
+    {
+      "key": "ix-trail-anna",
+      "value": "IX TRAIL ANNA"
+    },
+    {
+      "key": "lebanese-armed-forces-race---2nd-edition",
+      "value": "LEBANESE ARMED FORCES RACE - 2nd Edition"
+    },
+    {
+      "key": "3ra-edicion-trail-de-la-catildea-2026-12930",
+      "value": "3RA EDICION TRAIL DE LA CAÑA 2026"
+    },
+    {
+      "key": "la-xichu-trail-run-2026",
+      "value": "LA XICHU TRAIL RUN 2026"
+    },
+    {
+      "key": "x-triatln-ciudad-de-roquetas",
+      "value": "X TRIATLÓN \"CIUDAD DE ROQUETAS\""
+    },
+    {
+      "key": "40-aguacarbo-2026",
+      "value": "40 AGUACARBO 2026"
+    },
+    {
+      "key": "53ordf-edicin-carrera-popular-villa-de-sotillo-2026",
+      "value": "53ª EDICIÓN CARRERA POPULAR VILLA DE SOTILLO 2026"
+    },
+    {
+      "key": "triatlon-veracruz-boca-del-rio-2026",
+      "value": "Triatlón Veracruz-Boca del Río 2026"
+    },
+    {
+      "key": "10k-la-mundial",
+      "value": "10K LA MUNDIAL"
+    },
+    {
+      "key": "subida-nocturna-antorchas-2026",
+      "value": "SUBIDA NOCTURNA ANTORCHAS 2026"
+    },
+    {
+      "key": "xxxii-carrera-popular-montesclaros-memorial-anibal-arevalo",
+      "value": "XXXII Carrera popular Montesclaros \"Memorial Anibal Arévalo\""
+    },
+    {
+      "key": "ii-regata-paddle-surf-festa-do-marisco",
+      "value": "II Regata Paddle Surf Festa do Marisco"
+    },
+    {
       "key": "keeper-of-the-colliery-run-2025",
       "value": "Keeper of the Colliery Run 2025"
+    },
+    {
+      "key": "i-extreme-2026",
+      "value": "I EXTREME 2026"
+    },
+    {
+      "key": "v-triatln-cros-de-menores-ciudad-de-roquetas",
+      "value": "V TRIATLÓN CROS DE MENORES \"CIUDAD DE ROQUETAS\""
+    },
+    {
+      "key": "travessia-de-lestany-de-puigcerda-2026",
+      "value": "Travessia de l'Estany de Puigcerdà 2026"
+    },
+    {
+      "key": "els-1000-del-rec-2026",
+      "value": "Els 1000 del Rec 2026"
+    },
+    {
+      "key": "10-km-ribamontan-al-mar-2026",
+      "value": "10 km Ribamontán al Mar 2026"
+    },
+    {
+      "key": "xii-carrera-monumental-villa-de-almazn-2026",
+      "value": "XII CARRERA MONUMENTAL VILLA DE ALMAZÁN 2026"
+    },
+    {
+      "key": "5k-fun-run-2026",
+      "value": "5K Fun Run 2026"
+    },
+    {
+      "key": "actividad-deportiva-notions",
+      "value": "Actividad Deportiva Notions"
+    },
+    {
+      "key": "xxii-legua-villa-puebla-de-sanabria",
+      "value": "XXII LEGUA VILLA PUEBLA DE SANABRIA"
+    },
+    {
+      "key": "7a-carrera-vertical-bbva-2026",
+      "value": "7a Carrera Vertical BBVA 2026"
+    },
+    {
+      "key": "sharks-junior-gower-aquathlon-swansea-bay",
+      "value": "Sharks Junior Gower Aquathlon Swansea Bay"
+    },
+    {
+      "key": "trail-del-mezcal-sierra-de-durango-2026",
+      "value": "TRAIL DEL MEZCAL SIERRA DE DURANGO 2026"
+    },
+    {
+      "key": "funimetrada-2026",
+      "value": "Funimetrada 2026"
+    },
+    {
+      "key": "13ordf-cursa-de-sant-felix-2026",
+      "value": "13ª Cursa de Sant Fèlix 2026"
+    },
+    {
+      "key": "vi-triatlo-jove-de-balaguer-i-i-triatlo-supersrint-2026",
+      "value": "VI Triatlo Jove de Balaguer i I Triatló SúperSrint 2026"
+    },
+    {
+      "key": "huelva-verde-onupolis-2026",
+      "value": "Huelva Verde Onupolis 2026"
+    },
+    {
+      "key": "iii-evento-solidario-ldquomemorial-alonsordquo-cilleros-2026",
+      "value": "III Evento Solidario “Memorial Alonso” CILLEROS 2026"
+    },
+    {
+      "key": "trail-montatildea-pico-del-fraile-de-tejadillos",
+      "value": "TRAIL MONTAÑA PICO DEL FRAILE DE TEJADILLOS"
+    },
+    {
+      "key": "corriendo-juntos-contra-el-hambre-2026-contrissa--bamx",
+      "value": "CORRIENDO JUNTOS CONTRA EL HAMBRE 2026 CONTRISSA / BAMX"
+    },
+    {
+      "key": "x-travessa-la-fosca---palamos",
+      "value": "X Travessa La Fosca - Palamòs"
+    },
+    {
+      "key": "mtb-san-luis-temalacayuca-2026",
+      "value": "MTB SAN LUIS TEMALACAYUCA 2026"
+    },
+    {
+      "key": "5k-universidades-hermanas-utt-uac-2026",
+      "value": "5K UNIVERSIDADES HERMANAS UTT-UAC 2026"
+    },
+    {
+      "key": "10k-simsa-2026",
+      "value": "10K SIMSA 2026"
+    },
+    {
+      "key": "xi-trail-nocturno-villa-de-alfacar",
+      "value": "XI TRAIL NOCTURNO VILLA DE ALFACAR"
+    },
+    {
+      "key": "x-carrera-de-la-sandia-velada",
+      "value": "X CARRERA DE LA SANDIA (Velada)"
+    },
+    {
+      "key": "san-silvestre-pacense-ndash-badajoz-2026",
+      "value": "San Silvestre Pacense – BADAJOZ 2026"
+    },
+    {
+      "key": "xi-nocturna-de-recas",
+      "value": "XI NOCTURNA DE RECAS"
+    },
+    {
+      "key": "iv-cross-nocturno-10k-y-5k-ldquociudad-de-coriardquo-ndash-2026",
+      "value": "IV Cross Nocturno 10K y 5K “Ciudad de Coria” – 2026"
+    },
+    {
+      "key": "i-carrera-empresas-huelva24-2026",
+      "value": " I Carrera Empresas Huelva24 2026"
+    },
+    {
+      "key": "bimbo-global-race-2026--el-salvador",
+      "value": "Bimbo Global Race 2026 | El Salvador"
+    },
+    {
+      "key": "37degedicion-medio-maraton-atlas-2026",
+      "value": "37°Edición Medio Maratón Atlas 2026"
+    },
+    {
+      "key": "sports-world-games-grit-vs-traint-2026-of",
+      "value": "Sports World Games GRIT VS TRAINT 2026 of"
+    },
+    {
+      "key": "19a-carrera-atletica-facultad-de-quimica-2026",
+      "value": "19a Carrera Atlética Facultad de Química 2026"
+    },
+    {
+      "key": "trail-san-vicente-de-leon-2026",
+      "value": "Trail San Vicente de Leon 2026"
+    },
+    {
+      "key": "btt-deza-resiste-2026",
+      "value": "BTT Deza Resiste 2026"
+    },
+    {
+      "key": "55-premio-de-ciclismo-villa-de-almazan-2026",
+      "value": "55 Premio de Ciclismo Villa de Almazán 2026"
+    },
+    {
+      "key": "xxvii-carrera-popular-ldquovilla-de-olivardquo-ndash-oliva-de-la-frontera-2026",
+      "value": "XXVII Carrera Popular “Villa de Oliva” – OLIVA DE LA FRONTERA 2026"
+    },
+    {
+      "key": "xlii-carrera-popular-ldquosan-miguelrdquo-navalmoral-de-la-mata-2026",
+      "value": "XLII Carrera Popular “San Miguel” NAVALMORAL DE LA MATA 2026"
+    },
+    {
+      "key": "xviii-triatln-estndar-y-open-de-lantadilla",
+      "value": "XVIII TRIATLÓN ESTÁNDAR Y OPEN DE LANTADILLA"
+    },
+    {
+      "key": "xviii-carrera-mtb-santa-olalla",
+      "value": "XVIII Carrera MTB Santa Olalla"
+    },
+    {
+      "key": "barbie-run-guadalajara-2026",
+      "value": "Barbie Run Guadalajara 2026"
+    },
+    {
+      "key": "triatlon-miramar",
+      "value": "TRIATLON MIRAMAR 2026"
+    },
+    {
+      "key": "21k-renovart-sps",
+      "value": "21k Renovart sps"
+    },
+    {
+      "key": "xlii-carrera-popular-de-mocejon-trofeo-antonio-ruano",
+      "value": "XLII CARRERA POPULAR DE MOCEJON TROFEO ANTONIO RUANO"
+    },
+    {
+      "key": "tijola---circuito-de-carreras-populares-diputacin-de-almera-2026",
+      "value": "TIJOLA - CIRCUITO DE CARRERAS POPULARES DIPUTACIÓN DE ALMERÍA 2026"
+    },
+    {
+      "key": "the-bay-swim-2026-series-race-3",
+      "value": "The Bay Swim 2026 Series Race 3"
+    },
+    {
+      "key": "the-bay-5k-2026-series-race-3",
+      "value": "The Bay 5K 2026 Series Race 3"
+    },
+    {
+      "key": "cronoescalada-4-canyes-matadepera-2026",
+      "value": "CRONOESCALADA 4 CANYES MATADEPERA 2026"
+    },
+    {
+      "key": "90a-travessia-al-port-de-salou",
+      "value": "90a TRAVESSIA AL PORT DE SALOU"
+    },
+    {
+      "key": "cursa-de-la-coia-2026",
+      "value": "CURSA DE LA COIA 2026"
+    },
+    {
+      "key": "xi-desafo-castillejo-de-nvar",
+      "value": " XI DESAFÍO \"CASTILLEJO DE NÍVAR\""
+    },
+    {
+      "key": "i-carrera-solidaria-club-polideportivo-el-encinar-2026",
+      "value": "I Carrera Solidaria club polideportivo El ENCINAR 2026"
+    },
+    {
+      "key": "corrida-concon-21k-2026",
+      "value": "Corrida Concón 21K 2026"
+    },
+    {
+      "key": "stgo21k-by-asics-agosto-2026",
+      "value": "STGO21K by ASICS Agosto 2026"
+    },
+    {
+      "key": "churrogueresca26",
+      "value": "churrogueresca26"
+    },
+    {
+      "key": "xxxi-subida-al-santuario-de-sancho-abarca-en-bicicleta",
+      "value": "XXXI SUBIDA AL SANTUARIO DE SANCHO ABARCA EN BICICLETA"
+    },
+    {
+      "key": "gran-premio-murgiverde-2026",
+      "value": "GRAN PREMIO MURGIVERDE 2026"
+    },
+    {
+      "key": "gp-miguel-arroyo-2026",
+      "value": "GP Miguel Arroyo 2026"
+    },
+    {
+      "key": "29-corsa-e-caminada-des-15-pobles-26",
+      "value": "29 Corsa e Caminada des 15 Pòbles 26"
+    },
+    {
+      "key": "maraton-medellin-2026",
+      "value": "Maratón Medellín 2026"
+    },
+    {
+      "key": "x-polkowicki-bieg-niepodlegoci",
+      "value": "X POLKOWICKI BIEG NIEPODLEGŁOŚCI"
+    },
+    {
+      "key": "ivtrail-salvatrail-ndash-salvatierra-de-los-barros-2026",
+      "value": " IVTrail Salvatrail – SALVATIERRA DE LOS BARROS 2026"
+    },
+    {
+      "key": "xiii-carrera-popular-corriendo-por-hctor-valero-2026",
+      "value": "XIII CARRERA POPULAR CORRIENDO POR HÉCTOR VALERO 2026"
+    },
+    {
+      "key": "trail-la-grajera-2026",
+      "value": "TRAIL LA GRAJERA 2026"
+    },
+    {
+      "key": "noja-race-by-desafio-cantabro-2026",
+      "value": "Noja Race by Desafío Cántabro 2026"
+    },
+    {
+      "key": "cmso-cursa-de-muntanya-serra-dorpesa-2026",
+      "value": "CMSO (CURSA DE MUNTANYA SERRA D'ORPESA  2026)"
+    },
+    {
+      "key": "summer-race-2026",
+      "value": "SUMMER RACE 2026"
+    },
+    {
+      "key": "legutioko-txakurkrosa-2026",
+      "value": "LEGUTIOKO TXAKURKROSA 2026"
+    },
+    {
+      "key": "senderos-con-raiz",
+      "value": "SENDEROS CON RAÍZ"
+    },
+    {
+      "key": "5k-entremuralles-mascarell-2026",
+      "value": "5K ENTREMURALLES MASCARELL 2026"
+    },
+    {
+      "key": "iv-btt-de-allariz",
+      "value": "IV BTT de Allariz"
+    },
+    {
+      "key": "xi-carrera-solidaria-cristo-de-la-fe-carranque-2026",
+      "value": "XI CARRERA SOLIDARIA CRISTO DE LA FE CARRANQUE 2026"
+    },
+    {
+      "key": "vertical-colonia-montserrat-2026",
+      "value": "Vertical Colònia Montserrat 2026"
+    },
+    {
+      "key": "v-triatln-de-villamuriel",
+      "value": "V TRIATLÓN DE VILLAMURIEL"
+    },
+    {
+      "key": "viii-subida-virgen-del-espino-los-molinos-2026",
+      "value": "VIII SUBIDA VIRGEN DEL ESPINO LOS MOLINOS 2026"
+    },
+    {
+      "key": "xix-carrera-popular-illescas-10k-y-5k-2026",
+      "value": "XIX CARRERA POPULAR ILLESCAS 10K Y 5K 2026"
+    },
+    {
+      "key": "trail-running-chicauma",
+      "value": "Trail Running Chicauma"
+    },
+    {
+      "key": "osorno-sin-lmites",
+      "value": "OSORNO SIN LÍMITES"
+    },
+    {
+      "key": "sule-memorial-road-race",
+      "value": "Sule Memorial Road Race"
+    },
+    {
+      "key": "11a-trraco-aiges-obertes---la-travessia-de-les-6-platges",
+      "value": "11a TÀRRACO AIGÜES OBERTES - La Travessia de les 6 Platges"
+    },
+    {
+      "key": "xx-desfrenada",
+      "value": "XX Desfrenada"
+    },
+    {
+      "key": "44e-cros-popular-11-de-setembre-2026",
+      "value": "44è Cros Popular 11 de Setembre 2026"
+    },
+    {
+      "key": "transenyera-2026",
+      "value": "Transenyera 2026"
+    },
+    {
+      "key": "66-bellaterra-2026",
+      "value": "6.6 Bellaterra 2026"
+    },
+    {
+      "key": "triatlo-club-natacio-castellet-2026",
+      "value": "Triatló Club Natació Castellet 2026"
+    },
+    {
+      "key": "tuna-race-balfego-2026",
+      "value": "Tuna Race Balfegó 2026"
+    },
+    {
+      "key": "x-triatln-sagunto",
+      "value": "X TRIATLÓN SAGUNTO"
+    },
+    {
+      "key": "kiai-run-cancun-2-edicion-2026",
+      "value": "KIAI RUN CANCUN 2 EDICION 2026"
+    },
+    {
+      "key": "campeonato-xunta-de-galicia-de-marcha-nordica-ii-proba-de-copa-xunta-de-galicia-de-marcha-nordica-open-cabeza-",
+      "value": "Campeonato Xunta de Galicia de Marcha Nórdica, II Proba de Copa Xunta de Galicia de Marcha Nórdica, Open Cabeza de Manzaneda 2026"
+    },
+    {
+      "key": "mvrun-2026",
+      "value": "MVRUN 2026"
+    },
+    {
+      "key": "xxxiii-subida-a-la-atalaya-2026",
+      "value": "XXXIII SUBIDA A LA ATALAYA 2026"
+    },
+    {
+      "key": "vii-carrera-nocturna-y-marcha-solidaria-san-mateo-2026",
+      "value": "VII CARRERA NOCTURNA Y MARCHA SOLIDARIA SAN MATEO 2026"
+    },
+    {
+      "key": "carrera-solidaria-ademto",
+      "value": "Carrera solidaria \"ADEMTO\""
+    },
+    {
+      "key": "diversidad-natural-2026-puerto-de-santa-cruz",
+      "value": "Diversidad Natural 2026-Puerto de Santa Cruz"
+    },
+    {
+      "key": "la-melonera-2026",
+      "value": "LA MELONERA 2026"
+    },
+    {
+      "key": "xxiii-carrera-mtb-sierra-de-noez-ldquola-revientapiernasrdquo-2026",
+      "value": "XXIII CARRERA MTB SIERRA DE NOEZ “LA REVIENTAPIERNAS” 2026"
+    },
+    {
+      "key": "desafio-de-lava-2026",
+      "value": "Desafío de Lava 2026"
+    },
+    {
+      "key": "l-etape-tabasco-by-tour-de-france-2026",
+      "value": "L Etape Tabasco by Tour de France 2026"
+    },
+    {
+      "key": "tegraxtecho-run",
+      "value": "TegraxTecho Run"
+    },
+    {
+      "key": "xiii-bieg-uliczny-w-marcina-o-puchar-burmistrza-miasta-i-gminy-kpno-bieg-sub-mundurowych-24294",
+      "value": "XIII BIEG ULICZNY ŚW. MARCINA O PUCHAR BURMISTRZA MIASTA I GMINY KĘPNO BIEG SŁUŻB MUNDUROWYCH"
+    },
+    {
+      "key": "ruta-anfibia-091-por-tierra-y-por-mar-polica-nacional-2026",
+      "value": "RUTA ANFIBIA 091 POR TIERRA Y POR MAR'' POLICÍA NACIONAL 2026"
+    },
+    {
+      "key": "macael---circuito-de-carreras-populares-diputacin-de-almera-2026",
+      "value": "MACAEL - CIRCUITO DE CARRERAS POPULARES DIPUTACIÓN DE ALMERÍA 2026"
+    },
+    {
+      "key": "xiv-carrera-popular-luis-miguel-martin-berlanas",
+      "value": "XIV Carrera popular Luis Miguel Martin Berlanas"
+    },
+    {
+      "key": "vi-travesa-a-nado-puertos-de-roquetas",
+      "value": "VI TRAVESÍA A NADO ''PUERTOS DE ROQUETAS''"
+    },
+    {
+      "key": "v-endurance-ecuestres",
+      "value": "V  FECHA ENDURANCE ECUESTRES"
+    },
+    {
+      "key": "21k-chilchota-2026",
+      "value": "21K CHILCHOTA 2026"
+    },
+    {
+      "key": "xxii-marcha-ciclodeportiva-las-4-cimas-2026",
+      "value": "XXII MARCHA CICLODEPORTIVA ''LAS 4 CIMAS'' 2026"
+    },
+    {
+      "key": "iii-gran-premio-san-joaqun-de-marcha-nrdica-albal-2026",
+      "value": "III GRAN PREMIO SAN JOAQUÍN DE MARCHA NÓRDICA ALBALÁ-2026."
+    },
+    {
+      "key": "i-tri-cross-super-sprint-2026",
+      "value": "I TRI CROSS SUPER SPRINT 2026"
+    },
+    {
+      "key": "v-carrera-del-aceite-de-oliva-de-navalvillar-de-pela",
+      "value": "V CARRERA DEL ACEITE DE OLIVA DE NAVALVILLAR DE PELA"
+    },
+    {
+      "key": "larra-larrau-2026",
+      "value": "LARRA LARRAU 2026"
+    },
+    {
+      "key": "svar-run---2026",
+      "value": "SÍVAR RUN - 2026"
+    },
+    {
+      "key": "iii-memorial-fernando-garca-yun-marcha-ciclista-majadahonda-2026",
+      "value": "III MEMORIAL FERNANDO GARCÍA YUN MARCHA CICLISTA  MAJADAHONDA 2026"
+    },
+    {
+      "key": "16ma-carrera-de-la-esperanza-2026",
+      "value": "16va Carrera de la Esperanza 2026"
+    },
+    {
+      "key": "triatlon-de-san-esteban-de-pravia",
+      "value": "Triatlón de San Esteban de Pravia"
+    },
+    {
+      "key": "13ordm-carrera-popular-la-villa-de-don-fadrique-toledo",
+      "value": "13º CARRERA POPULAR La Villa de Don Fadrique (Toledo)"
+    },
+    {
+      "key": "configuration-de-base-15410",
+      "value": "configuration de base"
+    },
+    {
+      "key": "xv-cxm-valle-de-los-gujares",
+      "value": " XV CxM VALLE DE LOS GUÁJARES"
+    },
+    {
+      "key": "iii-xco-purullena-geoparque",
+      "value": "III XCO PURULLENA GEOPARQUE"
+    },
+    {
+      "key": "5k-dennys-tours-corre",
+      "value": "5k Dennys Tours Corre"
+    },
+    {
+      "key": "carrerea-5k-10k-el-debate-guamuchil",
+      "value": "CARRERA 5K 10K EL DEBATE GUAMUCHIL"
+    },
+    {
+      "key": "lamiya-hibrid-race-26",
+      "value": "LAMIYA Hibrid Race 26"
+    },
+    {
+      "key": "15k-formentera-sunset-run-2026",
+      "value": "15K Formentera Sunset Run 2026"
+    },
+    {
+      "key": "xxxii-soria-valonsadero",
+      "value": "XXXII SORIA VALONSADERO"
+    },
+    {
+      "key": "xxix-circuito-provincial-de-campo-a-traves",
+      "value": "XXIX Circuito Provincial de Campo a Través"
+    },
+    {
+      "key": "i-triatln-sprint-platges-delx",
+      "value": "I TRIATLÓN SPRINT PLATGES D'ELX"
+    },
+    {
+      "key": "carrera-salado-quila-2026",
+      "value": "CARRERA SALADO-QUILA 2026"
+    },
+    {
+      "key": "uci---crc-506-gran-fondo-de-costa-rica-2026",
+      "value": "UCI - CRC 506 GRAN FONDO DE COSTA RICA 2026"
+    },
+    {
+      "key": "xii-cursa-sant-carles-xtrem",
+      "value": "XII Cursa Sant Carles XTREM 2026"
+    },
+    {
+      "key": "xviii-cursa-de-sa-sobrassada-semimarat-per-relleus-2026",
+      "value": "XVIII CURSA DE SA SOBRASSADA-SEMIMARATÓ PER RELLEUS 2026"
+    },
+    {
+      "key": "viii-travesia-alejandro-candela-2026",
+      "value": "VIII TRAVESIA ALEJANDRO CANDELA 2026"
+    },
+    {
+      "key": "10ordm-edicion-caminamos-contra-el-cncer-afol-2026",
+      "value": "10º Edición CAMINAMOS CONTRA EL CÁNCER AFOL 2026"
+    },
+    {
+      "key": "carrera-de-la-mujer-a-coruntildea-2026",
+      "value": "Carrera de la Mujer A Coruña 2026"
+    },
+    {
+      "key": "iii-carrera-popular-villa-romana-el-solao-rielves",
+      "value": "III Carrera popular \"Villa Romana El Solao-Rielves\""
+    },
+    {
+      "key": "xli-carrera-popular-de-fregenal-de-la-sierra",
+      "value": "XLI Carrera Popular de Fregenal de la Sierra"
+    },
+    {
+      "key": "buenavistilla-trail-run-2026",
+      "value": "Buenavistilla Trail Run 2026"
+    },
+    {
+      "key": "skoda-titan-series-almeria-2026",
+      "value": "Skoda Titan Series Almería 2026"
+    },
+    {
+      "key": "ii-carrera-y-marcha-solidaria-apandapt-2026",
+      "value": "II CARRERA Y MARCHA SOLIDARIA APANDAPT 2026"
+    },
+    {
+      "key": "xx-media-maraton-ldquoreserva-de-la-biosfera-de-monfraguerdquo-ndash-malpartida-de-plasencia-2026",
+      "value": "XX Media Maratón “Reserva de la Biosfera de Monfragüe” – MALPARTIDA DE PLASENCIA 2026"
+    },
+    {
+      "key": "xiv-carrera-nocturna-san-miguel",
+      "value": "XIV CARRERA NOCTURNA SAN MIGUEL"
+    },
+    {
+      "key": "16ordf-volta-a-peu-de-les-falles",
+      "value": "16ª Volta a Peu de les Falles"
+    },
+    {
+      "key": "xxxviii-cross-rector-ndash-universidad-carlos-iii-de-madrid",
+      "value": "XXXVIII Cross Rector – UNIVERSIDAD CARLOS III DE MADRID"
+    },
+    {
+      "key": "wodcelona-2026-friday",
+      "value": "Wodcelona 2026 Friday"
+    },
+    {
+      "key": "quiroga-bike-marathon-2026",
+      "value": "Quiroga Bike Marathon 2026"
+    },
+    {
+      "key": "ruba-race-2026-3k-y-5k",
+      "value": "RUBA RACE 2026 3K Y 5K"
+    },
+    {
+      "key": "iv-kilometros-solidarios-ruta091-la-linea-de-la-concepcion",
+      "value": "IV Kilómetros solidarios Ruta091-La Linea de la Concepción"
+    },
+    {
+      "key": "5ta-carrera-cucs-5k-2026",
+      "value": "5ta Carrera CUCS 5K 2026"
+    },
+    {
+      "key": "las-flores-trail-run-2026",
+      "value": "Las Flores Trail Run 2026"
+    },
+    {
+      "key": "proantildeo-trail-2026",
+      "value": "Proaño Trail 2026"
+    },
+    {
+      "key": "ii-berrea-bike-experience-fuenlabrada-de-los-montes-2026",
+      "value": "II BERREA BIKE EXPERIENCE FUENLABRADA DE LOS MONTES 2026"
+    },
+    {
+      "key": "viii-travesa-umdula-2026",
+      "value": "VIII TRAVESÍA UMÉDULA 2026"
+    },
+    {
+      "key": "enduro-gejar-sierra-2026",
+      "value": "ENDURO GÜEJAR SIERRA 2026"
+    },
+    {
+      "key": "jubilee-test-2026",
+      "value": "Jubilee Test  2026"
+    },
+    {
+      "key": "x-carrera-de-la-uva",
+      "value": "X CARRERA DE LA UVA"
+    },
+    {
+      "key": "pezuelatrail",
+      "value": "PEZUELATRAIL"
+    },
+    {
+      "key": "triatlon-de-la-uva-parras-2026",
+      "value": "TRIATLON DE LA UVA PARRAS 2026"
+    },
+    {
+      "key": "wodcelona-2026-saturday",
+      "value": "Wodcelona 2026 Saturday"
+    },
+    {
+      "key": "desafo-entre-cafetales--dec--santo-toms",
+      "value": "DESAFÍO ENTRE CAFETALES -DEC- SANTO TOMÁS"
+    },
+    {
+      "key": "xiii-btt-ruta-de-la-garnacha---borja",
+      "value": "XIII BTT RUTA DE LA GARNACHA - BORJA"
+    },
+    {
+      "key": "ix-duatlon-nocturno-sobradiel",
+      "value": "IX DUATLON NOCTURNO SOBRADIEL"
+    },
+    {
+      "key": "iii-5k-y-10k-ciudad-de-huesca-2026",
+      "value": "III 5K Y 10K CIUDAD DE HUESCA 2026"
+    },
+    {
+      "key": "xv-carrera-popular-humanes-de-madrid",
+      "value": "XV Carrera popular Humanes de Madrid"
+    },
+    {
+      "key": "ix-carrera-de-autos-locos-laquociudad-de-alhamaraquo",
+      "value": "IX Carrera de Autos Locos «Ciudad de Alhama»"
+    },
+    {
+      "key": "rally-torreon-de-albolote-2026",
+      "value": "RALLY TORREON DE ALBOLOTE 2026"
+    },
+    {
+      "key": "13092026",
+      "value": "13092026"
+    },
+    {
+      "key": "carrera-nocturna-tres-cantos-2026",
+      "value": "CARRERA NOCTURNA TRES CANTOS 2026"
+    },
+    {
+      "key": "wodcelona-2026-sunday",
+      "value": "Wodcelona 2026 Sunday"
+    },
+    {
+      "key": "corriendo-por-nuestros-heroes",
+      "value": "Corriendo por Nuestros Heroes"
+    },
+    {
+      "key": "lichfield-10k-2026",
+      "value": "Lichfield 10k 2026"
     },
     {
       "key": "guarda-trail-running-2025",
@@ -94705,6 +95809,10 @@
       "value": "8 Correr SIN GLU10"
     },
     {
+      "key": "calonge-2026",
+      "value": "CALONGE 2026"
+    },
+    {
       "key": "clsica-engativa-2025",
       "value": "CLÁSICA ENGATIVA 2025"
     },
@@ -94785,6 +95893,10 @@
       "value": "VILLAMANTA MTB 2026"
     },
     {
+      "key": "21ordf-subida-a-la-fuente-de-el-paco-2026",
+      "value": "21ª Subida a la fuente de El Paco 2026"
+    },
+    {
       "key": "xxxvii-vuelta-popular-utiel",
       "value": "XXXVII Vuelta Popular Utiel"
     },
@@ -94815,6 +95927,10 @@
     {
       "key": "gran-fondo-internacional-de-7-aguas-2025",
       "value": "Gran Fondo Internacional de 7 Aguas 2025"
+    },
+    {
+      "key": "xxvi-milla-vila-de-sanxenxo",
+      "value": "XXVI MILLA VILA DE SANXENXO"
     },
     {
       "key": "duatlo-viladecans-2024",
@@ -94895,6 +96011,10 @@
     {
       "key": "6-horas-de-madrid---2025",
       "value": "6 HORAS DE MADRID - 2025"
+    },
+    {
+      "key": "xx-acuatln-de-ceuta-campeonato-autonomico",
+      "value": "XX ACUATLÓN DE CEUTA, CAMPEONATO AUTONOMICO"
     },
     {
       "key": "cursa-del-foc-2026",
@@ -95397,6 +96517,10 @@
       "value": "Poppy Scotland 2024"
     },
     {
+      "key": "focns-challenge-2026",
+      "value": "FOCNS CHALLENGE 2026"
+    },
+    {
       "key": "aquatlo-platja-daro-2024",
       "value": "AQUATLO PLATJA D'ARO 2024"
     },
@@ -95645,6 +96769,10 @@
       "value": "XV PUJADA AL CASTELL DE MONTESA"
     },
     {
+      "key": "xxvi-pujada-al-montcabrer",
+      "value": "XXVI PUJADA AL MONTCABRER"
+    },
+    {
       "key": "smash-sherwood-2025",
       "value": "Smash Sherwood 2025"
     },
@@ -95699,6 +96827,10 @@
     {
       "key": "runathy-2024",
       "value": "Runathy 2024"
+    },
+    {
+      "key": "chatsworth-10k-2026",
+      "value": "Chatsworth 10k 2026"
     },
     {
       "key": "hamilcar-grvl-xcm",
@@ -96049,6 +97181,10 @@
       "value": "XVIII CAIXABANK 10K Y 5K CENTENARIO CN HELIOS ZARAGOZA 2025"
     },
     {
+      "key": "xxxvi-cross-popular-monesterio",
+      "value": "XXXVI Cross Popular Monesterio 2026"
+    },
+    {
       "key": "xi-carrera-entre-castillos-2026",
       "value": "XI CARRERA ENTRE CASTILLOS 2026"
     },
@@ -96157,6 +97293,10 @@
       "value": "Campeonato de España de Triatlón de Invierno - Reinosa 2025"
     },
     {
+      "key": "marlow-red-kite-sportive-2026",
+      "value": "Marlow Red Kite Sportive 2026"
+    },
+    {
       "key": "stephan-lewis-aquathlon-2026",
       "value": "Stephan Lewis Aquathlon 2026"
     },
@@ -96263,6 +97403,10 @@
     {
       "key": "beernight-miraflores",
       "value": "BEERNIGHT MIRAFLORES"
+    },
+    {
+      "key": "dougie-mac-bike-ride-2026",
+      "value": "Dougie Mac Bike Ride 2026"
     },
     {
       "key": "quest-kilarney-2024",
@@ -96429,6 +97573,10 @@
       "value": "XXXVII Vuelta a Huelva"
     },
     {
+      "key": "i-triatlon-trijucar-ovimancha-2026",
+      "value": "I Triatlón Trijucar Ovimancha 2026"
+    },
+    {
       "key": "san-silvestre-solidaria-cangas-de-onis-2024",
       "value": "San Silvestre Solidaria Cangas de Onís 2024"
     },
@@ -96531,6 +97679,14 @@
     {
       "key": "i-milla-nocturna-villanueva-de-la-catildeada",
       "value": "I MILLA NOCTURNA VILLANUEVA DE LA CAÑADA"
+    },
+    {
+      "key": "4everfit-fitness-event-coventry",
+      "value": "4EVERFIT FITNESS EVENT COVENTRY"
+    },
+    {
+      "key": "roy-castle-delamere-2026",
+      "value": "Roy Castle Delamere 2026"
     },
     {
       "key": "duatlo-btt-angles-2025",
@@ -96717,6 +97873,10 @@
       "value": "I CORONA NEGRA TRAIL"
     },
     {
+      "key": "gladiator-race-santiago-2026",
+      "value": "Gladiator Race Santiago 2026"
+    },
+    {
       "key": "xxxiii-media-maraton-aviles-atletica-avilesina",
       "value": "XXXIII Media Maratón Avilés Atlética Avilesina"
     },
@@ -96769,6 +97929,10 @@
       "value": "UAR GLADIATOR RACE LOGROÑO 2023"
     },
     {
+      "key": "caerphilly-5k-2026",
+      "value": "Caerphilly 5K 2026"
+    },
+    {
       "key": "xii-trail-do-trega-2025",
       "value": "XII Trail do Trega 2025"
     },
@@ -96791,6 +97955,10 @@
     {
       "key": "san-silvestre-praviana-2024",
       "value": "SAN SILVESTRE PRAVIANA 2024"
+    },
+    {
+      "key": "carrera-popular-de-portonovo-iv-memorial-rafael-gonzalez-michu-2026",
+      "value": "Carrera Popular de Portonovo IV Memorial Rafael González Michu 2026"
     },
     {
       "key": "4ordm-trail-run-pinhel-cidade-falcatildeo",
@@ -97281,6 +98449,10 @@
       "value": "I Milha em Atletismo Alberto Bastos"
     },
     {
+      "key": "xi-marcha-mtb-rincones-del-guadarrama---moskito-bikers",
+      "value": "XI Marcha MTB Rincones del Guadarrama - Moskito Bikers"
+    },
+    {
       "key": "ponle-freno-zaragoza-2023",
       "value": "Ponle Freno Zaragoza 2023"
     },
@@ -97427,6 +98599,10 @@
     {
       "key": "campo-a-traves-escolar-zonal-de-gijon---2023",
       "value": "Campo a Través Escolar Zonal de Gijón - 2023"
+    },
+    {
+      "key": "full-moon-villanua-2026",
+      "value": "Full Moon Villanúa 2026"
     }
   ],
   "status": "ok"

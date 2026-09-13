@@ -1,4 +1,4 @@
-Nom_Cursa,Data,Modalitat,Distancia_Subcursa,Finishers_Homes,Finishers_Dones,URL_Resultats,Total_Finishers
+﻿Nom_Cursa,Data,Modalitat,Distancia_Subcursa,Finishers_Homes,Finishers_Dones,URL_Resultats,Total_Finishers
 EWR WINTER EDITION TERRASSA,31/01/2021,trail,EWR Winter Edition,0,0,https://xipgroc.cat/ca/curses/EWRWinter2020/ewr-winter-edition/resultats,0
 10A CURSA DE CAP D’ANY DE SABADELL - VIRTUAL,31/01/2021,running,5-10K,0,0,https://xipgroc.cat/ca/curses/capdany2020/5-10k/resultats,0
 TEST CRONOMETRAT 5K,21/02/2021,running-pista.,Sèries,103,25,https://xipgroc.cat/ca/curses/Marbella_5K_01/series/resultats,128
@@ -37,19 +37,6 @@ XIV CROS ESCOLAR DE NOU BARRIS 2021,25/04/2021,trail,F2013,0,11,https://xipgroc.
 XIV CROS ESCOLAR DE NOU BARRIS 2021,25/04/2021,trail,M2013,33,0,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2021/M2013/resultats,33
 XIV CROS ESCOLAR DE NOU BARRIS 2021,25/04/2021,trail,F2014,0,10,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2021/F2014/resultats,10
 XIV CROS ESCOLAR DE NOU BARRIS 2021,25/04/2021,trail,M2014,21,0,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2021/M2014/resultats,21
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2021,trail,14K,203,45,https://xipgroc.cat/ca/curses/LaGarriga2021/14k/resultats,248
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2021,trail,7K,53,29,https://xipgroc.cat/ca/curses/LaGarriga2021/7k/resultats,82
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB8M,17,0,https://xipgroc.cat/ca/curses/MillaRipollet2021/SB8M/resultats,17
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB10M,31,0,https://xipgroc.cat/ca/curses/MillaRipollet2021/SB10M/resultats,31
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB8/SB10F,0,27,https://xipgroc.cat/ca/curses/MillaRipollet2021/SB8%2FSB10F/resultats,27
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB12M,12,0,https://xipgroc.cat/ca/curses/MillaRipollet2021/SB12M/resultats,12
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB12F,0,16,https://xipgroc.cat/ca/curses/MillaRipollet2021/sb12f/resultats,16
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB14M_F,5,11,https://xipgroc.cat/ca/curses/MillaRipollet2021/sb14m_f/resultats,16
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB16M_F,8,6,https://xipgroc.cat/ca/curses/MillaRipollet2021/SB16M_F/resultats,14
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,Dones,0,25,https://xipgroc.cat/ca/curses/MillaRipollet2021/dones/resultats,25
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,OpenM,42,0,https://xipgroc.cat/ca/curses/MillaRipollet2021/openm/resultats,42
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,VetM,15,0,https://xipgroc.cat/ca/curses/MillaRipollet2021/vetm/resultats,15
-24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB18_SENM,14,0,https://xipgroc.cat/ca/curses/MillaRipollet2021/sb18_senm/resultats,14
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2021,trail,14K,203,45,https://xipgroc.cat/ca/curses/LaGarriga2021/14k/resultats,248
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2021,trail,7K,53,29,https://xipgroc.cat/ca/curses/LaGarriga2021/7k/resultats,82
 24A MILLA URBANA DE RIPOLLET,01/05/2021,running,SB8M,17,0,https://xipgroc.cat/ca/curses/MillaRipollet2021/SB8M/resultats,17
@@ -455,8 +442,6 @@ CROS ESCOLAR NOU BARRIS,24/04/2022,trail,MF2016,23,4,https://xipgroc.cat/ca/curs
 CROS ESCOLAR NOU BARRIS,24/04/2022,trail,MF2017,16,9,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2022/mf2017/resultats,25
 CURSA MEDIJOCS,30/04/2022,trail,5 Milles,92,68,https://xipgroc.cat/ca/curses/Medijocs2020/5-milles/resultats,160
 CURSA MEDIJOCS,30/04/2022,trail,Inf 1K,13,6,https://xipgroc.cat/ca/curses/Medijocs2020/inf-1k/resultats,19
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2022,trail,14K,30,0,https://xipgroc.cat/ca/curses/LaGarriga2022/14k/resultats,30
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2022,trail,7K,84,52,https://xipgroc.cat/ca/curses/LaGarriga2022/7k/resultats,136
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2022,trail,14K,30,0,https://xipgroc.cat/ca/curses/LaGarriga2022/14k/resultats,30
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2022,trail,7K,84,52,https://xipgroc.cat/ca/curses/LaGarriga2022/7k/resultats,136
 25A MILLA URBANA DE RIPOLLET,07/05/2022,running,SB8M,14,0,https://xipgroc.cat/ca/curses/MillaRipollet2022/sb8m/resultats,14
@@ -1002,10 +987,6 @@ CURSA DELTA PRAT,30/04/2023,running,2010_2013,14,12,https://xipgroc.cat/ca/curse
 3A TRAIL SOLIDÀRIA SERRAMARINA ALELLA,01/05/2023,trail,12K,59,44,https://xipgroc.cat/ca/curses/TrailSerramarinaAlella2023/12k/resultats,103
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2023,trail,14K,30,0,https://xipgroc.cat/ca/curses/LaGarriga2023/14k/resultats,30
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2023,trail,7K,59,55,https://xipgroc.cat/ca/curses/LaGarriga2023/7k/resultats,114
-3A TRAIL SOLIDÀRIA SERRAMARINA ALELLA,01/05/2023,trail,17K,54,13,https://xipgroc.cat/ca/curses/TrailSerramarinaAlella2023/17k/resultats,67
-3A TRAIL SOLIDÀRIA SERRAMARINA ALELLA,01/05/2023,trail,12K,59,44,https://xipgroc.cat/ca/curses/TrailSerramarinaAlella2023/12k/resultats,103
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2023,trail,14K,30,0,https://xipgroc.cat/ca/curses/LaGarriga2023/14k/resultats,30
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2023,trail,7K,59,55,https://xipgroc.cat/ca/curses/LaGarriga2023/7k/resultats,114
 26A MILLA URBANA DE RIPOLLET,06/05/2023,running,SB8M,11,0,https://xipgroc.cat/ca/curses/MillaRipollet2023/sb8m/resultats,11
 26A MILLA URBANA DE RIPOLLET,06/05/2023,running,SB8F,0,7,https://xipgroc.cat/ca/curses/MillaRipollet2023/sb8f/resultats,7
 26A MILLA URBANA DE RIPOLLET,06/05/2023,running,SB10M,16,0,https://xipgroc.cat/ca/curses/MillaRipollet2023/sb10m/resultats,16
@@ -1067,11 +1048,6 @@ CURSA NOCTURNA DE CORNELLÀ RCDE RUNNING 1900,01/07/2023,running,5K,30,0,https:/
 25 CURSA D’ESTIU DE PREMIÀ DE MAR,01/07/2023,running,5k,70,81,https://xipgroc.cat/ca/curses/PremiadeMar2023/5k/resultats,151
 NIGHT TRAIL LLORET DE MAR,01/07/2023,trail,14K,164,51,https://xipgroc.cat/ca/curses/LloretNightTrail2023/14k/resultats,215
 NIGHT TRAIL LLORET DE MAR,01/07/2023,trail,7K,132,80,https://xipgroc.cat/ca/curses/LloretNightTrail2023/7k/resultats,212
-CURSA NOCTURNA DE CORNELLÀ RCDE RUNNING 1900,01/07/2023,running,5K,30,0,https://xipgroc.cat/ca/curses/NocturnaCornella2023/5k/resultats,30
-25 CURSA D’ESTIU DE PREMIÀ DE MAR,01/07/2023,running,10K,30,0,https://xipgroc.cat/ca/curses/PremiadeMar2023/10k/resultats,30
-25 CURSA D’ESTIU DE PREMIÀ DE MAR,01/07/2023,running,5k,70,81,https://xipgroc.cat/ca/curses/PremiadeMar2023/5k/resultats,151
-NIGHT TRAIL LLORET DE MAR,01/07/2023,trail,14K,164,51,https://xipgroc.cat/ca/curses/LloretNightTrail2023/14k/resultats,215
-NIGHT TRAIL LLORET DE MAR,01/07/2023,trail,7K,132,80,https://xipgroc.cat/ca/curses/LloretNightTrail2023/7k/resultats,212
 10A MILLA URBANA DE SANT PERE,02/07/2023,running,Sub8,5,4,https://xipgroc.cat/ca/curses/MillaPalau2023/sub8/resultats,9
 10A MILLA URBANA DE SANT PERE,02/07/2023,running,Sub10,7,13,https://xipgroc.cat/ca/curses/MillaPalau2023/sub10/resultats,20
 10A MILLA URBANA DE SANT PERE,02/07/2023,running,Sub12,11,6,https://xipgroc.cat/ca/curses/MillaPalau2023/sub12/resultats,17
@@ -1126,7 +1102,6 @@ CROS CIUTAT DE CERDANYOLA,30/09/2023,trail,SUB8M,32,0,https://xipgroc.cat/ca/cur
 CROS CIUTAT DE CERDANYOLA,30/09/2023,trail,OpenF,0,29,https://xipgroc.cat/ca/curses/CrosCerdanyola2023/openf/resultats,29
 CROS CIUTAT DE CERDANYOLA,30/09/2023,trail,SUB16F,0,5,https://xipgroc.cat/ca/curses/CrosCerdanyola2023/sub16f/resultats,5
 CROS CIUTAT DE CERDANYOLA,30/09/2023,trail,SUB14F,0,16,https://xipgroc.cat/ca/curses/CrosCerdanyola2023/sub14f/resultats,16
-XII CURSA NICK HORTA,01/10/2023,running,5K,30,0,https://xipgroc.cat/ca/curses/Horta2023/5k/resultats,30
 XII CURSA NICK HORTA,01/10/2023,running,5K,30,0,https://xipgroc.cat/ca/curses/Horta2023/5k/resultats,30
 8A CURSA SOLIDÀRIA SANT JUST DESVERN,07/10/2023,running,5K,96,48,https://xipgroc.cat/ca/curses/SantJust2023/5k/resultats,144
 8A CURSA SOLIDÀRIA SANT JUST DESVERN,07/10/2023,running,SUB14_16M,31,0,https://xipgroc.cat/ca/curses/SantJust2023/sub14_16m/resultats,31
@@ -1540,8 +1515,6 @@ CURSA MONTILIVI GIRONA,28/04/2024,running,10K,292,128,https://xipgroc.cat/ca/cur
 CURSA MONTILIVI GIRONA,28/04/2024,running,5K,149,135,https://xipgroc.cat/ca/curses/Montilivi2024/5k/resultats,284
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2024,trail,14K,301,142,https://xipgroc.cat/ca/curses/LaGarriga2024/14k/resultats,443
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2024,trail,7K,133,124,https://xipgroc.cat/ca/curses/LaGarriga2024/7k/resultats,257
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2024,trail,14K,301,142,https://xipgroc.cat/ca/curses/LaGarriga2024/14k/resultats,443
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2024,trail,7K,133,124,https://xipgroc.cat/ca/curses/LaGarriga2024/7k/resultats,257
 28ENA CURSA DE CARDEDEU I CURSA SOLIDÀRIA,05/05/2024,trail,10K,229,104,https://xipgroc.cat/ca/curses/Cardedeu2024/10k/resultats,333
 28ENA CURSA DE CARDEDEU I CURSA SOLIDÀRIA,05/05/2024,trail,21K-Trail,30,0,https://xipgroc.cat/ca/curses/Cardedeu2024/21k-trail/resultats,30
 CROS ESCOLAR DE SARRIÀ SANT GERVASI,05/05/2024,trail,MF_2006-2009,3,3,https://xipgroc.cat/ca/curses/CrosEscolarSantGervasi2024/mf_2006-2009/resultats,6
@@ -1652,9 +1625,6 @@ XLII CURSA POPULAR DE LA GARRIGA,03/08/2024,running,4K,30,0,https://xipgroc.cat/
 45A CURSA HYUNDAI VALLPARK FESTA MAJOR DE RIPOLLET,25/08/2024,running,2400m,1,5,https://xipgroc.cat/ca/curses/Ripollet2024/2400m/resultats,6
 45A CURSA HYUNDAI VALLPARK FESTA MAJOR DE RIPOLLET,25/08/2024,running,800m,13,5,https://xipgroc.cat/ca/curses/Ripollet2024/800m/resultats,18
 9A CURSA POPULAR DE FESTA MAJOR SANTA PERPÈTUA ...,31/08/2024,running,5K,192,89,https://xipgroc.cat/ca/curses/PerpetuaFM2024/5k/resultats,281
-XVI FESTA MAJOR SANTS,01/09/2024,running,Open 2k,66,25,https://xipgroc.cat/ca/curses/FMSants2024/open/resultats,91
-XVI FESTA MAJOR SANTS,01/09/2024,running,Promocio 2k,9,1,https://xipgroc.cat/ca/curses/FMSants2024/promocio/resultats,10
-XVI FESTA MAJOR SANTS,01/09/2024,running,Tecnificacio 2k,6,2,https://xipgroc.cat/ca/curses/FMSants2024/tecnificacio/resultats,8
 XVI FESTA MAJOR SANTS,01/09/2024,running,Open 2k,66,25,https://xipgroc.cat/ca/curses/FMSants2024/open/resultats,91
 XVI FESTA MAJOR SANTS,01/09/2024,running,Promocio 2k,9,1,https://xipgroc.cat/ca/curses/FMSants2024/promocio/resultats,10
 XVI FESTA MAJOR SANTS,01/09/2024,running,Tecnificacio 2k,6,2,https://xipgroc.cat/ca/curses/FMSants2024/tecnificacio/resultats,8
@@ -1874,21 +1844,6 @@ JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2016,71,45,https://xipgroc.ca
 JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2017,63,43,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2017/resultats,106
 JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2018,80,35,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2018/resultats,115
 LA 5K DE SANT VICENÇ DE MONTALT,01/12/2024,running,5K,30,0,https://xipgroc.cat/ca/curses/Montalt2024/5k/resultats,30
-101 JEAN BOUIN OPEN,01/12/2024,running,10k,90,0,https://xipgroc.cat/ca/curses/JeanBouin2024/10k/resultats,90
-101 JEAN BOUIN OPEN,01/12/2024,running,5k,30,0,https://xipgroc.cat/ca/curses/JeanBouin2024/5k/resultats,30
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,SUB20_23F,0,1,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/sub20_23f/resultats,1
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,SUB20_23M,13,0,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/sub20_23m/resultats,13
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,SenF,0,12,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/senf/resultats,12
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,SenM,24,0,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/senm/resultats,24
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,2007_2010,45,32,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/2007_2010/resultats,77
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,2011_2012,61,49,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/2011_2012/resultats,110
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2013,65,39,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2013/resultats,104
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2014,65,36,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2014/resultats,101
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2015,71,45,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2015/resultats,116
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2016,71,45,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2016/resultats,116
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2017,63,43,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2017/resultats,106
-JEAN BOUIN FEDERATS I ESCOLARS,01/12/2024,running,M2018,80,35,https://xipgroc.cat/ca/curses/JeanBouinFedEsc2024/m2018/resultats,115
-LA 5K DE SANT VICENÇ DE MONTALT,01/12/2024,running,5K,30,0,https://xipgroc.cat/ca/curses/Montalt2024/5k/resultats,30
 CURSA DE SANT ANDREU - BARCELONA,06/12/2024,running,5k,30,0,https://xipgroc.cat/ca/curses/SantAndreu2024/5k/resultats,30
 CURSA DE SANT ANDREU - BARCELONA,06/12/2024,running,Júnior,41,12,https://xipgroc.cat/ca/curses/SantAndreu2024/junior/resultats,53
 LA SANSI 17 VILADECANS,08/12/2024,running,5k,30,0,https://xipgroc.cat/ca/curses/SansiViladecans2024/5k/resultats,30
@@ -2016,12 +1971,6 @@ LA MINI 2025 GRANOLLERS,01/03/2025,running,PreB,116,89,https://xipgroc.cat/ca/cu
 LA MINI 2025 GRANOLLERS,01/03/2025,running,Ben,116,72,https://xipgroc.cat/ca/curses/LaMini2025/ben/resultats,188
 LA MINI 2025 GRANOLLERS,01/03/2025,running,Ale,90,72,https://xipgroc.cat/ca/curses/LaMini2025/ale/resultats,162
 LA MINI 2025 GRANOLLERS,01/03/2025,running,Inf,47,29,https://xipgroc.cat/ca/curses/LaMini2025/inf/resultats,76
-LA MINI 2025 GRANOLLERS,01/03/2025,running,BaldF,0,82,https://xipgroc.cat/ca/curses/LaMini2025/baldf/resultats,82
-LA MINI 2025 GRANOLLERS,01/03/2025,running,BaldM,90,0,https://xipgroc.cat/ca/curses/LaMini2025/baldm/resultats,90
-LA MINI 2025 GRANOLLERS,01/03/2025,running,PreB,116,89,https://xipgroc.cat/ca/curses/LaMini2025/preb/resultats,205
-LA MINI 2025 GRANOLLERS,01/03/2025,running,Ben,116,72,https://xipgroc.cat/ca/curses/LaMini2025/ben/resultats,188
-LA MINI 2025 GRANOLLERS,01/03/2025,running,Ale,90,72,https://xipgroc.cat/ca/curses/LaMini2025/ale/resultats,162
-LA MINI 2025 GRANOLLERS,01/03/2025,running,Inf,47,29,https://xipgroc.cat/ca/curses/LaMini2025/inf/resultats,76
 MITJA MARATÓ LA MITJA,02/03/2025,running,21k,3765,1189,https://xipgroc.cat/ca/curses/Granollers2025/21k/resultats,4954
 MITJA MARATÓ LA MITJA,02/03/2025,running,10k,687,530,https://xipgroc.cat/ca/curses/Granollers2025/10k/resultats,1217
 MITJA MARATÓ LA MITJA,02/03/2025,running,5k,194,136,https://xipgroc.cat/ca/curses/Granollers2025/5k/resultats,330
@@ -2134,10 +2083,6 @@ CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2025,trail,14K,291,110,https://xipgro
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2025,trail,7K,169,141,https://xipgroc.cat/ca/curses/LaGarriga2025/7k/resultats,310
 CURSA DE MONTGAT,01/05/2025,running,10K,30,0,https://xipgroc.cat/ca/curses/Montgat2025/10k/resultats,30
 CURSA DE MONTGAT,01/05/2025,running,5K,213,150,https://xipgroc.cat/ca/curses/Montgat2025/5k/resultats,363
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2025,trail,14K,291,110,https://xipgroc.cat/ca/curses/LaGarriga2025/14k/resultats,401
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2025,trail,7K,169,141,https://xipgroc.cat/ca/curses/LaGarriga2025/7k/resultats,310
-CURSA DE MONTGAT,01/05/2025,running,10K,30,0,https://xipgroc.cat/ca/curses/Montgat2025/10k/resultats,30
-CURSA DE MONTGAT,01/05/2025,running,5K,213,150,https://xipgroc.cat/ca/curses/Montgat2025/5k/resultats,363
 29ENA CURSA DE CARDEDEU I CURSA SOLIDÀRIA,04/05/2025,trail,10K,238,114,https://xipgroc.cat/ca/curses/Cardedeu2025/10k/resultats,352
 29ENA CURSA DE CARDEDEU I CURSA SOLIDÀRIA,04/05/2025,trail,15K-Trail,134,34,https://xipgroc.cat/ca/curses/Cardedeu2025/15K/resultats,168
 CURSA DELTA PRAT,11/05/2025,running,10K,30,12,https://xipgroc.cat/ca/curses/DeltaPrat2025/10k/resultats,42
@@ -2198,16 +2143,6 @@ CURSA NOCTURNA DE CORNELLÀ RCDE RUNNING 1900,31/05/2025,running,5K,30,0,https:/
 PRIMERA CURSA ANTIRACISTA DE BARCELONA,01/06/2025,running,5K,450,736,https://xipgroc.cat/ca/curses/Antiracista2025/5k/resultats,1186
 12A CURSA DE LA DONA - CACO - SANT VICENÇ DELS ...,01/06/2025,running,1K,0,35,https://xipgroc.cat/ca/curses/CACO2025/1k/resultats,35
 12A CURSA DE LA DONA - CACO - SANT VICENÇ DELS ...,01/06/2025,running,5K,0,247,https://xipgroc.cat/ca/curses/CACO2025/5k/resultats,247
-14A CURSA POPULAR ILLA CARLEMANY,01/06/2025,running,5K,595,525,https://xipgroc.cat/ca/curses/IllaCarlemany2025/5k/resultats,1120
-14A CURSA POPULAR ILLA CARLEMANY,01/06/2025,running,2K,387,575,https://xipgroc.cat/ca/curses/IllaCarlemany2025/2k/resultats,962
-14A CURSA POPULAR ILLA CARLEMANY,01/06/2025,running,2K Inf,303,277,https://xipgroc.cat/ca/curses/IllaCarlemany2025/2k-inf/resultats,580
-46A MARXA POPULAR TRAIL ARENYS DE MAR,01/06/2025,trail,11Km,30,0,https://xipgroc.cat/ca/curses/TrailArenys2025/11km/resultats,30
-8ENA CURSA SOLIDÀRIA PER L’ELA SANT ADRIÀ DE BESÒS,01/06/2025,running,5k,60,0,https://xipgroc.cat/ca/curses/SantAdriaELA2025/5k/resultats,60
-16ª EDICIO ELS 10 DE SANTA,01/06/2025,running,10K,30,0,https://xipgroc.cat/ca/curses/lasanta2025/10k/resultats,30
-16ª EDICIO ELS 10 DE SANTA,01/06/2025,running,3000 m,84,91,https://xipgroc.cat/ca/curses/lasanta2025/3000-m/resultats,175
-PRIMERA CURSA ANTIRACISTA DE BARCELONA,01/06/2025,running,5K,450,736,https://xipgroc.cat/ca/curses/Antiracista2025/5k/resultats,1186
-12A CURSA DE LA DONA - CACO - SANT VICENÇ DELS ...,01/06/2025,running,1K,0,35,https://xipgroc.cat/ca/curses/CACO2025/1k/resultats,35
-12A CURSA DE LA DONA - CACO - SANT VICENÇ DELS ...,01/06/2025,running,5K,0,150,https://xipgroc.cat/ca/curses/CACO2025/5k/resultats,150
 21A CURSA DE PINEDA DE MAR,08/06/2025,running,10k,30,0,https://xipgroc.cat/ca/curses/Pineda2025/10k/resultats,30
 II TRAIL BENÈFICA MALALTIES  MINORITÀRIES,08/06/2025,trail,12k,90,27,https://xipgroc.cat/ca/curses/TrailMinoritaries2025/12k/resultats,117
 II TRAIL BENÈFICA MALALTIES  MINORITÀRIES,08/06/2025,trail,7_5K,32,29,https://xipgroc.cat/ca/curses/TrailMinoritaries2025/7_5k/resultats,61
@@ -2309,8 +2244,6 @@ EL TAST DE LA MITJA,25/10/2025,running,10K,30,0,https://xipgroc.cat/ca/curses/Ta
 5KM I 10KM URBANS DE MANRESA,26/10/2025,running,10K,30,0,https://xipgroc.cat/ca/curses/Manresa2025/10k/resultats,30
 5KM I 10KM URBANS DE MANRESA,26/10/2025,running,5K,30,0,https://xipgroc.cat/ca/curses/Manresa2025/5k/resultats,30
 5KM I 10KM URBANS DE MANRESA,26/10/2025,running,Cursa_Promoció,22,33,https://xipgroc.cat/ca/curses/Manresa2025/cursa_promocio/resultats,55
-BUFF MONTJUÏC-TIBIDABO,01/11/2025,running,10K,236,148,https://xipgroc.cat/ca/curses/MontjuicTibidabo2025/10k/resultats,384
-BUFF MONTJUÏC-TIBIDABO,01/11/2025,running,21k,330,93,https://xipgroc.cat/ca/curses/MontjuicTibidabo2025/21k/resultats,423
 BUFF MONTJUÏC-TIBIDABO,01/11/2025,running,10K,236,148,https://xipgroc.cat/ca/curses/MontjuicTibidabo2025/10k/resultats,384
 BUFF MONTJUÏC-TIBIDABO,01/11/2025,running,21k,330,93,https://xipgroc.cat/ca/curses/MontjuicTibidabo2025/21k/resultats,423
 MARATÓ I MITJA AL PARC DE COLLSEROLA,02/11/2025,trail,Mitja,241,62,https://xipgroc.cat/ca/curses/UECHorta2025/mitja/resultats,303
@@ -2510,10 +2443,6 @@ MITJA DE TERRASSA,01/02/2026,running,Mitja,1592,456,https://xipgroc.cat/ca/curse
 MITJA DE TERRASSA,01/02/2026,running,5K,311,291,https://xipgroc.cat/ca/curses/MitjaTerrassa2026/5k/resultats,602
 XXVII CURSA MOLLET DEL VALLÈS - ST. VICENÇ 2026,01/02/2026,running,10K,30,0,https://xipgroc.cat/ca/curses/Mollet2026/10k/resultats,30
 XXVII CURSA MOLLET DEL VALLÈS - ST. VICENÇ 2026,01/02/2026,running,5k,223,155,https://xipgroc.cat/ca/curses/Mollet2026/5k/resultats,378
-MITJA DE TERRASSA,01/02/2026,running,Mitja,1592,456,https://xipgroc.cat/ca/curses/MitjaTerrassa2026/mitja/resultats,2048
-MITJA DE TERRASSA,01/02/2026,running,5K,311,291,https://xipgroc.cat/ca/curses/MitjaTerrassa2026/5k/resultats,602
-XXVII CURSA MOLLET DEL VALLÈS - ST. VICENÇ 2026,01/02/2026,running,10K,30,0,https://xipgroc.cat/ca/curses/Mollet2026/10k/resultats,30
-XXVII CURSA MOLLET DEL VALLÈS - ST. VICENÇ 2026,01/02/2026,running,5k,223,155,https://xipgroc.cat/ca/curses/Mollet2026/5k/resultats,378
 TRAIL VILA DE CREIXELL,15/02/2026,trail,"10,9k",95,33,https://xipgroc.cat/ca/curses/Creixell2026/10-9k/resultats,128
 TRAIL VILA DE CREIXELL,15/02/2026,trail,"3,7K",21,16,https://xipgroc.cat/ca/curses/Creixell2026/3-7k/resultats,37
 6A ARRELS TRAIL 2026 I CAMPIONAT CATALUNYA TRAI...,21/02/2026,trail,OPEN 8K,29,6,https://xipgroc.cat/ca/curses/ArrelsTrail2026/open-8k/resultats,35
@@ -2528,21 +2457,6 @@ BOTIFARUNNER LA LLACUNA,22/02/2026,trail,"21,5K",30,0,https://xipgroc.cat/ca/cur
 BOTIFARUNNER LA LLACUNA,22/02/2026,trail,12K,99,27,https://xipgroc.cat/ca/curses/Botifarunner2026/12k/resultats,126
 MITJA MARATÓ COLOMENCA I 10K,22/02/2026,running,21k,513,84,https://xipgroc.cat/ca/curses/Colomenca2026/21k/resultats,597
 MITJA MARATÓ COLOMENCA I 10K,22/02/2026,running,10k,339,140,https://xipgroc.cat/ca/curses/Colomenca2026/10k/resultats,479
-"UNIRUN, LA CURSA DE LES UNIVERSITATS",01/03/2026,running,5K,61,0,https://xipgroc.cat/ca/curses/UNIRUN2026/5k/resultats,61
-XXII CROS DE NOU BARRIS,01/03/2026,trail,MF_2014,22,15,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/mf_2014/resultats,37
-XXII CROS DE NOU BARRIS,01/03/2026,trail,F2015,0,18,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/f2015/resultats,18
-XXII CROS DE NOU BARRIS,01/03/2026,trail,M2015,33,0,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/m2015/resultats,33
-XXII CROS DE NOU BARRIS,01/03/2026,trail,F2016,0,17,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/f2016/resultats,17
-XXII CROS DE NOU BARRIS,01/03/2026,trail,M2016,26,0,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/m2016/resultats,26
-XXII CROS DE NOU BARRIS,01/03/2026,trail,MF2020,16,11,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/mf2020/resultats,27
-XXII CROS DE NOU BARRIS,01/03/2026,trail,MF2021,8,14,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/mf2021/resultats,22
-XXII CROS DE NOU BARRIS,01/03/2026,trail,F2017,0,18,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/f2017/resultats,18
-XXII CROS DE NOU BARRIS,01/03/2026,trail,M2017,28,0,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/m2017/resultats,28
-XXII CROS DE NOU BARRIS,01/03/2026,trail,F2018,0,15,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/f2018/resultats,15
-XXII CROS DE NOU BARRIS,01/03/2026,trail,M2018,39,0,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/m2018/resultats,39
-XXII CROS DE NOU BARRIS,01/03/2026,trail,F2019,0,6,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/f2019/resultats,6
-XXII CROS DE NOU BARRIS,01/03/2026,trail,M2019,20,0,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/m2019/resultats,20
-XXII CROS DE NOU BARRIS,01/03/2026,trail,MF2010_2013,24,20,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/mf2010_2013/resultats,44
 "UNIRUN, LA CURSA DE LES UNIVERSITATS",01/03/2026,running,5K,61,0,https://xipgroc.cat/ca/curses/UNIRUN2026/5k/resultats,61
 XXII CROS DE NOU BARRIS,01/03/2026,trail,MF_2014,22,15,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/mf_2014/resultats,37
 XXII CROS DE NOU BARRIS,01/03/2026,trail,F2015,0,18,https://xipgroc.cat/ca/curses/CrosEscolarNouBarris2026/f2015/resultats,18
@@ -2632,16 +2546,6 @@ CURSA MONTILIVI GIRONA,26/04/2026,running,10K,296,142,https://xipgroc.cat/ca/cur
 CURSA MONTILIVI GIRONA,26/04/2026,running,5K,143,150,https://xipgroc.cat/ca/curses/Montilivi2026/5k/resultats,293
 PONLE FRENO BADALONA,26/04/2026,running,10K,751,272,https://xipgroc.cat/ca/curses/BDNPonlefreno2026/10k/resultats,1023
 PONLE FRENO BADALONA,26/04/2026,running,5K,447,478,https://xipgroc.cat/ca/curses/BDNPonlefreno2026/5k/resultats,925
-CURSA DE MONTGAT,01/05/2026,running,10K,30,0,https://xipgroc.cat/ca/curses/Montgat2026/10k/resultats,30
-CURSA DE MONTGAT,01/05/2026,running,5K,258,214,https://xipgroc.cat/ca/curses/Montgat2026/5k/resultats,472
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,14K,244,78,https://xipgroc.cat/ca/curses/LaGarriga2026/14k/resultats,322
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,7K,158,93,https://xipgroc.cat/ca/curses/LaGarriga2026/7k/resultats,251
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,SUB18,7,1,https://xipgroc.cat/ca/curses/LaGarriga2026/sub18/resultats,8
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,SUB16,1,3,https://xipgroc.cat/ca/curses/LaGarriga2026/sub16/resultats,4
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,SUB14,9,3,https://xipgroc.cat/ca/curses/LaGarriga2026/sub14/resultats,12
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,SUB12,8,10,https://xipgroc.cat/ca/curses/LaGarriga2026/sub12/resultats,18
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,SUB10,18,10,https://xipgroc.cat/ca/curses/LaGarriga2026/sub10/resultats,28
-CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,SUB8,26,7,https://xipgroc.cat/ca/curses/LaGarriga2026/sub8/resultats,33
 CURSA DE MONTGAT,01/05/2026,running,10K,30,0,https://xipgroc.cat/ca/curses/Montgat2026/10k/resultats,30
 CURSA DE MONTGAT,01/05/2026,running,5K,258,214,https://xipgroc.cat/ca/curses/Montgat2026/5k/resultats,472
 CURSA DE LES TORTUGUES DE LA GARRIGA,01/05/2026,trail,14K,244,78,https://xipgroc.cat/ca/curses/LaGarriga2026/14k/resultats,322
