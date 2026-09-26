@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Dades en brut (scraping) ---
+# Contenen dades personals de participants (noms, dorsals, temps...) tal
+# com es van descarregar de cada web. No han de sortir a GitHub.
+data/raw/
+
+# --- Dades processades per font ---
+# Encara a nivell d'individu/carrera per font (abans de l'agregació final
+# a data/processed/union/, que sí es manté versionada).
+data/processed/buscametas/
+data/processed/carreirasgalegas/
+data/processed/ccnorte/
+data/processed/championsxip/
+data/processed/cronofinisher/
+data/processed/cronorunner/
+data/processed/cruzandolameta/
+data/processed/cursescat/
+data/processed/iter5/
+data/processed/mychip/
+data/processed/raceresult/
+data/processed/sportmaniacs/
+data/processed/timingsys/
+data/processed/youevent/
+
+# --- Notebooks / pipeline ---
+# Logs d'execució i carpeta interna de sessions de Claude
+notebooks/**/_run_logs/
+notebooks/**/.claude/
+
+# Còpies de seguretat / notebooks i fitxers obsolets o duplicats
+*.OLD_backup.ipynb
+*LIMPIO 2.csv

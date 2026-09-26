@@ -1,0 +1,1116 @@
+INCONVENIENTS TROBATS DURANT EL TFM
+(llista viva — es va afegint un punt cada vegada que apareix un problema nou)
+Última actualització: 2026-09-24
+
+== NETEJA I UNIÓ DE DADES ==
+
+1. Bug a `Limpieza_union.ipynb` — comunitats autònomes uniprovincials:
+   La funció `normalitzar_ubicacions()` buidava el camp `provincia` sempre que hi
+   detectava el nom d'una comunitat autònoma, però no tenia en compte que 9 CCAA
+   són uniprovincials (Astúries, Cantàbria, Madrid, Múrcia, Navarra, La Rioja,
+   Ceuta, Melilla, Illes Balears) i el nom de la CCAA hi coincideix amb el de la
+   seva única província. Resultat: 3.139 files amb `municipio` conegut es
+   quedaven sense `provincia` tot i que el valor era vàlid.
+
+2. `provincia_ine` (codi) es resolia correctament via diversos fallbacks, però
+   cap d'ells escrivia el resultat de tornada a la columna `provincia` (text),
+   que es quedava buida o amb el valor cru de la font. Calia un pas addicional
+   per omplir `provincia` a partir de `provincia_ine` ja resolt.
+
+3. 71 files (0,15% de les 46.525 amb `municipio` conegut) són irresolubles amb
+   les dades d'origen: llocs no reals ("Varios On Line", "Virtual", "Prueba"...)
+   o topònims ambigus entre diverses províncies (A Silva, A Pobra, Cobas,
+   Ribagorza). No és manca de cerca, és que la informació no hi és a l'origen.
+
+4. Bug a `Limpieza_union.ipynb` — columna `finisher_desconocido` perduda:
+   En seleccionar només les 12 columnes comunes a les 13 fonts, es descartava
+   `finisher_desconocido`/`finisher_desconegut` (participants amb gènere no
+   especificat per la font). Per a 294 carreres de sportmaniacs (26.436
+   participants) i diverses més (ccnorte, mychip, cronofinisher,
+   cruzandolameta), TOTS els finishers estaven en aquesta columna, de manera
+   que `total_finishers` acabava en 0/NaN i la carrera sencera desapareixia
+   del dashboard i del model.
+
+5. Límit de granularitat (no és un error, però cal documentar-ho a la
+   memòria): moltes categories/modalitats (ABSOLUTA, POPULAR, ALEVIN, MB30...)
+   no tenen un patró de distància reconeixible al text i col·lapsen a
+   `distancia = 0` i al mateix `publico` ("Absoluta/General" agrupa
+   ABSOLUTA/POPULAR/GENERAL/ADULTOS/SENIOR/OPEN per disseny).
+
+6. 151 noms de municipi apareixien repartits en diverses províncies —
+   investigat i confirmat que NO era ambigüitat geogràfica genuïna, sinó un
+   problema de qualitat de dades (noms de comunitat autònoma escrits per error
+   al camp província). Descartada la idea de fer clau composta
+   `municipio_norm + provincia_norm`.
+
+7. `provincia_norm`: calia redefinir-la perquè derivés del codi INE
+   (`provincia_ine`) via el diccionari canònic de 52 províncies, en lloc del
+   text de província cru normalitzat — el text cru tenia 75 valors bruts que
+   col·lapsaven a 52 noms oficials nets; ~700 files que mostraven un valor
+   fals de comunitat autònoma (Galicia, Cataluña...) ara queden en blanc
+   correctament.
+
+8. `Limpieza_raceresult.ipynb` va fallar a l'última execució completa del
+   pipeline (`_run_pipeline.sh`, exit=1) i queda fora de la unió, sense
+   relació amb els fixes anteriors — pendent de revisar per separat.
+
+9. Les branques de scraping de RaceResult i Kronoak mai es van arribar a
+   integrar al dataset final.
+
+== POWER BI / DAX ==
+
+10. Power Query pot convertir silenciosament els valors NaN d'un CSV en
+    strings buits (""), cosa que trenca la lògica estàndard `ISBLANK()` —
+    cal verificar sempre el tipatge de columna quan un KPI dona resultats
+    inesperats.
+
+11. Repte DAX actiu a la pàgina "Geografia": els KPIs de cobertura INE
+    donaven resultats inesperats, amb `ISBLANK()` retornant 1 en lloc d'un
+    percentatge. Investigació apunta a Power Query corrompent nulls en
+    strings buits en lloc de `BLANK()` real. Workaround proposat:
+    `TRIM(columna & "") <> ""`. Confirmat per Python: ~14,5% de files amb
+    NaN real a `total_poblacion` i ~5,1% a `municipio_norm`.
+
+== MODEL / NOTEBOOKS ==
+
+12. `Modelo_finishers.ipynb` carrega `DF_TODAS.csv` (amb outliers) en lloc de
+    la versió neta `DF_TODAS_SIN_OUTLIERS.csv` — pot afectar la qualitat del
+    model, pendent de revisar.
+
+13. `Analisis_union.ipynb` i `EDA_finishers_carreras.ipynb` són duplicats
+    exactes.
+
+14. La còpia d'`Analisis_union.ipynb` pujada al projecte de Claude no conté
+    el codi `normalizar()`/`PROVINCIA_INE` que `Limpieza_INE.ipynb` diu que
+    reutilitza d'allà — el codi font no hi és present, calen indicar els
+    canvis com a instruccions en lloc d'aplicar-los directament.
+
+== GESTIÓ DE FITXERS I VERSIONS ==
+
+15. Els fitxers `DF_TODAS.csv`/`DF_TODAS_SIN_OUTLIERS.csv` pujats al projecte
+    de Claude corresponen a una versió antiga del pipeline (10 fonts, sense
+    championsxip/cronorunner/youevent/timingsys) — desactualitzats respecte
+    al pipeline local de 13 fonts a `Desktop/TFM`.
+
+16. `data_DF_RACERESULT_SUCIO.csv` identificat com a fitxer obsolet, segur
+    d'esborrar de la carpeta local.
+
+17. [RESOLT 22/9] `provincia` (text) no tenia una única grafia per
+    província: 2.182 files amb "Madrid"/"Comunidad de Madrid" (codi 28) i
+    202 amb "Murcia"/"Región de Murcia" (codi 30) pel mateix codi INE.
+    Arreglat a `Limpieza_union.ipynb`: un cop `provincia_ine` està resolt,
+    `provincia` (text) es sobreescriu SEMPRE amb el nom canònic del seu
+    codi, no només quan estava buida — igual que ja es fa amb `municipio`.
+    Verificat: 0 codis de província amb més d'una grafia al resultat final.
+
+18. [RESOLT 22/9, amb una excepció coneguda al punt 19] ~29 files on
+    `provincia_ine` quedava REALMENT mal assignat (provincia diferent de la
+    que deia el propi text `provincia` de la font), pels fallbacks de
+    "municipio compost" i "municipio únic a Espanya": un nom de municipi
+    truncat o en format "X, La/Los" coincidia per casualitat amb un altre
+    municipi real d'una altra província. Exemples verificats i corregits:
+    "Berlanga" (El Bierzo, León) ja no s'assigna a Badajoz; "Calahorra, La"
+    (Granada) ja no a La Rioja; "Palacios y Villafranca, Los" (Sevilla) ja
+    no a Navarra; "La Encina" (Alicante) ja no a Salamanca. Arreglat fent
+    que aquests fallbacks NOMÉS assignin `provincia_ine` quan encara està
+    buit — si el text `provincia` de la font ja ha resolt un codi
+    directament, ja no es deixa trepitjar per una coincidència de nom.
+
+19. Efecte secundari acceptat del fix del punt 18: hi ha un grapat de files
+    on el pipeline abans "s'autocorregia" per casualitat (el fallback de
+    municipi trobava la província real encara que el text de la font fos
+    incorrecte) i ara ja no ho fa, perquè confiem primer en el text de la
+    font quan resol directament. Verificat: "Fraga" i "Monzón" (iter5, 26
+    files en total) són municipis reals d'Osca però la font els etiqueta
+    amb `provincia`="Tarragona" — abans es corregien sols a Osca, ara es
+    queden amb el codi de Tarragona (incorrecte). És el mateix patró que ja
+    hi havia documentat a `Limpieza_union.ipynb` amb carreres de Barbastro
+    (Osca) etiquetades "Catalunya" a iter5 -- sembla un problema sistemàtic
+    d'aquesta font concreta (iter5 confon comarques d'Osca amb Tarragona/
+    Catalunya). També "Oseja de Sajambre" i "Cea" (ccnorte, 2 files) deixen
+    d'autocorregir-se igual (marcades "Asturias"/"Ourense" en lloc de León).
+    Solució recomanada quan hi hagi temps: afegir aquests casos com a
+    excepcions verificades (similar als `MUNICIPIO_ALIAS`), en lloc de
+    confiar en la coincidència del fallback.
+
+20. [RESOLT 22/9] `tipo_modalidad` no tenia categoria pròpia per a
+    natació: les curses de natació (travesses a nado, aigües obertes...)
+    queien a "Otros" (o, per defecte, a categories incorrectes com "Road
+    running"/"Multidisciplina"/"Marcha" quan cap regla de la font
+    coincidia).
+
+    Primera versió (descartada): afegir "Natación" a `Limpieza_union.ipynb`
+    per patró de text centralitzat sobre `nombre_carrera`. Investigant-ho
+    (a petició de Clàudia, que va preguntar si `tipo_modalidad` no es
+    treballava ja a cada `Limpieza_<fuente>` per separat — resposta: sí,
+    cada font ja classifica `tipo_modalidad` pel seu compte, per paraules
+    clau o per un camp estructurat propi com `esport`/`Modalitat`), es va
+    veure que centralitzar-ho a la unió amagava el problema real: `mychip`
+    i `cronofinisher` ja etiquetaven la natació de manera 100% fiable amb
+    el seu propi camp d'origen (`esport`="swimming"/"Travesía"), però
+    aquest camp es llençava a "Otros" i es descartava abans d'arribar a la
+    unió, i el patró de text centralitzat no recuperava els casos sense
+    cap paraula clau al nom ("Tragamillas", "Brazadas Solidarias",
+    "Mediterranean Coast Challenge"...).
+
+    Versió final (a petició de Clàudia: "vull que ho facis a tots els
+    Limpieza_fuente... no vull res d'això a limpieza union"): la
+    classificació de natació es fa ÍNTEGRAMENT a cada `Limpieza_<fuente>`,
+    no hi ha cap pas de natació a `Limpieza_union.ipynb` (revertit als 23
+    cel·les originals). Font per font:
+    - `mychip`/`cronofinisher`: camp propi `esport` ("swimming"/
+      "Travesía") mapejat directament a "Natación" en lloc de "Otros".
+    - `cruzandolameta`: camp propi `esport`, per paraules clau (`nado`,
+      `traves`) separades del que abans era un únic "Otros" mesclat amb
+      obstacles/virtual/canicross.
+    - `ccnorte`: paraules clau sobre el camp `modalidad`/`categoria`
+      (`traves[ií]`, `travess`, `nado`, `natac`, `aguas abiertas`, i la
+      variant gallega `augas abertas`), més dues excepcions per nom de
+      carrera afegides a mà després de verificar-les per web ("Travesía
+      Integral de los Montes Aquilianos" és una travessa de muntanya a
+      Lleó, no natació; "Circuito de Travesías de Obstáculos ENKIPRO" és
+      una cursa d'obstacles), i dues marques comercials (`MINIUS`,
+      `UPSTREAM`) afegides com a xarxa de seguretat perquè algunes
+      edicions d'aquestes series només donen la distància en metres sense
+      cap altra paraula clau.
+    - `sportmaniacs`, `iter5`, `buscametas`, `cursescat`: paraules clau
+      sobre el seu propi camp de modalitat/tipus de cursa.
+    - `cronorunner`, `youevent`: paraules clau sobre `nombre_carrera`
+      (aquestes fonts no tenen cap camp estructurat de disciplina), més
+      un grapat d'esdeveniments concrets verificats per web un per un
+      (p.ex. "Travesía de Pálmaces", "Travesía Lago Club las Encinas") en
+      lloc d'acceptar "travesía" com a paraula clau genèrica — es va
+      descartar expressament perquè en castellà també vol dir "travessa
+      de muntanya" (fals positiu confirmat: "Travesía Nocturna de
+      Modúbar de la Emparedada", un circuit de trail a Burgos, no natació).
+    - `carreirasgalegas`, `championsxip`, `timingsys`: verificat que no
+      tenen cap cursa de natació, sense canvis.
+
+    De pas es va detectar i corregir un bug d'accents preexistent al
+    pipeline: el patró `travesi`/`travesia` (sense accent) no feia match
+    amb "Travesía" (con accent, un caràcter Unicode diferent de "i") —
+    arreglat amb la classe de caràcters `traves[ií]` allà on calia.
+
+    Resultat final: 1.205 files a "Natación" d'un total de ~49.950-49.964
+    (sportmaniacs 496, ccnorte 483, cronofinisher 58, cruzandolameta 58,
+    youevent 35, mychip 26, iter5 20, cursescat 17, cronorunner 8,
+    buscametas 4).
+
+21. [RESOLT 22/9] `distancia` amb valors quasi nuls (0,001-0,09 km) en
+    diverses fonts — detectat a petició de Clàudia ("hay filas con
+    numeros de distancia casi nulo, mas vale ver donde es el error").
+    Investigant-ho es van trobar 4 causes diferents:
+
+    - `ccnorte` (bug del nostre codi, 25 files): la font sempre dona els
+      metres sense decimals ("21.097 M. DISTANCIA: 21097 M" — les dues
+      formes del mateix esdeveniment confirmen que "21.097" són 21097
+      metres, no 21,097), i el punt s'hi fa servir com a separador de
+      MILERS, mai de decimal. El codi només convertia la coma a punt
+      decimal i deixava el punt tal qual, així que Python interpretava
+      "1.600" com el número 1,6 i, en dividir per 1000 per passar a km,
+      donava 0,0016 en lloc de 1,6 (molt visible a les travesses a nado:
+      "Distancia Corta: 1.600 metros" havia de donar 1,6 km i donava
+      0,0016). Arreglat traient el punt de milers ABANS de convertir a
+      float.
+    - `mychip`, `cronorunner` (qualitat de dades d'origen, no del nostre
+      codi, 48+22 files): per un grapat de proves de categoria ADULTA,
+      l'organitzador va introduir directament el número de km al camp
+      que la font tracta com a metres (p.ex. "42K DOMINGO"/"maraton" ->
+      distancia_m=42 en lloc de 42000; "MITJA MARATÓ" -> distancia_m=21
+      en lloc de 21097). Ho confirma que "XIX SUBIDA VERTICAL GRAN HOTEL
+      BALI" repeteix EXACTAMENT 0,052 km en 15 files d'anys/categories
+      diferents — impossible amb una mesura real esdeveniment a
+      esdeveniment. No hi ha manera fiable de recuperar el valor correcte
+      només amb aquestes dades, així que es marquen com a "distància
+      desconeguda" (0, el mateix centinella que la resta) — però NOMÉS
+      per a categories que no són d'infants, perquè aquestes dues fonts
+      SÍ tenen curses infantils reals de pocs metres (30-50 m, els
+      "chupetín"/"querubín"/"nanos"/"aguiluchos"/"barrufet" típics de les
+      curses populars valencianes/catalanes).
+    - Efecte secundari trobat de pas: aquests noms de categoria infantil
+      regionals ("querubín", "nanos", "aguilucho", "xupetin"/"jupetin"
+      —variants valencianes sense "ch" de "chupetín"—, "micro", "baby" a
+      cronorunner; "barrufet" a mychip) no estaven coberts pel
+      classificador de `publico`, així que queien a "Absoluta/General"
+      tot i ser curses d'infants — arreglat afegint-los, cosa necessària
+      per poder distingir bé els casos anteriors (92 files corregides a
+      cronorunner, 3 a mychip).
+    - `carreirasgalegas` (qualitat de dades d'origen, 3 files): mateix
+      patró però només quan el nom diu "milla" (~1609 m) i la categoria
+      NO és infantil (aquesta font té "milles urbanes" amb una progressió
+      real i legítima de distàncies curtes per categoria d'edat —50 m,
+      100 m, 250 m... fins a la milla completa d'adults— que no s'han
+      tocat), més un cas de nom genèric sense cap informació ("CAMPIONATO
+      ABSOLUTO", 1 m).
+    - `cronofinisher` (bug puntual del nostre codi, 1 fila): la regex de
+      metres confonia la "M" de gènere (masculí) amb la "M" de metres a
+      "FEMINAS Y SUB-16 M", llegint "16 M" com a 16 metres. Únic cas a
+      tota la font amb aquest patró, exclòs explícitament.
+
+    Es van deixar CONSCIENTMENT sense tocar uns quants casos ambigus de
+    carreirasgalegas on la distància petita és plausible i no contradiu
+    el nom (p.ex. "50 M.L. POPULAR", literalment 50 m; "PROBA FEDERADA EN
+    PISTA", possible esprint de pista curt) i dos casos d'infants a
+    cronorunner amb el rang d'edat al nom però sense cap paraula clau
+    ("(3-5 Anys (50m))", "(nacidos 2019 y posteriores)").
+
+    Com a resultat d'aquesta revisió TAMBÉ es van detectar tres
+    modalitats esportives clarament identificables que cauen a "Otros"
+    (Obstáculos/OCR ~199 files, Canicross ~54, Piragüismo/Kayak ~44,
+    sobretot a sportmaniacs i ccnorte) — a petició expressa de Clàudia NO
+    s'han convertit en categories noves ("no quiero hacer mas categorias,
+    quiero que las que hay sean lo mas acuradas posible"), es queden
+    correctament dins "Otros".
+
+22. [RESOLT 23/9] Segona revisió de `tipo_modalidad`: paraules clau que
+    faltaven per a les 6 categories JA existents (a petició de Clàudia,
+    "fes una segona revisió de categories" — seguint estrictament la
+    mateixa instrucció del punt 20/21 de NO crear categories noves, només
+    fer més acurades les que ja hi ha). Revisades les 10 fonts amb
+    classificador propi; 6 tenien forats reals, verificats un per un
+    contra les dades (comparant abans/després per confirmar que cap fila
+    es movia entre dues categories JA classificades, només sortint
+    d'"Otros"):
+    - `sportmaniacs` (1132 files reclassificades, "Otros" 4147 -> 3054):
+      faltaven "silvestre" (San Silvestre, 440 files), "milla" (424) i
+      "volta a peu" (148, en frase completa per no confondre-la amb
+      "volta ciclista") a road running; i "cros" (grafia catalana de
+      "cross", 100) a trail running, seguint el mateix criteri que ja
+      tenia aquesta font per a "cross" en doble essa.
+    - `mychip` (701 de 1044 files amb esport="other" reclassificades,
+      "Otros" 1068 -> 367): aquesta font no tenia CAP respatller per
+      nom_carrera quan el camp tancat "esport" no distingia disciplina
+      (a diferència de cronofinisher/championsxip, que sí que són fiables
+      al 100%) — s'afegeix un classificador per paraules clau (modalidad
+      primer, nombre_carrera després) només per a "other" ("climbing" ja
+      anava bé tal qual, comprovat). Detalls fins: la marca "Trail"/
+      "Cross"/"Cros" al nom mana sobre una modalitat genèrica ("MARATON"/
+      "10K" dins d'un trail segueix sent trail, no passa a asfalt);
+      "Snowrunning"/"Snowcross" (FEDME) s'afegeixen a trail seguint el
+      criteri que ja fa servir la pròpia font per a la majoria d'aquestes
+      curses; "traves[ií]|travess" per Natación s'exclou quan el text diu
+      "esquí"/"motos de agua" (falsos positius reals: "Travesía Valle del
+      Aragón de Esquí", "Travesía Motos de Agua, millas náuticas" no són
+      natació); "ciclotur"/"cycl" (anglès) afegits a Ciclismo y btt
+      perquè sense ells "Marcha Cicloturista"/"Marcha Ale Cycling" (100+
+      km segons "modalidad", impossible a peu) queien a marcha només per
+      dir "Marcha" davant.
+    - `cruzandolameta` (75 files, "Otros" 85 -> 10): "esport" tampoc
+      tenia respatller per nom_carrera quan no distingia disciplina
+      ("Virtual", "Varias", "Ultra", "CRI", "Infantil"...). A més,
+      "solidari" passa de "Otros" a road running (no és una disciplina,
+      és el motiu benèfic — confirmat que "esport" sempre diu "Carrera
+      Solidaria"/"Solidaria", mai "Marcha Solidaria", encara que el nom
+      digui "EN MARCHA" de forma col·loquial) i "rally" a Ciclismo y btt
+      (verificat per cerca web: totes són proves de BTT/XCO del Circuit
+      Provincial BTT Rally de la Diputació de Granada). "Obstáculos"/
+      "canicross" es mantenen sempre a "Otros", sense ni consultar
+      nom_carrera.
+    - `cursescat` (11 files, "Otros" 21 -> 10): mateix forat (sense
+      respatller per nom_carrera); "Solidària" resolta via nom_carrera
+      ("Cursa de la Dona...", "Corre per l'ICTUS" ja tenien "cursa"/
+      "corre" al nom) i "cro+no.?escalada" ampliat per acceptar l'errada
+      d'scraping "Croonoescalada".
+    - `buscametas` (68 files, "Otros" 82 -> 24; d'aquestes, unes ~7 eren
+      per un fitxer desincronitzat que es va detectar de pas — vegeu
+      nota més avall): "cxm" (Carrera x Montanya) a trail running,
+      "silvestre" i "krosa" (grafia basca de "cross", seguint el mateix
+      criteri que ja tenia aquesta font per "cross" -> road running) a
+      road running. Es va descartar afegir "bira" ("vuelta" en euskera) i
+      "igoera" ("ascens"): comprovat que ja apareixen classificades de
+      forma diferent segons la modalitat concreta dins la mateixa font
+      (p.ex. "Mendi Bira" unes vegades trail, unes altres marcha) —
+      afegir-les com a paraula única hauria arriscat una classificació
+      incorrecta en lloc de corregir-ne una de real.
+    - `iter5` (7 files, "Otros" 23 -> 16): "VIRTUAL" (format, no
+      disciplina) es resol via nom_carrera ("ConFinaRun - 5K", "Cursa
+      Virtual per la Salut Mental - 10K"... totes amb senyal clara de
+      road running al nom).
+
+    Efecte secundari trobat de pas a `buscametas`: el fitxer
+    `DF_BUSCAMETAS_LIMPIO.csv` que hi havia al projecte estava
+    DESINCRONITZAT del codi real del notebook (una versió anterior del
+    classificador, sense "trail" cobrint bé "Trails" en algun cas i sense
+    "Natación" — es va detectar comparant l'output guardat dins del propi
+    notebook, que no coincidia amb el CSV). Es va regenerar sencer des
+    del `SUCIO.csv` en lloc de pedaçar només `tipo_modalidad`, reutilitzant
+    la geocodificació de comarca ja feta (cap trucada nova a Nominatim).
+    Val la pena revisar de tant en tant si algun altre `LIMPIO.csv` s'ha
+    quedat endarrerit respecte al notebook (passa quan s'edita el codi
+    però no es torna a executar tota la notebook abans de desar).
+
+    No es va tocar `championsxip`/`carreirasgalegas`/`ccnorte`/
+    `cronofinisher`/`cronorunner`/`youevent`/`timingsys`: revisats els
+    seus "Otros" restants (per a ccnorte, en concret, es va confirmar que
+    les 8 files de "TRAVESIA PRO"/"TRAVESIA PRO CORTA" —el circuit
+    d'obstacles ENKIPRO— són l'excepció `_EXCEPCIONES_NOMBRE` funcionant
+    correctament, no un bug) i el que queda és genuïnament ambigu (edat/
+    format sol, sense cap paraula de disciplina) o són modalitats
+    dinamiques que ja se sap que no encaixen (esquí de muntanya a
+    youevent, íntegrament).
+
+    Total "Otros" a la unió final després d'aquesta segona revisió: 4.252
+    files de 49.951 (8,5%), enfront de road running 28.892, trail running
+    8.952, multidisciplina 2.734, ciclismo y btt 2.353, marcha 1.552 i
+    natación 1.216.
+
+23. [RESOLT 23/9] Tercera revisió de `tipo_modalidad`, només a
+    `sportmaniacs` (a petició de Clàudia, "segueix investigant, necessito
+    que les dades siguin lo millor que puguin" — continuació directa del
+    punt 22, mateixa font, que seguia sent el "Otros" més gran amb 3.054
+    files): 290 files reclassificades, "Otros" 3.054 -> 2.764. Paraules
+    clau noves, totes dins les 6 categories existents:
+    - "bicicl" (a més de "\bbici\b", que exigeix la paraula exacta i no
+      caçava "bicicleta" sencera, p.ex. "DUATLON bicicleta de montaña")
+      a Ciclismo y btt.
+    - "\bdh\b" (Descens/Downhill, disciplina de BTT) a Ciclismo y btt —
+      confirmat amb les pròpies dades: l'única cursa on "DH" conviu amb
+      "MTB" explícit ja anava bé, la resta ("DH LA MONTAÑA", "V DH
+      AREGUME", "DH PURA ESENCIA TRABUCO") es quedaven a "Otros" per no
+      reconèixer la sigla.
+    - "andaina" (gallec, "caminada") a marcha, al costat d'"andarin" que
+      ja hi era — sense ella, "Andaina 10K"/"Andaina Longa" (opció a peu
+      d'esdeveniments com "IX CxM Vila de Cuntis") queien a road running
+      pel patró numèric o directament a "Otros".
+    - "cursa" (català genèric per "carrera") i "muntanya"/"montaña" a
+      seques (sense "trail"/"cross" ni cap altra paraula clau) es
+      resolen a part, no com una entrada més del diccionari de patrons,
+      perquè totes dues són ambigües i necessiten mirar la resta del
+      text/categories abans de decidir. Documentat aquí perquè van
+      costar tres intents fallits, cadascun detectat comparant abans/
+      després contra les dades reals abans d'aplicar cap canvi:
+        1) "cursa" afegida al patró de road running a nivell de
+           modalitat convertia "CURSA ADULTS" (categoria d'edat d'una
+           cursa de trail) en road running abans que "CROS"/"TRAIL" del
+           nom de la cursa arribessin a mirar-se -> "cursa" només es
+           prova com a últim recurs sobre `nombre_carrera`, mai sobre
+           `modalidad`.
+        2) afegir "montaña"/"muntanya" directament al patró de trail
+           running convertia "43K CICLISMO MONTAÑA" en trail running,
+           perquè trail es comprova abans que Ciclismo y btt -> "montaña"
+           sola només compta com a trail si el mateix text NO té a més
+           senyal de ciclisme (BTT/MTB/bici/gravel...).
+        3) mirar "montaña" nada més entrar, abans que la resta de
+           categories, convertia "Marxa de Muntanya"/"Marcha BTT"/
+           "Marcha Cicloturista" en trail/ciclisme per error, perquè
+           "montaña" guanyava a la paraula explícita de marcha o
+           ciclisme -> "montaña" es comprova en últim lloc, després
+           d'esgotar totes les categories amb paraula clau explícita
+           (marcha/Ciclismo inclosos, més fiables que el senyal ambigu
+           de "montaña"), i només per davant de road running (perquè
+           "Carrera de Montaña" no caigui a road running només per dur
+           "carrera").
+    Verificat fila a fila cada tipus de transició abans d'aplicar el
+    canvi final (Otros->road running 231, Otros->trail running 35,
+    Otros->Ciclismo y btt 14, Otros->marcha 10, road running->trail
+    running 46, road running->Ciclismo y btt 10, road running->marcha 4,
+    Multidisciplina->marcha 3): totes casos reals de la categoria
+    destí, cap contaminació creuada entre categories ja classificades.
+
+    Total "Otros" a la unió final després d'aquesta tercera revisió:
+    3.965 files de 49.952 (7,9%), enfront de road running 29.062, trail
+    running 9.032, multidisciplina 2.731, ciclismo y btt 2.377, marcha
+    1.569 i natación 1.216.
+
+    Pendent (continuació directa d'aquest punt, mateixa instrucció de
+    Clàudia): revisar amb el mateix nivell de detall els "Otros"
+    restants més grans, per font, dins la unió: carreirasgalegas (~475),
+    ccnorte (~435), mychip (~312, després del punt 22), cronofinisher
+    (~40) i les fonts petites que ja queden (buscametas, iter5,
+    cursescat, cruzandolameta, youevent).
+
+24. [RESOLT 23/9] Quarta revisió de `tipo_modalidad`, ara a
+    `carreirasgalegas` (continuació directa del punt 23, mateixa
+    instrucció "segueix investigant, necessito que les dades siguin lo
+    millor que puguin"; envelleix la nota del punt 22 que deia que no es
+    tocava aquesta font). 119 files reclassificades, "Otros" 475 -> 356
+    (xifres a la unió final, post-fusió de sub-categories):
+    - "silvestre" i "volta" a road running: totes les edicions de "San
+      Silvestre de..."/"Volta á Ría"/"Volta ás Forcadas"/"Volta o
+      Mazanteu" d'aquesta font ja eren road running en quant alguna fila
+      del mateix esdeveniment tenia una modalitat reconeguda (p.ex.
+      "ABSOLUTA"/"CARREIRA 17K") — comprovat esdeveniment per
+      esdeveniment, sense cap excepció ni cap indici de ciclisme ("volta
+      ciclista") en les 5.384 files d'aquesta font (Ciclismo y btt hi són
+      només 5 files en total, cadascuna amb la seva pròpia paraula clau
+      de BTT/MTB, que es continua comprovant abans que road running).
+      Les categories d'edat sense cap altra pista (SUB 10, PITUFOS,
+      BIBERÓN...) d'aquests mateixos esdeveniments queien abans a
+      "Otros" perquè el nom de la carrera no tenia cap paraula clau
+      reconeguda.
+    - Categoria "Otros" explícita per a esport adaptat (discapacidade/
+      handbike/cadeira de rodas/invidente), igual que ja feien
+      buscametas/mychip/sportmaniacs: aquesta font no la tenia, així que
+      una fila amb modalitat "DISCAPACIDADE"/"HANDBIKE"/"CADEIRA DE
+      RODAS" es colava en la disciplina general de la carrera pel
+      respatller de nombre_carrera (p.ex. "CADEIRA DE RODAS" a "XXXIX
+      CARREIRA POPULAR SAN XIAO" queia a road running només pel
+      "CARREIRA" del nom — 44 files així, DETECTADES i CORREGIDES de
+      pas en aplicar aquest punt, no eren un efecte del fix de
+      silvestre/volta). Es comprova ABANS que road running/marcha
+      perquè guanyi sempre que aparegui, igual que a les altres fonts.
+    - Es va descartar "subida" (climb/pujada): apareix tant en carreres
+      de carretera com de trail dins la mateixa font ("III TRAIL 5
+      MIRADOIROS DE NIGRÁN... SUBIDA VERTICAL" ja és trail per la
+      paraula "trail"; "IV SUBIDA A SAN CIDRE" és road running per les
+      edicions germanes) — afegir-la com a paraula única hauria arriscat
+      una classificació incorrecta, mateix criteri que el "bira"/
+      "igoera" descartats a buscametas al punt 22.
+    - No es va tocar la resta d'"Otros" restant (356 files): és
+      majoritàriament modalitat purament d'edat (SUB X, PITUFOS,
+      BENXAMÍN...) en esdeveniments amb nom genèric sense cap paraula de
+      disciplina ("DESAFÍO BOMBEROS A CORUÑA", "TROFEO JOAQUÍN ROMERO",
+      "XOGADE" -programa escolar gallec-, "CAMPUS ATLETISMO DE NADAL"),
+      o directament proves d'atletisme de pista (salt d'alçada, 60 m
+      llisos) que no encaixen literalment en cap de les 6 categories, o
+      brossa d'scraping ("asdfsadf", "Test 2", "PAGO"/"INSCRICIÓN") —
+      genuïnament ambigu, sense cap paraula clau real per afegir.
+      També es fusiona (nova execució del pas de fusió per
+      esdeveniment+distància+tipo_modalidad+publico ja existent al
+      notebook, no s'ha canviat la lògica) i es reutilitza el mapeig
+      municipi -> comarca/provincia ja geocodificat que hi havia al
+      `LIMPIO.csv` anterior (204 municipis, relació 1:1 verificada abans
+      d'usar-lo) en lloc de tornar a trucar Nominatim, ja que aquest
+      mapeig només depèn de "municipio", no de "tipo_modalidad".
+
+    Total "Otros" a la unió final després d'aquesta quarta revisió:
+    3.846 files de 49.952 (7,7%), enfront de road running 29.181, trail
+    running 9.032, multidisciplina 2.731, ciclismo y btt 2.377, marcha
+    1.569 i natación 1.216.
+
+    Pendent (continuació directa, mateixa instrucció): ccnorte (~435),
+    mychip (~312), cronofinisher (~40) i les fonts petites que ja queden
+    (buscametas, iter5, cursescat, cruzandolameta, youevent).
+
+25. [RESOLT 23/9] Cinquena revisió de `tipo_modalidad`, ara a `ccnorte`
+    (continuació directa del punt 24, mateixa instrucció "segueix
+    investigant, necessito que les dades siguin lo millor que puguin").
+    26 files reclassificades, "Otros" 465 -> 439:
+    - "legua" a road running: "Legua"/"Legua Irmandiña"/"Legua Marítima"
+      són sempre road running en aquesta font en quant alguna fila del
+      mateix esdeveniment té una categoria reconeguda ("CATEGORÍAS
+      ABSOLUTAS", "PRUEBA ABSOLUTA", "CARRERA ADULTOS") — comprovat
+      esdeveniment per esdeveniment, sense excepcions. Les categories
+      d'edat sense cap més pista (BENXAMÍN/ALEVÍN/INFANTIL/ADULTOS a
+      seques) d'aquests mateixos esdeveniments queien a "Otros".
+    - "nordic"/"walking" a marcha: sense elles, "NORDIC WALKING MOUNTAIN"
+      (modalitat i nom de la pròpia prova) no encaixava en cap categoria
+      i queia a "Otros". De pas, arregla un cas on SÍ hi havia ja una
+      paraula clau però guanyava la incorrecta per prioritat: "ANDAINA
+      25KM INTERNACIONAL FRIOL" amb modalitat "NORDIC WALKING MOUNTAIN"
+      queia a road running pel patró numèric "25KM" del nom de la
+      carrera (comprovat abans que "andaina"/"walking", cap de les dues
+      reconeguda encara) en lloc de marcha, que és el que realment és
+      (marxa nòrdica, no carrera).
+    - Es va descartar "cronoescalada": apareix tant en context de
+      ciclisme ("Marcha Cicloturista... Cronoescalada", "CRONOESCALADA
+      CICLISTA... EN BICI") com de córrer ("TRAIL E ANDAINA...
+      CRONOESCALADA", ja trail per la paraula "trail"; "MEDIA
+      MARATON... CLASIFICACIÓN CRONOESCALADA", ja road per "marat") dins
+      la mateixa font — mateix criteri de descart que "subida"/"bira"/
+      "igoera" als punts 22 i 24: sense cap altra pista, no es pot saber
+      si "XVIII CRONOESCALADA BREAMO" és ciclisme o carrera a peu, així
+      que es queda a "Otros" en lloc d'arriscar un error.
+    - No es va tocar la resta d'"Otros" (439 files): és en bona part
+      curses OCR/d'obstacles amb noms d'esdeveniment específics
+      ("GLADIATOR RACE", "SAMURAI XTREME RACE", "PRETORIAN RACE",
+      "X-ONE RACE", "POSEIDON RACE", "OCR VILA DE ALLARIZ") que ja se
+      sap que no encaixen a cap de les 6 categories (igual que
+      "obstáculos"/"canicross" a la resta de fonts), categories
+      purament de participació (EQUIPOS, PAREJAS, INDIVIDUAL) sense cap
+      pista de disciplina, o brossa d'scraping.
+
+    Total "Otros" a la unió final després d'aquesta cinquena revisió:
+    3.820 files de 49.952 (7,6%), enfront de road running 29.204, trail
+    running 9.032, multidisciplina 2.731, ciclismo y btt 2.377, marcha
+    1.572 i natación 1.216.
+
+    Pendent (continuació directa, mateixa instrucció): mychip (~312),
+    cronofinisher (~40) i les fonts petites que ja queden (buscametas,
+    iter5, cursescat, cruzandolameta, youevent).
+
+26. [RESOLT 23/9] Sisena revisió de `tipo_modalidad`, ara a `mychip`
+    (continuació directa del punt 25, mateixa instrucció "segueix
+    investigant, necessito que les dades siguin lo millor que
+    puguin"; era el següent "Otros" més gran de la llista pendent,
+    367 files). 55 files reclassificades (367 -> 319 a "Otros"), de
+    les quals 48 sortien directament d'"Otros" i 7 més eren files que
+    ja estaven a una altra categoria però mal assignada -- només es
+    van trobar perquè, arran de l'error explicat més avall, es va
+    comparar el resultat contra TOT el subconjunt que la cel·la 6 del
+    notebook recalcula sempre (`esport == "other"`, 1.036 files), no
+    només les 367 que ara mateix són "Otros". Paraules clau i patrons
+    nous, tots dins les 6 categories existents:
+    - Prefix numèric de modalitat ("01_TRAIL", "002_TRAIL CORTO",
+      "003_MARCHA", "002_Marcha"...): aquesta font codifica algunes
+      modalitats amb un número d'ordre i guió baix davant de la
+      paraula real. El guió baix compta com a part de la paraula en
+      regex, així que "_TRAIL" no té cap límit de paraula (\b) abans
+      de la "T" i els patrons existents no ho reconeixien -- queien a
+      "Otros" (o, pitjor, a una altra categoria pel nom de la cursa)
+      tot i tenir la modalitat explícita. Es treu aquest prefix
+      ("^\d+_") abans de classificar. 11 files afectades.
+    - "marat[oó]\b" (sense exigir la "n" final ni la "th") a road
+      running, per la grafia valenciana/catalana "Marató"/"Mitja
+      Marató"/"Quarta Marató", que "marat[oó]n"/"marath[oó]" no
+      reconeixien -- es comprova després de trail perquè "Marató per
+      Muntanya" (vegeu punt següent) segueixi sent trail, i només
+      caiguin aquí els "Marató" sense cap menció de muntanya.
+    - Conector de "muntanya" ampliat: el patró original només
+      reconeixia "carrera de/por montaña" o "cursa per muntanya" tal
+      qual, en aquest ordre exacte de paraules. En aquesta font
+      (bilingüe valencià/castellà) és igual d'habitual "carrera per
+      muntanya"/"marató per muntanya"/"marató de muntanya" (barrejant
+      "carrera"/"marató" en castellà amb "per"/"de" en valencià, o al
+      revés), que el patró original no caçava. Es generalitza a
+      carrera(s)/cursa/marató seguit d'un nexe conegut (de/del/dels/
+      por/per/pels/la/els/el, amb repetició opcional, o directament
+      enganxat com a "CURSA MUNTANYA") i després muntanya/montaña.
+      Provat primer amb un conector "qualsevol text en els 25
+      caràcters següents" (més permissiu): descartat perquè colava 25
+      files d'esdeveniments amb doble format "Carrera Y MARCHA por
+      Montaña" (p.ex. "III Carrera y Marcha por Montaña, La Cagá del
+      Águila, Redován") com a trail running, quan la fila en qüestió
+      (modalitat només "ABSOLUTA"/"CADETE"/"CARRERA" genèrica) no
+      distingeix si és l'opció a peu corrent o caminant -- mateix
+      criteri de descart que "Carrera Y Marcha" al punt 22 i
+      "subida"/"bira"/"igoera" als punts 22 i 24: sense cap altra
+      pista, es prefereix que segueixin caient a marcha (com ja feien
+      abans d'aquest canvi) en lloc d'arriscar un error. Limitar el
+      conector a una llista tancada de nexes (en comptes de
+      qualsevol text) evita aquest efecte secundari sense perdre els
+      casos reals. Durant aquest ajust també es va detectar que s'havia
+      perdut per error la "s" de plural de "carrera[s]?": "Campeonato
+      Absoluto y por Clubes de carreras por Montaña, FEMECV2013" (3
+      files) va deixar de reconèixer's fins a restaurar "carreras?".
+    - Verificació addicional d'aquest punt (no un canvi de patró, sinó
+      la comprovació que confirma que els 7 canvis fora d'"Otros" són
+      correctes i no un efecte secundari no volgut): "I" i "II Mitja
+      Marató per Muntanya i Marxa Senderista L'Aventaor de Genovés"
+      (modalitat "CARRERA") passen de marcha a trail running amb
+      aquest canvi. Es va comprovar contra les files germanes del
+      mateix esdeveniment/edició, que ja distingeixen explícitament
+      l'opció amb la modalitat ("MARXA"/"SENDERISTA" es queden a
+      marcha, "CARRERA" ara a trail) -- consistent, no ambigu. Queda
+      un cas germà sense corregir (edició "III", 1 fila, modalitat
+      "CARRERA"): el nom de la cursa té l'errata "Munytanya" (en lloc
+      de "Muntanya"), que cap dels dos patrons reconeix; no es
+      persegueix aquesta errata concreta per una sola fila, mateix
+      criteri de cost/benefici que altres casos residuals ja
+      documentats (punts 22, 24 i 25).
+    Verificat fila a fila cada tipus de transició abans d'aplicar el
+    canvi final (Otros->road running 31, Otros->trail running 16,
+    Otros->marcha 1, marcha->trail running 6, road running->marcha 1):
+    totes casos reals de la categoria destí, cap contaminació creuada
+    amb la resta de files ja ben classificades.
+    - No es va tocar la resta d'"Otros" (319 files): 122 són curses
+      d'escalada (Copa Escalada, LIE, Bloque, dificultat, velocitat --
+      `esport` ja val "climbing" a l'origen, mapejat directe a "Otros"
+      sense passar per aquest classificador, ni ambigu ni afectat per
+      cap dels canvis d'aquest punt) i la resta és esquí de muntanya/
+      SKIMO/ratlles de neu (FEDME), patinatge (Alicante International
+      Skate Cup), canicross, street workout, motos d'aigua, campaments
+      juvenils, un concurs literari ("Relatos en Zapatillas") i curses
+      solidàries/virtuals sense cap pista de disciplina ("INSCRIPCIÓN
+      SOLIDARIA", "Naranjas a domicilio", "Yo lucho contra el
+      Cáncer") -- cap de les 6 categories, igual que a la resta de
+      fonts.
+
+    Total "Otros" a la unió final després d'aquesta sisena revisió:
+    3.772 files de 49.952 (7,6%), enfront de road running 29.234,
+    trail running 9.054, multidisciplina 2.731, ciclismo y btt 2.377,
+    marcha 1.568 i natación 1.216.
+
+    Pendent (continuació directa, mateixa instrucció): cronofinisher
+    (~40) i les fonts petites que ja queden (buscametas, iter5,
+    cursescat, cruzandolameta, youevent).
+
+27. [RESOLT 23/9] `cronofinisher`, comprovat sense necessitat de canvi:
+    era el següent "Otros" pendent (40 files), però a diferència de la
+    resta de fonts, aquí `tipo_modalidad` no ve d'un classificador per
+    paraules clau, sinó d'un mapeig directe des del propi camp `esport`
+    de la font (14 valors tancats, 100% fiable). Les 40 files a "Otros"
+    corresponen totes a `esport` = "Carrera de obstáculos", "Carrera
+    Híbrida", "Canicross" o "Fútbol sala" (p.ex. "IVAFIT CHALLENGE",
+    "XFIT RACE", "XTREME NATURAL TESORILLO", "BASILISK WILD RACE", "I
+    CANI CROSS LOS PEDROCHES") -- formats que ja se sap que no encaixen
+    a cap de les 6 categories (mateix criteri que OCR/canicross a la
+    resta de fonts), i que la font mateixa ja distingeix correctament
+    de "Carrera"/"Trail"/"Ciclismo"/etc. No hi ha cap paraula clau a
+    afegir perquè no hi ha cap classificador de text a corregir: és
+    correcte tal com està.
+
+28. [RESOLT 23/9] Revisió de `tipo_modalidad` a `buscametas` (continuació
+    directa del punt 27, mateixa instrucció "segueix investigant,
+    necessito que les dades siguin lo millor que puguin" -- següent font
+    petita amb "Otros" pendent de la llista, 24 files). A diferència de
+    la resta de punts d'aquesta sèrie, aquí no faltava cap paraula clau
+    genèrica: els 14 noms d'esdeveniment que quedaven a "Otros" no tenen
+    cap pista de disciplina ni al nom ni a la modalitat (formats de
+    competició tipus "OPEN"/"PAREJAS"/"Benjamín"/"35K"), així que es va
+    consultar informació externa (calendaris de curses: clubrunning.es,
+    carreraspopulares.com, territoriotrail.es, aetrail.com, emf.eus) per
+    confirmar la disciplina real de cada esdeveniment concret, en lloc
+    d'endevinar. 20 files reclassificades (24 -> 8 a "Otros"):
+    - "\bkb\b" (Kilometro Bertikala, l'equivalent en euskera de "km
+      vertical", mateixa disciplina que ja cobreix "\bkv\b") afegida com
+      a paraula clau general a trail running. Comprovat que a tota la
+      font només apareix a "Kopa Euskadi KB" i "Araia-Aratz KB" (2
+      files), les dues confirmades com Kilometro Bertikala per la
+      Federació Vasca de Muntanya (emf.eus) i clubrunning.es -- sense
+      risc de fals positiu.
+    - Tres excepcions per nom exacte d'esdeveniment (no paraules clau
+      generals, perquè cap generalització segura n'hi havia):
+        - "Zalla Herri Bira" -> road running. S'havia descartat abans
+          afegir "bira" ("vuelta" en euskera) com a paraula clau general
+          perquè a la mateixa font ja apareixia en curses de disciplina
+          diferent segons l'esdeveniment -- però AQUEST esdeveniment en
+          concret està confirmat com a "Carrera Popular en Zalla
+          (Vizcaya)" a clubrunning.es i carreraspopulares.com, així que
+          es resol per nom exacte, sense afectar cap altre "bira" de la
+          font. 8 files.
+        - "Vuelta a San Cosme" -> road running, confirmat com a "Carrera
+          Popular Vuelta a San Cosme en Gordexola" a clubrunning.es. 2
+          files.
+        - "Picos de la Demanda" (amb o sense sufix de dia -- Sábado/
+          Domingo/Viernes/Combinada) -> trail running, confirmat com
+          l'"Ultra Trail Picos de la Demanda" (Ezcaray, Sierra de la
+          Demanda) a territoriotrail.es, aetrail.com i La Rioja. Aquest
+          fix no només treu files d'"Otros": corregeix també 3 files que
+          ja estaven mal classificades com a road running (per la
+          paraula "10K" a la modalitat, un cop d'altres modalitats sense
+          xifra com "35K"/"24K" havien caigut a "Otros") i 1 com a
+          Multidisciplina (modalitat "Combinada", que aquí és una
+          categoria combinada de distàncies dins la mateixa cursa de
+          muntanya, no un esdeveniment multiesport). 11 files en total.
+    Verificat fila a fila cada canvi (Otros->road running 10, Otros->
+    trail running 6, road running->trail running 3, Multidisciplina->
+    trail running 1) contra l'execució real del notebook (cel·les 1, 3,
+    4, 5, 6) abans d'aplicar-ho: resultat idèntic.
+    - No es va tocar la resta d'"Otros" (8 files): "Oposiciones Bomberos
+      Bilbao" (prova física d'accés a bomber, no és una cursa amb
+      disciplina pròpia), "Record del Kolitza"/"Record Kolitza
+      Internacional" (descartat: aquesta muntanya de Balmaseda té tant
+      un rècord de pujada de trail running -- "Kolitza Balma Trail" --
+      com un "Premio Kolitza" de ciclisme per a cadets, dos esdeveniments
+      diferents amb el mateix topònim -- sense poder confirmar quin dels
+      dos és, es manté a "Otros" en lloc d'arriscar-se, mateix criteri
+      que "Bira"/"Igoera" ja documentat en aquesta font), "Viernes
+      Nocturna By Irier" i "Circuito de la Iruela" (sense cap font
+      externa que ho confirmi).
+
+    Total "Otros" a la unió final després d'aquests dos punts: 3.756
+    files de 49.952 (7,5%), enfront de road running 29.241, trail
+    running 9.064, multidisciplina 2.730, ciclismo y btt 2.377, marcha
+    1.568 i natación 1.216.
+
+    Pendent (continuació directa, mateixa instrucció): les fonts petites
+    que ja queden amb algun "Otros" residual -- iter5 (~16), cursescat
+    (~10), cruzandolameta (~10) i youevent (~8) -- revisar-les amb el
+    mateix nivell de detall (incloent consulta de fonts externes quan la
+    font mateixa no doni cap pista) per esgotar la instrucció de
+    Clàudia.
+
+29. [RESOLT 23/9] Última ronda de fonts petites amb "Otros" residual
+    (continuació directa del punt 28, mateixa instrucció "segueix
+    investigant, necessito que les dades siguin lo millor que puguin"):
+    iter5, cursescat, cruzandolameta i youevent.
+    - `iter5` (16 files) i `cursescat` (10 files): comprovades sense
+      necessitat de canvi. Totes dues classifiquen per un codi tancat de
+      "modalidad"/"tipo_carrera" amb regles explícites i ja documentades
+      al propi notebook: "OBSTACLES"/"CADIRES"/"COTXETS" (iter5) i
+      "obstacle"/"canicross" (cursescat, amb prioritat absoluta sobre
+      qualsevol altra paraula, ni consulten `nombre_carrera`) van a
+      "Otros" a propòsit -- "CADIRES"/"COTXETS" (cadires de rodes/
+      cotxets de nadó) són categories de participació, no disciplines,
+      mateix criteri que discapacitat/handbike a la resta de fonts;
+      "OBSTACLES"/"canicross" són esports d'una sola disciplina que no
+      encaixen a cap de les 6 categories. Verificat cas a cas contra el
+      camp original de la font (p.ex. "La Santa Cursa" té "Cursa" al
+      nom però `tipo_carrera` = "Obstacles" -- correcte a "Otros" tot i
+      la paraula "cursa").
+    - `cruzandolameta` (10 files): 8 són "Carrera de obstáculos"/
+      "Obstaculos" a `esport` (mateix criteri, correcte); 1 és "Virtual"
+      sense cap paraula de disciplina ni a `esport` ni a `nombre_carrera`
+      ("11F LA VILA PER LES DONES EN LA CIÈNCIA"); 1 és "CRI" (Contra
+      Rellotge Individual) a `esport`, ambigu perquè en aquesta mateixa
+      font "contrarreloj" apareix tant en ciclisme ("MTB CONTRARRELOJ")
+      com en triatló/duatló per equips -- sense cap altra pista ni
+      confirmació externa, es queda a "Otros" en lloc d'arriscar-se.
+    - `youevent` (8 files): 7 són esquí de muntanya/esquí de fons
+      (FEDME/Peñalara, correcte a "Otros", mateix criteri que mychip).
+      La 8a, "III CARRERA DEL ESQUILEO - TORRECABALLEROS", SÍ era un
+      error real: el patró `"esqu"` (per caçar "esquí"/"esqui" sense
+      accent) també caçava per casualitat "ESQUILEO" (la festa
+      tradicional d'esquilar ovelles, sense relació amb l'esquí), tot i
+      que el nom porta "CARRERA" explícit. Confirmat com a cursa popular
+      d'asfalt a novatosdelrunning.es. Es corregeix exigint un límit de
+      paraula després de la í/i (`esqu[ií]\b`), que talla "esquileo"
+      (la "i" no té límit de paraula abans de "leo") sense deixar de
+      caçar "esquí"/"esqui" com a paraula solta -- verificat que a tota
+      la font només hi ha aquestes 8 files amb "esqu" i que la resta de
+      les 7 segueixen intactes. 1 file reclassificada, Otros -> road
+      running.
+
+    Total "Otros" a la unió final: 3.755 files de 49.952 (7,5%), enfront
+    de road running 29.242, trail running 9.064, multidisciplina 2.730,
+    ciclismo y btt 2.377, marcha 1.568 i natación 1.216.
+
+    Amb això queden revisades totes les fonts que tenien un "Otros"
+    d'una mida rellevant (sportmaniacs, carreirasgalegas, ccnorte,
+    mychip, cronofinisher, buscametas, iter5, cursescat, cruzandolameta
+    i youevent) des que va començar aquesta sèrie de revisions al punt
+    22. El "Otros" restant (3.755 de 49.952, 7,5%) és, font per font,
+    majoritàriament esports d'una sola disciplina aliens a les 6
+    categories (escalada, esquí de muntanya, patinatge, obstacles/OCR,
+    canicross, esgrima/pentatló...), categories de participació
+    (adaptat/cadira de rodes/cotxets), formats sense disciplina pròpia
+    (virtual/solidari sense cap altra pista) o un grapat de casos
+    genuïnament ambigus ja documentats un per un (subida/bira/igoera/
+    cronoescalada/contrarreloj/Kolitza) -- no es continua buscant-hi més
+    palabras clau perquè fer-ho, sense una pista real, aniria en contra
+    de l'objectiu de Clàudia ("no quiero hacer mas categorias, quiero
+    que las que hay sean lo mas acuradas posible"): més val deixar-ho a
+    "Otros" que arriscar un error.
+
+30. [RESOLT 24/9] Distàncies de carreirasgalegas (a petició de Clàudia,
+    que va veure "distancies molt curtes... en totes les categories" i,
+    específicament, "les distancies de carreiras galegas estan força
+    malament"): investigació completa de la columna `distancia` d'aquesta
+    font, més enllà del que ja es tocava al punt 21.
+    - Primer, es va reverificar el cas concret que Clàudia va assenyalar
+      ("posa milla com 0,1 km, això no es cert"): les "milles urbanes"
+      d'aquesta font SÍ tenen una progressió real i legítima de
+      distàncies curtes per categoria d'edat (Prebiberóns 50 m, Biberóns
+      100 m, Prebenxamíns 250-527 m, Sub10/Sub12 500-1075 m... fins a la
+      milla completa d'adults ~1600 m), verificat contra les dades
+      crues de diverses edicions de "MILLA URBANA CONCELLO DE ARES" i
+      del "TROFEO DE CAMPO A TRAVÉS SAN MIGUEL DE OIA" (mateix patró amb
+      la categoria "OLÍMPICOS"/"PAVÓN" a 100 m). Això confirma el
+      criteri ja aplicat al punt 21: NO és un error, no es toca.
+    - Però investigant a fons TOTA la columna (no només "milla"), sí que
+      van aparèixer tres problemes reals, cap d'ells detectat fins ara:
+      a) Un valor absurdament ALT (no baix): "CAMPUS ATLETISMO DE NADAL
+         (2ª QUENDA)", modalitat "CARRAL (28,29,30 DEC)" -> 1.699,999 km
+         (sí, mil-sis-cents noranta-nou km), quan les categories
+         germanes del mateix esdeveniment (mateix campus, altres
+         pobles) van de l'1 als 15,6 km. Cap regla anterior detectava
+         valors implausiblement ALTS, només els curts -- s'afegeix un
+         límit superior (>150 km, amb marge ampli respecte a l'ultra
+         més llarga real de la font, 109 km) que anul·la aquest valor
+         (a 0/desconegut, igual que amb les distàncies implausiblement
+         curtes).
+      b) El mateix bug que mychip (punt 21/següent): "IV EDICIÓN 102KM
+         CARBALLIÑO - SANTIAGO", modalitat "100KM" -> distancia_m
+         guardava el 100 literal (0,1 km) en lloc de 100.000. Es
+         recupera amb el mateix mètode que a mychip: si el text de la
+         modalitat (o, si no, del nom de la carrera) ja diu el número
+         exacte amb "K"/"km" i coincideix amb el valor cru sense
+         multiplicar per 1000, es recupera la distància real en lloc de
+         perdre-la.
+      c) 13 files que no són cap carrera amb distància pròpia sinó un
+         tràmit o un comptador de la font (compra de dorsal, pagament
+         d'inscripció, "1/2 PARTICIPACIÓN(S)", "COMBINADAS (LIC. DE
+         FÓRA DE GALICIA)", "SALTAR NAS PORTAS AO MAR" amb la modalitat
+         com a poble+rang de dates en lloc de disciplina) amb un valor
+         de farciment (0, 99 o 100 m) que no representa cap recorregut
+         real -- es passen a 0/desconegut.
+    - Aplicat a `Limpieza_carreirasgalegas.ipynb` (cel·les 4 i 8) i
+      regenerat `DF_CARREIRASGALEGAS_LIMPIO.csv`. Com que el fix canvia
+      `distancia` per a algunes files, la fusió final per (nom+data+
+      distancia+tipus+públic) agrupa diferent: 4.897 -> 4.893 files (4
+      files que ara comparteixen distancia amb una fila bessona ja
+      existent es fusionen). `tipo_modalidad` NO ha canviat (mateixes 6
+      categories + Otros, cap categoria nova, tal com demana Clàudia).
+      Verificat amb execució fresca del notebook sencer (saltant només
+      el geocodificat per coordenades, que no fa falta re-executar
+      perquè "municipio" no canvia: es reutilitza el mapa municipi ->
+      comarca/provincia ja calculat, amb la mateixa cobertura d'abans).
+
+31. [RESOLT 24/9] mychip: revisió a fons del fix de distàncies del punt
+    anterior (recuperació per text "K"/"km", introduïda per l'exemple de
+    ciclisme de 0,12 km que Clàudia va detectar). En verificar-lo a
+    consciència abans de donar-lo per bo, es va trobar que el propi fix
+    tenia un fals positiu seriós:
+    - El mètode recupera la distància quan el text ja la diu explícita
+      amb "K"/"km" I coincideix amb el valor cru guardat (sense
+      multiplicar per 1000) -- primer es mira "modalidad" i, si no hi
+      ha cap número allà, es queia a mirar "nombre_carrera" (el nom de
+      TOT l'esdeveniment). Aquest segon pas és l'error: assumeix que la
+      fila és "la" carrera principal de l'esdeveniment i comparteix la
+      seva distància, cosa que NO és certa per a categories infantils o
+      especials que van dins d'un esdeveniment anomenat per la
+      distància de la seva cursa adulta. Exemples reals trobats:
+      "XXIII 10k Godella Nicoboco", modalitat "Menores" -> s'estava
+      recuperant a 10 km (fals: és la cursa infantil, no corren 10 km);
+      "10k solidaria La Salle", modalitats "Dorsal 0"/"Solo Zumba" ->
+      es recuperaven a 10 km (fals: ni tan sols són una carrera amb
+      aquesta distància, un és un dorsal d'honor i l'altre una sessió
+      de zumba).
+    - Fix: el respatller amb "nombre_carrera" ara només s'aplica quan
+      `publico` (ja calculat abans en la mateixa cel·la) és "Absoluta/
+      General" -- és a dir, quan la fila no té cap categoria d'edat o
+      especial pròpia i per tant sí és raonable assumir que és la
+      carrera principal (casos com modalitat "default"/"Modalidad por
+      defecto"/"CIRCUITO"/"QUARTA"/"MEDIA", simples etiquetes
+      genèriques de "la" distància). S'exclou explícitament "zumba" per
+      si de cas, ja que mai és una cursa amb distància pròpia.
+    - Resultat: 40 files recuperades (abans 60, 20 falsos positius
+      corregits: 12 categories infantils + 5 "Dorsal 0"/especials + 2
+      "Solo Zumba" + 1 més). L'exemple concret de Clàudia (ciclisme de
+      0,12 km, "I MARCHA CICLODEPORTIVA JALANCE", modalitats "MARCHA
+      CORTA 120K"/"MARCHA LARGA 184K") es manté recuperat correctament
+      (120 km i 184 km), ja que el seu propi text de modalitat ja porta
+      el número -- mai depenia del respatller problemàtic.
+    - `tipo_modalidad` NO ha canviat (mateixa distribució exacta que
+      abans del fix). Regenerat `DF_MYCHIP_LIMPIO.csv` i tot el pipeline
+      d'unió.
+
+    Amb els punts 30 i 31 queda tancada la investigació de distàncies
+    curtes/implausibles arrencada pel comentari de Clàudia sobre el
+    0,12 km de ciclisme -- s'ha revisat tant la font original de
+    l'exemple (mychip, amb una segona volta per eliminar un fals
+    positiu que el propi fix havia introduït) com la font que Clàudia
+    va assenyalar directament com a "força malament" (carreirasgalegas,
+    on hi havia tres problemes reals no relacionats amb "milla" que no
+    s'havien detectat abans).
+
+32. [RESOLT 24/9] sportmaniacs: 451 carreres de ciclisme (BTT/MTB)
+    classificades com "road running" en lloc de "Ciclismo y btt" (a
+    petició de Clàudia: "vull que en el fitxer de limpieza de outliers
+    analitzis els que son outliers en quant a distancia i miris si pots
+    rectificar-los si clarament estan malament" -- revisant la cua alta
+    de distàncies de "road running" van aparèixer desenes d'events de
+    180-300 km amb noms com "BTT"/"MTB"/"Bike Race"/"Cicloturista", que
+    per descomptat no són carreres a peu d'aquesta longitud).
+    - Causa: el patró de "road running" inclou paraules que NO són
+      exclusives d'asfalt ("ruta"/"popular"/"general"/"\bopen\b"/un
+      "NNN km" a seques) i aquestes mateixes paraules apareixen igual
+      de sovint al camp "modalidad" de curses de BTT/MTB (p.ex. "XI
+      Marcha BTT Concello de Monterrei", modalidad="Ruta Larga" -> cap
+      paraula de "modalidad" reconeix ciclisme, així que cau a road
+      running per la paraula genèrica "ruta" sense arribar mai a mirar
+      "nombre_carrera", que sí diu "BTT" ben clar).
+    - Fix: quan "modalidad" només arriba a la categoria genèrica "road
+      running" (mai quan ha trobat una categoria més específica, que és
+      més fiable que qualsevol senyal del nom), es dona prioritat a un
+      senyal de ciclisme sense ambigüitat ("btt"/"mtb"/"bike"/
+      "ciclis"/"bicicl"/"ciclotur"/"gran fondo"/"gravel"/"e-bike"/"dh")
+      al nom de la carrera abans d'acceptar "road running" per
+      defecte. Comprovat a mà que les 451 files afectades són, sense
+      excepció, esdeveniments de BTT/MTB/cicloturisme pel seu nom,
+      incloses les 6 que a més tenen la paraula "carrera" a la seva
+      modalitat (allà "carrera" és el substantiu genèric "carrera
+      popular", no una prova d'asfalt: "CARRERA MTB", "Gran Fondo
+      Popular"... continuen sent ciclisme).
+    - Efecte secundari trobat i corregit alhora: el valor per defecte
+      de marató/mitja marató (42,195/21,097 km, la distància OFICIAL
+      d'atletisme en ruta) NO val per a un esdeveniment de BTT/MTB que
+      s'anuncia com a "maratón" (format propi d'aquesta disciplina
+      ciclista, amb la seva pròpia distància, normalment molt diferent:
+      60-120 km segons l'esdeveniment, mai 42,195 km). Comprovat amb
+      les pròpies files d'aquesta font: "BTT MARATÓN ATZENETA 2022"
+      porta explícit "XC MARATON 60KM" -> 60 km (bé, s'extreu el número
+      real), però "VI BTT MARATON VALL D'ALBA" només diu "XC MARATÓN"
+      sense número -> sense aquest fix se li assignaria 42,195 km per
+      defecte, un valor d'atletisme, no de MTB. Es limita el valor per
+      defecte de marató/mitja marató a files que NO siguin "Ciclismo y
+      btt" -- 83 files de MTB/BTT afectades queden en 0/desconeguda en
+      lloc d'un número d'atletisme incorrecte.
+    - Resultat: Ciclismo y btt puja de 1.317 a 1.768 files (+451) dins
+      de sportmaniacs; road running baixa de 10.901 a 10.450. Cap altra
+      categoria es toca (Otros/trail running/Multidisciplina/marcha/
+      Natación exactament iguals abans i després). Aplicat a
+      `Limpieza_sportmaniacs.ipynb` (cel·les de classificació i de
+      distància) i regenerat `DF_SPORTMANIACS_LIMPIO.csv`. Verificat
+      reproduint la lògica exacta contra el CSV ja processat abans
+      d'aplicar-la al notebook.
+    - Aquest és, de lluny, el canvi més gran trobat en tota la
+      investigació de distàncies que Clàudia va demanar: arrossegava
+      tant les seves pròpies distàncies (curtes per a "road running",
+      normals per a ciclisme) com les de "road running" de veritat cap
+      a estadístiques barrejades entre disciplines molt diferents.
+
+33. [RESOLT 24/9] mychip: sòl absolut de 10 m que faltava per a la
+    categoria Infantil (mateixa comprovació que ja existeix a
+    `Limpieza_carreirasgalegas.ipynb`, punt 30). La comprovació de
+    "distància massa curta" d'aquesta font exclou expressament
+    "Infantil" perquè allà les distàncies curtes solen ser reals
+    (curses de nens de pocs metres) -- però aquest forat deixava passar
+    files Infantils amb el mateix bug de "distancia_m" en metres en lloc
+    de km quan no hi ha cap número recuperable al text: "II MARCHA
+    COLORES SOLIDARIOS CRUZ ROJA CREVILLENT", modalitat "Infantil 4 a 15
+    años", quedava amb distancia_m=3 (3 metres), exactament el mateix
+    bug que la seva fila "Marcha" adulta germana del mateix esdeveniment
+    (aquesta sí val 3.000 m = 3 km). Cap carrera real, de cap categoria,
+    fa uns pocs metres (el mínim real comprovat a carreirasgalegas és de
+    50 m) -- es nul·la sense excepció de "publico", amb el mateix llindar
+    de 10 m (0,01 km) que carreirasgalegas. Només 1 fila afectada a tota
+    la font. Regenerat `DF_MYCHIP_LIMPIO.csv`.
+
+34. [RESOLT 24/9] mychip: el camp "esport" (que ve directe de la font i
+    es tracta com 100% fiable, ja que evita haver de classificar per
+    paraules clau com a la resta de fonts) resulta tenir dues esquerdes
+    reals, trobades investigant per què encara sortien distàncies curtes
+    "en totes les categories" després dels punts 21/31/33:
+    - Esdeveniments SENSE cap desglossament de modalitat ("modalidad" =
+      "default", el valor literal de la font quan tot l'esdeveniment és
+      una sola fila): aquí "esport" sembla una etiqueta posada a mà per
+      esdeveniment, i de vegades s'equivoca -- "II MARCHA CICLODEPORTIVA
+      JALANCE" (l'exemple original de 0,12 km que Clàudia va detectar),
+      "MARCHA BTT XATIVA", "Marcha/Marxa Cicloturista...", "Crono
+      Escalada BTT...", "Gran fondo Nocturno Alfafar", "3h Resistència
+      BTT..." tenen esport="running" tot i ser, sense cap dubte, marxes
+      cicloturistes pel seu propi nom. Com que "modalidad"="default" no
+      dona cap pista i no hi ha més files del mateix esdeveniment amb
+      què confondre's (és l'única fila), és tan segur fer servir el nom
+      de l'esdeveniment com a respatller aquí com ja ho és per recuperar
+      distàncies (punt 21/31).
+    - Esdeveniments amb modalitat pròpia que SÍ anomena el ciclisme
+      sense ambigüitat ("BTT 70K", "Btt 42k"...) però que porten esport
+      d'una altra disciplina, normalment perquè l'esdeveniment en
+      conjunt és un festival multiesport (p.ex. "Lurbel Mountain
+      Festival", amb trail, BTT i marxa nòrdica repartits en diferents
+      modalitats) i "esport" només guarda una etiqueta per ESDEVENIMENT,
+      no per modalitat -- així que la fila que és clarament la prova BTT
+      del festival hereta "trail_running" de la resta de modalitats del
+      mateix esdeveniment.
+    - Fix: en tots dos casos s'exigeix una paraula de ciclisme sense
+      ambigüitat ("btt"/"mtb"/"bike"/"ciclis"/"bicicl"/"ciclotur"/
+      "ciclodeportiv"/"gran fondo"/"gravel"/"cycl") i, pel segon cas,
+      que aquesta mateixa modalitat NO esmenti també trail/combo ("BTT/
+      Trail 25k+BTT 70k", "COMBINA2/MINI (PAREJAS 25K+BTT)"): aquestes sí
+      són proves combinades de veritat (porten un tram de cada
+      disciplina), així que forçar-les a "Ciclismo y btt" seria tan
+      equivocat com deixar-les en trail running -- es queden com estan,
+      sense endevinar.
+    - Resultat: 13 files reclassificades a "Ciclismo y btt" (9 des de
+      "road running", 4 des de "trail running"; Ciclismo y btt puja de
+      92 a 105 files dins de mychip). Inclou l'exemple original de
+      Clàudia ("I"/"II MARCHA CICLODEPORTIVA JALANCE" -- la "I" ja
+      estava bé via "esport"="btt", la "II" és una de les 13
+      corregides). Regenerat `DF_MYCHIP_LIMPIO.csv` una altra vegada
+      (ja incorpora els punts 21/31/33/34 junts).
+
+    Amb els punts 32-34, més els 30-31 previs, la investigació de
+    distàncies curtes/implausibles que Clàudia va demanar queda
+    completa a totes les fonts revisades. Es va comprovar també un cas
+    dubtós addicional a carreirasgalegas ("XL GRAN FONDO CAIXABANK
+    XXVII MEDIO MARATÓN - III 10 K", modalitat "MENORES", Ciclismo y
+    btt, 0,25 km): és la categoria infantil d'un "Gran Fondo" ciclista,
+    i 250 m és una distància real i habitual per a una cursa ciclista
+    de nens (bucle curt) -- es deixa tal com està, no és cap error.
+    `tipo_modalidad` continua tenint exactament les mateixes 6
+    categories + Otros a totes les fonts; cap categoria nova creada,
+    tal com demana Clàudia explícitament. Pipeline d'unió (`DF_TODAS.csv`/
+    `DF_TODAS_UNION.csv`/`DF_TODAS_SIN_OUTLIERS.csv`) regenerat amb tots
+    els fixes aplicats: 49.953 files totals (sense canvis de recompte),
+    Ciclismo y btt puja de 2.377 a 2.839 files en total (+462, suma dels
+    punts 32 i 34), Road running baixa de 29.244 a 28.784.
+
+35. [RESOLT 24/9] Unificació de `Limpieza_outliers.ipynb` i
+    `Modelo_finishers.ipynb` sobre un únic fitxer, més comprovació de
+    plausibilitat de `distancia` amb recuperació des del nom de
+    l'esdeveniment (a petició de Clàudia: "ara no hi haurà distàncies
+    errònies que no quadrin distancia amb modalitat? [...] hauriem de
+    fer que si la distancia no quadra gens, potser podem reemplaçar-la
+    per el que hi digui al nom de la cursa (si es el cas) o per una
+    mitjana trobada d'alguna manera... em pots explicar que es fa en
+    aquest ipynb step by step i el millorem conjuntament?").
+
+    Decisió arquitectònica (confirmada per Clàudia via pregunta amb
+    opcions): fins ara `Modelo_finishers.ipynb` NO partia de
+    `DF_TODAS_SIN_OUTLIERS.csv` (la sortida de `Limpieza_outliers.ipynb`)
+    sinó que tornava a llegir `DF_TODAS.csv` directament i repetia pel
+    seu compte el pas `distancia == 0 -> NaN`, argumentant que
+    `DF_TODAS_SIN_OUTLIERS.csv` estava desactualitzat -- la intenció
+    original era que aquest fitxer no tenia cap més ús. Clàudia va
+    aclarir que sí que té ús: és el fitxer que alimenta el dashboard de
+    Power BI ("DF_TODAS_SIN_OUTLIERS.csv ho feia servir per al
+    dashboard"), i va confirmar fer servir el mateix fitxer per als dos
+    ("però si et sembla podem fer servir el mateix per al dashboard i
+    per al model"). S'unifiquen els dos notebooks: `Modelo_finishers.ipynb`
+    ara llegeix `DF_TODAS_SIN_OUTLIERS.csv` en lloc de `DF_TODAS.csv`,
+    ja no repeteix el pas `distancia == 0 -> NaN` (l'hereta ja fet),
+    i les seves notes es van actualitzar en conseqüència.
+
+    Lògica nova afegida a `Limpieza_outliers.ipynb` (just després del
+    pas `distancia == 0 -> NaN` ja existent), purament numèrica i
+    independent de tots els fixes de categoria dels punts 30-34:
+    - Sòl de 10 m (0,01 km) i sostre de 1.000 km -- el mateix llindar
+      inferior que ja fan servir carreirasgalegas/mychip pel bug de "km
+      guardat com a metres", i un sostre amb marge per sobre del màxim
+      real confirmat (934 km, el repte acumulat "GR7 POR LA EPILEPSIA",
+      ja revisat i legítim). Verificat amb les dades actuals: 0 files
+      fora d'aquest rang -- els punts 30-34 ja havien netejat tots els
+      casos coneguts, aquesta comprovació queda com a xarxa de
+      seguretat per a futures execucions del pipeline.
+    - Per a les distàncies que queden en `NaN` (pel centinella original
+      o per no superar aquest rang), es prova de recuperar-les del
+      número K/KM explícit al `nombre_carrera` (única columna que
+      sobreviu fins a aquest nivell -- `modalidad`, la font més fiable
+      durant tota la resta de la neteja, és específica de cada
+      `Limpieza_<fuente>.ipynb` i no arriba aquí). Dues restriccions
+      per evitar falsos positius:
+        1) Només `publico == "Absoluta/General"` (mateix criteri que el
+           fix de mychip, punt 34): una categoria Infantil/especial dins
+           d'un esdeveniment "Marató de Barcelona 42K" no corre 42 km.
+        2) Només quan el nom té UN ÚNIC número K/KM, sense ambigüitat.
+           Detectat durant la verificació: esdeveniments com "5KM I 10KM
+           URBANS DE MANRESA" tenen files reals de 5 km I de 10 km amb
+           exactament el mateix nom -- sense la columna `modalidad` no
+           hi ha manera fiable de saber a quina es refereix una fila en
+           concret, així que es descarta la recuperació en lloc
+           d'arriscar-se a assignar el número equivocat. Verificat
+           contra les dades reals: d'un primer intent sense aquesta
+           segona restricció (517 files recuperables), 48 eren
+           d'aquest tipus ambigu -- es queden en `NaN` amb la versió
+           final (469 files recuperades de forma segura).
+    - Les distàncies que ni superen el rang plausible ni es poden
+      recuperar del nom es deixen en `NaN` (a petició explícita de
+      Clàudia: "NaN, que ho reculli la imputació existent" -- no
+      s'inventa cap mitjana en aquest pas). `Modelo_finishers.ipynb` ja
+      imputava `distancia` amb la mediana per `tipo_modalidad`; ara,
+      en heretar `DF_TODAS_SIN_OUTLIERS.csv`, aquests casos hi arriben
+      igual que els que ja eren `NaN` d'origen, sense necessitar cap
+      tractament especial.
+
+    Els dos notebooks s'han actualitzat i pujat al projecte; com que
+    fan servir la ruta d'OneDrive personal de Clàudia (no la carpeta
+    connectada del Mac), cal que ella torni a executar
+    `Limpieza_outliers.ipynb` i després `Modelo_finishers.ipynb` (en
+    aquest ordre) per regenerar el `DF_TODAS_SIN_OUTLIERS.csv` unificat
+    que farà servir tant el dashboard com el model.
+
+36. [RESOLT 24/9] Comprovació de plausibilitat de `total_finishers` /
+    `finisher_d` / `finisher_h` (a petició de Clàudia: "analiza en
+    algún lado si puede ser que una carrera tenga medio millón de
+    participantes..."). Afegida a `Limpieza_outliers.ipynb`, just
+    després de la revisió manual del top-20 ja existent.
+
+    Resposta a la pregunta: no, cap fila s'hi acosta. El màxim real a
+    les dades és 34.123 ("#LaVallecanaEMOCIONA", San Silvestre
+    Vallecana 2019, Madrid) -- coherent amb la carrera real, que és
+    històricament una de les curses populars més multitudinàries
+    d'Espanya. El segon valor més alt és la mateixa cursa el 2023
+    (30.839). Cap fila s'acosta ni de lluny al mig milió.
+
+    Sostre triat: 100.000 finishers en una sola fila (`total_finishers`
+    i també cada un de `finisher_d`/`finisher_h` per separat) --
+    deliberadament generós: fins i tot les curses populars més
+    multitudinàries del món (Bay to Breakers, Peachtree Road Race)
+    ronden les 50.000-80.000 persones en el seu any més participat, i
+    la cursa espanyola més gran d'aquest dataset es queda en 34.123.
+
+    A diferència de `distancia`, aquí NO s'intenta recuperar cap valor
+    des del nom de l'esdeveniment: `finisher_d`/`finisher_h` són la
+    variable objectiu que prediu `Modelo_finishers.ipynb`, no una
+    feature d'entrada, així que no té sentit inventar ni imputar un
+    número de finishers -- si algun dia apareix una fila així, es
+    anul·la (`NaN`) directament, i `Modelo_finishers.ipynb` ja descarta
+    (`dropna`) les files sense `finisher_d`/`finisher_h` reals abans
+    d'entrenar, així que quedarien fora del model automàticament.
+
+    Amb les dades actuals no hi ha cap fila a anul·lar -- aquesta
+    comprovació queda com a xarxa de seguretat per a futures execucions
+    del pipeline, igual que el sostre de 1.000 km del punt 35.
