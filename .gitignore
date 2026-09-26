@@ -37,3 +37,8 @@ notebooks/**/.claude/
 # Còpies de seguretat / notebooks i fitxers obsolets o duplicats
 *.OLD_backup.ipynb
 *LIMPIO 2.csv
+
+# --- Carpeta memoria/ ---
+# Només es versiona el PDF final; esborranys (.docx) i notes (.txt) fora.
+memoria/*
+!memoria/*.pdf
