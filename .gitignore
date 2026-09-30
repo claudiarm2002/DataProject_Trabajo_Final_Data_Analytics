@@ -8,28 +8,68 @@ __pycache__/
 
 # --- Dades en brut (scraping) ---
 # Contenen dades personals de participants (noms, dorsals, temps...) tal
-# com es van descarregar de cada web. No han de sortir a GitHub.
-data/raw/
+# com es van descarregar de cada web. Nomes es pugen els CSV/XLSX "SUCIO"
+# principals de cada font (decisio explicita, 30/9); checkpoints, fitxers
+# d'ubicacions, mostres HTML/PDF, etc. es queden fora.
+data/raw/*
+!data/raw/*/
+data/raw/*/*
+!data/raw/*/DF_*_SUCIO.csv
+!data/raw/*/DF_*_SUCIO.xlsx
 
 # --- Dades processades per font ---
 # Encara a nivell d'individu/carrera per font (abans de l'agregació final
-# a data/processed/union/, que sí es manté versionada).
-data/processed/buscametas/
-data/processed/carreirasgalegas/
-data/processed/ccnorte/
-data/processed/championchip/
+# a data/processed/union/, que sí es manté versionada). Nomes es puja el
+# CSV "LIMPIO" principal de cada font (decisio explicita, 30/9); la resta
+# (checkpoints, ubicacions, etc.) es queda fora.
+data/processed/buscametas/*
+!data/processed/buscametas/DF_BUSCAMETAS_LIMPIO.csv
+
+data/processed/carreirasgalegas/*
+!data/processed/carreirasgalegas/DF_CARREIRASGALEGAS_LIMPIO.csv
+
+data/processed/ccnorte/*
+!data/processed/ccnorte/DF_CCNORTE_LIMPIO.csv
+
+data/processed/championchip/*
+!data/processed/championchip/DF_CHAMPIONCHIP_LIMPIO.csv
+
+data/processed/cronofinisher/*
+!data/processed/cronofinisher/DF_CRONOFINISHER_LIMPIO.csv
+
+data/processed/cronorunner/*
+!data/processed/cronorunner/DF_CRONORUNNER_LIMPIO.csv
+
+data/processed/cruzandolameta/*
+!data/processed/cruzandolameta/DF_CRUZANDOLAMETA_LIMPIO.csv
+
+data/processed/cursescat/*
+!data/processed/cursescat/DF_CURSESCAT_LIMPIO.csv
+
+data/processed/iter5/*
+!data/processed/iter5/DF_ITER5_LIMPIO.csv
+
+data/processed/mychip/*
+!data/processed/mychip/DF_MYCHIP_LIMPIO.csv
+
+data/processed/raceresult/*
+!data/processed/raceresult/DF_RACERESULT_LIMPIO.csv
+
+data/processed/sportmaniacs/*
+!data/processed/sportmaniacs/DF_SPORTMANIACS_LIMPIO.csv
+
+data/processed/timingsys/*
+!data/processed/timingsys/DF_TIMINGSYS_LIMPIO.csv
+
+data/processed/youevent/*
+!data/processed/youevent/DF_YOUEVENT_LIMPIO.csv
+
+# --- Duplicats/obsolets (championsxip i xipgroc, substituits per championchip) ---
+# Es mantenen totalment exclosos encara que coincideixin amb els patrons d'amunt.
+data/raw/championsxip/
+data/raw/xipgroc/
 data/processed/championsxip/
-data/processed/cronofinisher/
-data/processed/cronorunner/
-data/processed/cruzandolameta/
-data/processed/cursescat/
-data/processed/iter5/
-data/processed/mychip/
-data/processed/raceresult/
-data/processed/sportmaniacs/
-data/processed/timingsys/
 data/processed/xipgroc/
-data/processed/youevent/
 
 # --- Notebooks / pipeline ---
 # Logs d'execució i carpeta interna de sessions de Claude
