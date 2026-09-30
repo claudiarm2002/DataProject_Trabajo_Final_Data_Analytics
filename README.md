@@ -23,7 +23,9 @@ TFM/
 │   ├── limpieza/        # Limpieza y normalización por fuente + unión final
 │   └── analisis/        # EDA, tratamiento de outliers y modelo predictivo
 ├── outputs/              # Gráficos y figuras exportados (para la memoria/dashboard)
-├── memoria/              # Borradores y documentación de la memoria del TFM
+├── dashboard/            # Fichero .pbix del dashboard de Power BI
+├── memoria/              # Borradores y documentación de la memoria del TFM (NO versionado)
+├── Memoria_TFM.pdf       # Versión final de la memoria
 └── .gitignore
 ```
 
@@ -75,11 +77,11 @@ partir de variables geográficas, de historial y de carreras cercanas
 
 El dashboard organiza el análisis en cinco páginas: Visió general,
 Geografia, Modalitat i públic, Estacionalitat y Evolució participació
-femenina. El archivo `.pbix` se gestiona fuera de este repositorio.
+femenina. El archivo `.pbix` está en `dashboard/Dashboard_carreras_españa.pbix`.
 
 ## Estado actual
 
 - EDA y limpieza de las fuentes: completado.
 - Dataset agregado y modelo de finishers: completado, en iteración.
 - Dashboard de Power BI: construido.
-- Memoria: en redacción (ver `memoria/`).
+- Memoria: versión final en `Memoria_TFM.pdf` (los borradores de `memoria/` no están versionados).
