@@ -17,6 +17,7 @@ data/raw/
 data/processed/buscametas/
 data/processed/carreirasgalegas/
 data/processed/ccnorte/
+data/processed/championchip/
 data/processed/championsxip/
 data/processed/cronofinisher/
 data/processed/cronorunner/
@@ -27,6 +28,7 @@ data/processed/mychip/
 data/processed/raceresult/
 data/processed/sportmaniacs/
 data/processed/timingsys/
+data/processed/xipgroc/
 data/processed/youevent/
 
 # --- Notebooks / pipeline ---
@@ -39,6 +41,11 @@ notebooks/**/.claude/
 *LIMPIO 2.csv
 
 # --- Carpeta memoria/ ---
-# Només es versiona el PDF final; esborranys (.docx) i notes (.txt) fora.
-memoria/*
-!memoria/*.pdf
+# No es versiona res d'aquesta carpeta (esborranys, .docx, notes...).
+memoria/
+
+# --- Modelos entrenados (.joblib) ---
+# Binarios grandes (~40-165MB); GitHub los bloquearía o exigiría Git LFS de
+# pago a partir de cierto tamaño/cuota. Se regeneran reejecutando la celda
+# de guardado de Modelo_finishers.ipynb, así que no hace falta versionarlos.
+modelos/

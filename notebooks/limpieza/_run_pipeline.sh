@@ -32,7 +32,7 @@ for nb in \
   Limpieza_mychip.ipynb \
   Limpieza_raceresult.ipynb \
   Limpieza_sportmaniacs.ipynb \
-  limpieza_championsxip.ipynb \
+  Limpieza_championchip.ipynb \
   Limpieza_youevent.ipynb \
 ; do
   run_nb "$LIMPIEZA_DIR" "$nb"

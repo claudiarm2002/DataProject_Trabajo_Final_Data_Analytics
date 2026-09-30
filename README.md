@@ -1,10 +1,10 @@
 # Trabajo Final de Máster — Participación en Carreras Populares en España
 
 Trabajo Final de Máster (Data Analyst) sobre la participación en carreras
-populares en España (running, ciclismo, natación, triatlón y modalidades
-similares). El proyecto cubre el ciclo completo de un caso de analítica de
-datos: recopilación y limpieza de datos, análisis exploratorio, un modelo
-predictivo de finishers y un dashboard en Power BI.
+populares en España (running, ciclismo, natación, marcha y modalidades
+multideporte como el triatlón). El proyecto cubre el ciclo completo de un
+caso de analítica de datos: recopilación y limpieza de datos, análisis
+exploratorio, un modelo predictivo de finishers y un dashboard en Power BI.
 
 **Autora:** Clàudia Rafart Medina
 
@@ -22,6 +22,7 @@ TFM/
 │   ├── scraping/        # Un notebook por fuente para descargar los datos
 │   ├── limpieza/        # Limpieza y normalización por fuente + unión final
 │   └── analisis/        # EDA, tratamiento de outliers y modelo predictivo
+├── outputs/              # Gráficos y figuras exportados (para la memoria/dashboard)
 ├── memoria/              # Borradores y documentación de la memoria del TFM
 └── .gitignore
 ```
@@ -68,18 +69,17 @@ extracción, actualmente no está integrada en la unión final.)
 `notebooks/analisis/Modelo_finishers.ipynb` entrena un modelo (Random
 Forest) para estimar el número de finishers de una edición de carrera a
 partir de variables geográficas, de historial y de carreras cercanas
-(`carreras_radio_25km`), entre otras.
+(`carreras_radio_40km`), entre otras.
 
 ## Dashboard (Power BI)
 
-El dashboard organiza el análisis en seis páginas: Visió general,
-Geografia, Modalitat i públic, Estacionalitat, Evolució participació
-femenina y Resultats del model. El archivo `.pbix` se gestiona fuera de
-este repositorio.
+El dashboard organiza el análisis en cinco páginas: Visió general,
+Geografia, Modalitat i públic, Estacionalitat y Evolució participació
+femenina. El archivo `.pbix` se gestiona fuera de este repositorio.
 
 ## Estado actual
 
 - EDA y limpieza de las fuentes: completado.
 - Dataset agregado y modelo de finishers: completado, en iteración.
-- Dashboard de Power BI: en desarrollo.
+- Dashboard de Power BI: construido.
 - Memoria: en redacción (ver `memoria/`).
